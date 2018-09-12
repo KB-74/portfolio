@@ -9,3 +9,8 @@ tijdens week 1 heb ik het volgende gedaan
 # Week 2
 
 test
+
+# Week 3
+
+water/land herkenning (concept hoe berekend)
+Tensorflow testen/ onderzoeken en begrijpen
