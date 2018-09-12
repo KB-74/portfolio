@@ -28,7 +28,9 @@ Er is een samenwerkingscontract opgesteld en getekend om ergens naar te kunnen v
 De werkmethode scrum was voor mij nog onbekend. Daarom heb ik mij goed ingelezen in scrum en heb met enthousiasme meegedaan aan de workshop. Daarbij is gevraagd vragen op te stellen en deze in het portfolio te verwerken.
 
 Voor de workshop scrum had ik de volgende vraag:
+
 Q: Wie is onze product owner?
+
 A: Port of Rotterdam
 
 ## Onderzoek, ontplooiing
