@@ -1,26 +1,17 @@
-## Projectkeuze SHIP:
+## Meeting Dinsdag 04-09-2018:
 
-Mijn keuze voor het project SHIP is gebaseerd op onderstaande redenen:
-- SHIP gaat om leading edge technology, autonome mobiliteit is op dit moment heel hot en daar wil
-ik meer over leren. 
-- Verder dacht ik dat dit 1 van de uitdagenste projecten was en mijn doel was om mezelf in het 
-diepe te gooien en zoveel mogelijk te leren van de minor. 
-- Verder vond ik het reizen naar Rotterdam en het hebben van zoveel stakeholders heel interessant,
-omdat dit ook inzichten geeft in belangen en project management met meerdere partijen.
-- De scheepvaart is ook iets wat mij aanspreekt. Ik wil meer leren over hoe de haven van 
-Rotterdam werkt en hoe de trend Smart Shipping zich ontwikkeld.
-- Ten slotte vind ik machine learning en deep learning zeer interessant. 
+Dit was de eerste meeting met alle stakeholders in het project. Hier heeft havenbedrijf Rotterdam
+uitgelegd wat de achtergrond is van deze opdracht. (Hun doel om de slimste en veiligste haven
+ter wereld te zijn en klaar te zijn voor de autonome scheepvaart).
 
-## Opzetten van de benodigdheden om de toekomstige datasets te verwerken:
-1. Pycharm
-2. Anaconda
-3. Python 3.6
-4. Github
-5. Onedrive
-6. Scrum
-7. Sharelatex
-8. Googlegroup (email)
+Ik heb hier meer duidelijk gekregen over de verwachting van havenbedrijf Rotterdam voor ons. 
+HBR heeft wat potentiële opdrachten gegeven en wat ideëen, waarmee we zelf aan de slag konden.
+Er werd afgesproken dat we op Donderdag weer een meeting hadden, waar we een aantal opdrachten zouden
+voorleggen, die we bedacht hadden aan de hand van de meeting Dinsdag. 
 
+## Meeting Donderdag 06-09-2018:
+
+We hebben 
 
 ## Onderzoek project:
 
