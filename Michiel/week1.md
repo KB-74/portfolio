@@ -1,3 +1,5 @@
+# Week 1
+
 ## Projectkeuze SHIP:
 
 Mijn keuze voor het project SHIP is gebaseerd op onderstaande redenen:
