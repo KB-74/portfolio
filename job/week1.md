@@ -1,3 +1,5 @@
+# Week 1
+
 ## project keuze
 
 Ik heb uiteindelijk voor de shipping groep gekozen om de volgende redenen:
@@ -12,3 +14,12 @@ integratie voor git. Op deze manier kan je via de interface van PyCharm clone, p
 
 daarnaast is ook een groot voordeel van het gebruik van een IDE dat iedereen de zelfde code style kan aanhouden. Zeker bij python is het belangrijk dat iedereen die aan de code werkt dezelfde indentation grootte aanhoudt. 
 
+## Tools
+We hebben in de eerste week ook nagedacht over welke tools we wilde gebruiken, we zijn uiteindelijk tot het volgende lijstje gekomen:
+- PyCharm
+- GitHub
+- ShareLaTeX
+- OneDrive
+- Google groups
+- Scrumwise
+- Google Calendar

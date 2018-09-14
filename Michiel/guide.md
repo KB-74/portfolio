@@ -14,3 +14,5 @@ test
 
 water/land herkenning (concept hoe berekend)
 Tensorflow testen/ onderzoeken en begrijpen
+
+color comparison met colormath (samen met Martin)
