@@ -16,8 +16,8 @@ daarnaast is ook een groot voordeel van het gebruik van een IDE dat iedereen de 
 
 ## Tools
 We hebben in de eerste week ook nagedacht over welke tools we wilde gebruiken, we zijn uiteindelijk tot het volgende lijstje gekomen:
-- PyCharm
-- GitHub
+- [PyCharm](https://www.jetbrains.com/pycharm)
+- [GitHub](https://github.com/kb-74)
 - ShareLaTeX
 - OneDrive
 - Google groups
