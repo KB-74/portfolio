@@ -28,7 +28,14 @@ Er is besloten gebruik te maken van onderstaande tools:
 
 ## Onderzoek project:
 
-Lorem
+Om onszelf en de groep op de hoogte te krijgen van de huidige mogelijkheden, is er vooral onderzoek uitgevoerd naar de technieken die beschikbaar zijn voor objectherkenning en afstandsbepaling aan de hand van stereocameras.
+De gevonden onderzoeken zijn doorgenomen en de belangrijke punten medegedeeld aan de groep.
+
+- objectherkenning:
+Tensorflow biedt verregaande mogelijkheden voor objectherkenning.
+
+- Afstandbepaling
+Door de beelden van de stereocameras te vergelijken kan de afstand van objecten worden bepaald aan de hand van het verschil in het aantal pixels dat de beelden van elkaar afwijken.
 
 ## Scrum
 Ik was zelf compleet onbekend met de SCRUM-methode. Om deze reden heb ik mij ingelezen in scrum in de aanloop naar de workshop. Dankzij de workshop is het concept en de aanpak van Scrum duidelijk geworden.
@@ -43,4 +50,4 @@ Agilemanifesto
 SCRUM opereert via dezelfde waarden als het Agilemanifesto. Door openheid wederzijds respect en de focus op een sprint, ook als de doelen veranderen, betekend dat de waarden van het Agilemanifesto en SCRUM overeenkomen.
 	
 ## DataCamp:
-De Assignments pagina had ik nog niet gezien. Ik heb de course van week 1 wel doorgenomen, maar een paar opdrachten overgeslagen.
+De Assignments pagina had ik nog niet gezien. Ik heb de course van week 1 wel doorgenomen, maar een paar opdrachten overgeslagen i.v.m. bestaande kennis.
