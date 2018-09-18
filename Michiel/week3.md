@@ -27,3 +27,6 @@ deadlines gehaald
 niet duidelijk genoeg is.)
 
 Tensorflow testen
+
+## andere courses
+coursera intro

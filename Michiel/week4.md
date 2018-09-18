@@ -5,8 +5,6 @@ Er is een meeting g
 
 sprint planning etc
 
-## Kick-off meeting (dinsdag)
- dinsdag rotterdam 
  
 ## Projectmeeting CGI (donderdag)
 donderdag CGI
@@ -24,3 +22,8 @@ cuda, cudnn en opencv werkt correct
 live camera beeld object detectie werkt
 
 te weinig gpu memory, kan ik dit limiten/ met een kleiner model werken
+
+darknet op server - > werkt, openCV zou echter handig zijn
+
+##andere courses
+coursera
