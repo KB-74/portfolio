@@ -25,5 +25,8 @@ te weinig gpu memory, kan ik dit limiten/ met een kleiner model werken
 
 darknet op server - > werkt, openCV zou echter handig zijn
 
+(in verslag toevoegen: experimenten euclidian distance(samen met martin))
+(in verslag toevoegen: onderzoek naar euclidian distance: (misschien niet het beste ivm met 3d space rgb, grey scaling, andere varianten))
+
 ##andere courses
 coursera
