@@ -10,7 +10,8 @@ In week 3 wordt gefocust op het onderzoeken in objectherkenning. Daarbij heeft i
 
 Er is geprobeerd druk te leggen op Port of Rotterdam om te data te krijgen om zo snel mogelijk aan de gang te gaan met echte beelden. 
 
-Om de voortgang in het project zo efficiënt mogelijk te houden hebben we samen besloten dat Job de structuur van de code opzet en de leiding neemt in het onderhouden hiervan.
+Om de voortgang in het project zo efficiënt mogelijk te houden hebben we samen besloten dat Job de structuur van de code opzet en de leiding neemt in het onderhouden hiervan. Ook hebben we besloten dat ik de structuur en vorm van de paper onder leiding zal nemen. Hierbij bouw ik structureel het verslag op zodat er makkelijk en concreet geschreven kan worden.
+
 
 ##Zelfontplooiing
-
+Doormiddel van datacamp is kennis opgedaan over flat files en het aanpassen van plots. Daarnaast is de eerste stap gezet in machine learning d.m.v. de Stanford Universtiy course op Coursera en college van dhr. Vuurens.
