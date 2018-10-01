@@ -6,3 +6,8 @@
 
 ##Zelfontplooiing
 
+### Datacamp
+De volgende courses en chapters heb ik succesvol afgerond deze week:
+- Python Data Science Toolbox (Part 2)
+- Plotting 2D arrays
+- Statistical plots with Seaborn

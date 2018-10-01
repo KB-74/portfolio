@@ -5,3 +5,7 @@
 ## Aanpak
 
 ## Zelfontplooiing
+
+### Datacamp
+De volgende courses en chapters heb ik succesvol afgerond deze week:
+- Cleaning Data in Python
