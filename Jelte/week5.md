@@ -20,6 +20,6 @@ de volgende onderdelen geleerd:
 - Computing Parameters Analytically
 - Submitting Programming Assignments
 - Octave/Mathlab Tutorial
-    - [Programming Assignment] (https://github.com/JelteMolenaar/machine_learning_standford_university/tree/master/ex1_(week2))
+    - [Programming Assignment](https://github.com/JelteMolenaar/machine_learning_standford_university/tree/master/ex1_(week2))
     
 
