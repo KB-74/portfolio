@@ -15,7 +15,7 @@ In week 5 heb ik gewerkt aan de machine learning course
 van Standford University week 2. Tijdens de tweede week van de course werd er ingegaan op het implementeren 
 van de vorafgaande onderdelen in MATLAB/Octave. Ik heb tijdens deze week
 de volgende onderdelen geleerd:
-- Installeren MATLAB en Ocatave
+- InstallereAn MATLAB en Ocatave
 - Multivariate Linear Regression
 - Computing Parameters Analytically
 - Submitting Programming Assignments

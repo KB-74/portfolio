@@ -3,34 +3,45 @@ In dit hoofdstuk staat samengevat wat ik tijdens de eerste week van dit project 
 ######sprint 1 ( t/m )
 
 ## Minorkeuze: Applied data science
-Tijdens mijn stage ben ik een aantal keren in aanraking gekomen met programmeren. 
+Tijdens mijn stage heb ik kennis mogen maken met het programmeren. Het beheersen van een programmeer taal
+zie ik als een vaardigheid waarbij je complexe problemen kan oplossen met beperkte middelen in een beperkte tijd.
+Tijdens mijn opleiding (werktuigbouwkunde) komt dit niet aan de orde, daarom heb ik gekozen voor een minor in de
+richting van programmeren.
 
-De minor Applied data science lijkt me een uitdangende manier om zelf te leren programmeren. en kennis op te doen van 
-programmeren in een groep.
+De minor Applied data science lijkt me een uitdangende manier om zelf te leren programmeren. en daarnaast kennis 
+op te doen van programmeren in een groep.
  
 
 ## Projectkeuze: SHIP
-Het project automisch shipping leek mij erg uitdagend om de volgende redenen:
-- passend bij mijn studie werktuigbouwkunde
-- mijn intressen in water en de scheepsvaart
-- Opdracht waarbij er veel contact is met de project onwner ([Port of Rotterdam](https://www.portofrotterdam.com/nl))
+Aan het begin van week 1 werden we genoodzaakt een keuze te maken uit een zes tal verschillende projecten. Het project
+Waar mijn voorkeur naar uit gaat was het project automisch shipping. Dit leek mij erg uitdagend om de volgende redenen:
+- Meest passend bij mijn studie (werktuigbouwkunde).
+- Mijn intressen in scheepsvaart
+- Opdracht waarbij er veel contact is met de project onwner [Port of Rotterdam](https://www.portofrotterdam.com/nl)
+- Samenwerking met consultant [CGI](https://www.cginederland.nl/)
+
 
 ## Aanpak
-De eerste week van deze minor bestond uit het kennis maken en beslissen van het project waarin je je het komende half jaar 
+De eerste week van deze minor bestond uit het kennis maken en beslissen van het project (benoemd in projectkeuze parograaf) waarin je je het komende half jaar 
 gaat verdiepen. Daarnaast werd er veel toelichting geven over de verschillende tools, deadlines en verplichtingen van de minor.
 
 ### Tools
 Voor het project hebben we als groep een aantal verschillende tools en programma's nodig. 
 Deze tools helpen ons voor onderdelen zoals cominucatie of het vervardigen van een product. De volgende programma's
 en of tools hebben we daarom geinstalleerd:
-
-- [GitHub](https://github.com/kb-74) (public)
-- [GitHub](https://github.com/jobvink/wall_detection) (privet)
-- Google agenda
+######benodigdheiden
+- [GitHub](https://github.com/kb-74) (publieke groep)
+- [GitHub](https://github.com/jobvink/wall_detection) (prive groep)
+- [GitHub](https://github.com/JelteMolenaar)(persoonlijk)
+- [Google group](ship2018@googlegroups.com)
 - [Scrumwise](https://www.scrumwise.com/scrum/#/backlog/project/kb74-2018-autonomous-shipping/)
 - [ShareLatex](https://www.sharelatex.com/) 
-- Whatsapp groep
-- 
+#####ontwikkeling
+- [DataCamp](https://www.datacamp.com/)
+- [Coursera](https://www.coursera.org/learn/machine-learning/home/welcome)
+#####installatie
+- [PyCharm](https://www.jetbrains.com/pycharm/)
+- [Mathlab](https://www.mathworks.com/)
 
 
 ### Scrum
@@ -45,11 +56,10 @@ moment uitvoeren. Bij het scrum proces staan 4 regels centraal:
 
 
 ##Ontwikkeling
+Elke week (in het begin) wordt er vanuit de minor verwacht dat er bepaalde zelfstudie wordt gedaan. 
+Hieronder staan de eerste onderdelen die behaalt zijn in week 1. 
 
 ### Datacamp
 De volgende courses en chapters heb ik succesvol afgerond deze week:
 - Intro to Python for Data Science
-
-
-######presentatie week 1
 
