@@ -59,7 +59,7 @@ moment uitvoeren. Bij het scrum proces staan 4 regels centraal:
 Elke week (in het begin) wordt er vanuit de minor verwacht dat er bepaalde zelfstudie wordt gedaan. 
 Hieronder staan de eerste onderdelen die behaalt zijn in week 1. 
 
-###Datacamp
+### Datacamp
 De volgende courses en chapters heb ik succesvol afgerond deze week:
 - Intro to Python for Data Science
 

@@ -4,19 +4,19 @@ door een aantal meetings tijdens de week te houden.
 
 #####03-09-2018 t/m 07-09-2018 (sprint 2) 
 
-##Sprintplanning | 03-09-2018
+## Sprintplanning | 03-09-2018
 Dit was de eerste meeting die we als groep hadden. Aangezien ik tijdens mijn werk veel scrummeetings facaliteer 
 (sprintplanning en retrospectief) heb ik de rol als Scrum-master opgepakt. Hierbij voelde ik de verantwoordelijkheid 
 om de groep te begeleiden naar een stabiel systeem op de lange termijn. 
 
-##Kick-off meeting / Smash event | 04-09-2018
+## Kick-off meeting / Smash event | 04-09-2018
 
 
-##Projectmeeting CGI |  06-09-2018
+## Projectmeeting CGI |  06-09-2018
 
 
 
-##Ontwikkeling
+## Ontwikkeling
 
 ### Datacamp
 De volgende courses en chapters heb ik succesvol afgerond deze week:
