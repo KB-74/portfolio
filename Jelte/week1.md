@@ -29,22 +29,22 @@ gaat verdiepen. Daarnaast werd er veel toelichting geven over de verschillende t
 Voor het project hebben we als groep een aantal verschillende tools en programma's nodig. 
 Deze tools helpen ons voor onderdelen zoals cominucatie of het vervardigen van een product. De volgende programma's
 en of tools hebben we daarom geinstalleerd:
-#####Benodigdheiden
+####Benodigdheiden
 - [GitHub](https://github.com/kb-74) (publieke groep)
 - [GitHub](https://github.com/jobvink/wall_detection) (prive groep)
 - [GitHub](https://github.com/JelteMolenaar)(persoonlijk)
 - [Google group](ship2018@googlegroups.com)
 - [Scrumwise](https://www.scrumwise.com/scrum/#/backlog/project/kb74-2018-autonomous-shipping/)
 - [ShareLatex](https://www.sharelatex.com/) 
-#####Ontwikkeling
+####Ontwikkeling
 - [DataCamp](https://www.datacamp.com/)
 - [Coursera](https://www.coursera.org/learn/machine-learning/home/welcome)
-#####Installatie
+####Installatie
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [Mathlab](https://www.mathworks.com/)
 
 
-###Scrum
+### Scrum
 Met de project aanpak methode van scrum focussen we ons op een daadwerkelijk werkend product en minder op documentatie.
 Het bijhouden en schrijven van documentatie kost vaak veel tijd in projecten en gaat ten kosten van de kwaliteit en kwantiteit
 van het eindproduct. De Scrum aanpak komt oorspronkelijk uit de ICT-sector, en past goed bij het project wat we op dit 
@@ -55,7 +55,7 @@ moment uitvoeren. Bij het scrum proces staan 4 regels centraal:
 4. Verandering van een voorafgesteld plan
 
 
-##Ontwikkeling
+## Ontwikkeling
 Elke week (in het begin) wordt er vanuit de minor verwacht dat er bepaalde zelfstudie wordt gedaan. 
 Hieronder staan de eerste onderdelen die behaalt zijn in week 1. 
 

@@ -1,10 +1,10 @@
-#Jelte Molenaar
+# Jelte Molenaar
 
-##info
+## info
 Mijn naam is Jelte Molenaar en ik studeer Werktuigbouwkunde aan de Haagse hogeschool in Delft. Op dit moment 
 volg ik de minor Applied Datascience.
 
-###Contact
+### Contact
 - [Student email](15084302student.hhs.nl)
 - [LinkedIn](https://www.linkedin.com/in/jeltemolenaar/) 
  
@@ -26,7 +26,7 @@ volg ik de minor Applied Datascience.
 #Voortgang
 
 |Week|Afgerond|
-|---|:------:|
+|------|:------:|
 |Week 1| ✓ |
 |Week 2|
 |Week 3|
