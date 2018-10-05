@@ -1,13 +1,18 @@
 # WEEK 2
+Tijdens de tweede week stond het kennis maken met het ondwerp centraal. Dit hebben we als groep gedaan 
+door een aantal meetings tijdens de week te houden. 
 
-######sprint 2 ( t/m )
-##Sprintplanning
+#####03-09-2018 t/m 07-09-2018 (sprint 2) 
 
-## Aanpak
+##Sprintplanning | 03-09-2018
+Dit was de eerste meeting die we als groep hadden. Aangezien ik tijdens mijn werk veel scrummeetings facaliteer 
+(sprintplanning en retrospectief) heb ik de rol als Scrum-master opgepakt. Hierbij voelde ik de verantwoordelijkheid 
+om de groep te begeleiden naar een stabiel systeem op de lange termijn. 
 
-## Kick-off meeting
+##Kick-off meeting / Smash event | 04-09-2018
 
-## Projectmeeting CGI
+
+##Projectmeeting CGI |  06-09-2018
 
 
 
@@ -18,4 +23,3 @@ De volgende courses en chapters heb ik succesvol afgerond deze week:
 - Intermediate Python for Data Science
 - Customizing plots
 - Introduction and flat files
-##

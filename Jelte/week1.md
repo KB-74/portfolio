@@ -1,6 +1,6 @@
 # WEEK 1
 In dit hoofdstuk staat samengevat wat ik tijdens de eerste week van dit project heb gedaan.
-######sprint 1 ( t/m )
+#####27-08-2018 t/m 31-08-2018 (Sprint 1)
 
 ## Minorkeuze: Applied data science
 Tijdens mijn stage heb ik kennis mogen maken met het programmeren. Het beheersen van een programmeer taal
@@ -21,7 +21,7 @@ Waar mijn voorkeur naar uit gaat was het project automisch shipping. Dit leek mi
 - Samenwerking met consultant [CGI](https://www.cginederland.nl/)
 
 
-## Aanpak
+## Werkwijze
 De eerste week van deze minor bestond uit het kennis maken en beslissen van het project (benoemd in projectkeuze parograaf) waarin je je het komende half jaar 
 gaat verdiepen. Daarnaast werd er veel toelichting geven over de verschillende tools, deadlines en verplichtingen van de minor.
 
@@ -29,22 +29,22 @@ gaat verdiepen. Daarnaast werd er veel toelichting geven over de verschillende t
 Voor het project hebben we als groep een aantal verschillende tools en programma's nodig. 
 Deze tools helpen ons voor onderdelen zoals cominucatie of het vervardigen van een product. De volgende programma's
 en of tools hebben we daarom geinstalleerd:
-######benodigdheiden
+#####Benodigdheiden
 - [GitHub](https://github.com/kb-74) (publieke groep)
 - [GitHub](https://github.com/jobvink/wall_detection) (prive groep)
 - [GitHub](https://github.com/JelteMolenaar)(persoonlijk)
 - [Google group](ship2018@googlegroups.com)
 - [Scrumwise](https://www.scrumwise.com/scrum/#/backlog/project/kb74-2018-autonomous-shipping/)
 - [ShareLatex](https://www.sharelatex.com/) 
-#####ontwikkeling
+#####Ontwikkeling
 - [DataCamp](https://www.datacamp.com/)
 - [Coursera](https://www.coursera.org/learn/machine-learning/home/welcome)
-#####installatie
+#####Installatie
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [Mathlab](https://www.mathworks.com/)
 
 
-### Scrum
+###Scrum
 Met de project aanpak methode van scrum focussen we ons op een daadwerkelijk werkend product en minder op documentatie.
 Het bijhouden en schrijven van documentatie kost vaak veel tijd in projecten en gaat ten kosten van de kwaliteit en kwantiteit
 van het eindproduct. De Scrum aanpak komt oorspronkelijk uit de ICT-sector, en past goed bij het project wat we op dit 
@@ -59,7 +59,7 @@ moment uitvoeren. Bij het scrum proces staan 4 regels centraal:
 Elke week (in het begin) wordt er vanuit de minor verwacht dat er bepaalde zelfstudie wordt gedaan. 
 Hieronder staan de eerste onderdelen die behaalt zijn in week 1. 
 
-### Datacamp
+###Datacamp
 De volgende courses en chapters heb ik succesvol afgerond deze week:
 - Intro to Python for Data Science
 

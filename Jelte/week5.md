@@ -1,8 +1,15 @@
 # WEEK 5
  
-######sprint 3 (17-09-2018 t/m 28-09-2018)
 
-## Aanpak
+
+##Sprintplanning
+- 
+##verantwoordelijkheiden
+
+
+###onderzoek RGB HSV.
+Naar aanleiding van de feedback van de demo van de week ervoor hebben we besloten om op een andere
+manier de pixel waarde uit te lezen. Op dit moment wordt dit gedaan door 
 
 ## Ontwikkeling
 
@@ -20,6 +27,6 @@ de volgende onderdelen geleerd:
 - Computing Parameters Analytically
 - Submitting Programming Assignments
 - Octave/Mathlab Tutorial
-    - [Programming Assignment](https://github.com/JelteMolenaar/machine_learning_standford_university/tree/master/ex1_(week2))
+    - [Programming Assignment (ex1)](https://github.com/JelteMolenaar/machine_learning_standford_university/tree/master/ex1_(week2))
     
 

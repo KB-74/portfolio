@@ -1,19 +1,26 @@
 #week 6
 
-##sprintplanning
+#####01-10-2018 t/m 05-10-2018 (sprint4)
 
-##verantwoordelijkheiden
-Tijdens de week 6 (sprint 4) hebben we als groep 4 verschillende doelen opgesteld
-die tijdens deze sprint behaald moest worden. 
+##sprintplanning
+Net zoals voorgaande weken faciliteerde ik de sprintplanning. Tijdens deze sprintplanning 
+(sprint 4) hebben we als groep 4 verschillende doelen opgesteld die tijdens deze sprint 
+behaald gaan worden. 
 1. Onderzoek doen naar het gebruik van een filter om schittering uit het water te halen
 2. Bijwerken van portfolio t/m week 6 -> gebruik makend van peer feedback op vrijdag
 3. Opstellen van het onderzoeks hoofdstuk in de [paper](https://paper) 
 4. Voorbereiding op Innovation Expo Day 2018.
 
+##verantwoordelijkheiden
 Net zoals voorgaande weken facaliteerde ik de sprintplanning. Mijn verantwoordelijkheid
 tijdens deze sprint is:
-1. Voorbereiden van Innovation Expo Day 2018 [presentatie](link)
+1. Voorbereiden van Innovation Expo Day 2018 [presentatie](bijlage/presentation_innovation_expo_day.pdf)
 2. Opstellen van Detectie methode hoofdstuk van het paper. [paper](link)
+
+###Innovation Expo Day | 04-10-2018
+De Expo dag was de eerste grote deadline voor het project Smart Shipping. Bij dit event waren veel bedrijven aanwezig 
+uit verschillende sectoren. Als groep moesten we laten zien wat we tot nu toe bereikt hebben en waar we in de toekomst
+naar toe willen. [Port of Rotterdam](https://www.portofrotterdam.com/nl/nieuws-en-persberichten/havenbedrijf-rotterdam-beproeft-autonoom-varen-met-drijvend-laboratorium)
 
 
 ##Ontwikkeling
@@ -25,4 +32,7 @@ De volgende courses en chapters heb ik succesvol afgerond deze week:
 - Supervised Learning with scikit-learn
 
 ### Coursera
-De volgende onderdelen heb ik in week 6 afgerond
+In week 6 ben ik bengonnen aan de derde week week van coursera machinelearning course. In de week hierna
+ zou ik de week willen afronden. Tot nu toe heb ik de volgende onderelen afgerond.
+  -  Logistic Regression
+    - [Programming Assignment (ex1) python version]()

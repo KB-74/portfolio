@@ -23,3 +23,13 @@ volg ik de minor Applied Datascience.
 
 ## Week 3
 
+#Voortgang
+
+|Week|Afgerond|
+|---|:------:|
+|Week 1| ✓ |
+|Week 2|
+|Week 3|
+|Week 4|
+|Week 5|
+|Week 6|

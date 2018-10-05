@@ -2,9 +2,16 @@
  
 ######sprint 3 (17-09-2018 t/m 28-09-2018)
 
-## Aanpak
+## sprintplanning
+Tijdens de sprintplannning hebben we verschillende goals gedefinieerd voor
+het succesvol behalen van de sprint. De goals waren als volgt:
+- Caliberen van de camera's (verwijderen van fischeye)
+- Object specifieke modellen inladen bij de object herkenning
+- Persoonlijk portfolio aanvullen
+- Kant herkennen op foto bij wall detection algorithme. 
 
-##Zelfontplooiing
+##Ontwikkeling
+Net zoals voorgaande weken heb ik de volgende ontwikkelingen mee gemaakt:
 
 ### Datacamp
 De volgende courses en chapters heb ik succesvol afgerond deze week:
