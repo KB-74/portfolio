@@ -20,3 +20,7 @@ wall en object samenvoegen?
 filmpjes zijn gerendered
 
 PORTFOLIO MOET GEEN OPSOMMING ZIJN -> AANPASSEN NAAR WAT IK HEB GELEERD!
+
+
+(in verslag toevoegen: experimenten euclidian distance(samen met martin))
+(in verslag toevoegen: onderzoek naar euclidian distance: (misschien niet het beste ivm met 3d space rgb, grey scaling, andere varianten))
