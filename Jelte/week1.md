@@ -29,17 +29,23 @@ gaat verdiepen. Daarnaast werd er veel toelichting geven over de verschillende t
 Voor het project hebben we als groep een aantal verschillende tools en programma's nodig. 
 Deze tools helpen ons voor onderdelen zoals cominucatie of het vervardigen van een product. De volgende programma's
 en of tools hebben we daarom geinstalleerd:
+
 ####Benodigdheiden
+
 - [GitHub](https://github.com/kb-74) (publieke groep)
 - [GitHub](https://github.com/jobvink/wall_detection) (prive groep)
 - [GitHub](https://github.com/JelteMolenaar)(persoonlijk)
 - [Google group](ship2018@googlegroups.com)
 - [Scrumwise](https://www.scrumwise.com/scrum/#/backlog/project/kb74-2018-autonomous-shipping/)
 - [ShareLatex](https://www.sharelatex.com/) 
+
 ####Ontwikkeling
+
 - [DataCamp](https://www.datacamp.com/)
 - [Coursera](https://www.coursera.org/learn/machine-learning/home/welcome)
+
 ####Installatie
+
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [Mathlab](https://www.mathworks.com/)
 
