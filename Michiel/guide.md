@@ -13,6 +13,8 @@ test
 
 # [Week 3](https://github.com/KB-74/portfolio/blob/master/Michiel/week3.md)
 
+
+![DataCamp](https://github.com/KB-74/portfolio/blob/master/Michiel/datacamp_michiel.png)
 water/land herkenning (concept hoe berekend)
 Tensorflow testen/ onderzoeken en begrijpen
 
