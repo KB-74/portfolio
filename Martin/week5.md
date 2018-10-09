@@ -23,3 +23,8 @@ of omheen moeten werken.
 
 ## Coursera
 Verder heb ik week 1 en 2 van Coursera afgerond.
+
+## Leerproces
+Ik wordt steeds behendiger met Python, dat gebruik ik ondertussen ook in mijn
+privé leven om data analysis te doen. Verder leer ik veel over machine learning 
+en hoe ik libraries en packages moet installeren. 
