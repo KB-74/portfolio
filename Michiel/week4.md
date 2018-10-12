@@ -18,6 +18,7 @@ Darknet live detectie van webcam werkt (op laptop echter met zogenaamd 'tiny-mod
 Lokaal werkt darknet image detectie echter naar behoren (sommige schepen niet herkend in zeer drukke plaatjes, dit mogelijk door gebruik van het kleine weights model)
 
 Op de server krijg ik Darknet niet werkend op videobeelden. Ik loop tegen problemen aan met OpenCV. Gezien de geprobeerde oplossingen moet er misschien naar een ander model worden gekeken.
+
 ###- Land-water
 land/ water herkenning uitgedacht (hoe te programeren, euclidian distance, greyscaling onderzocht en besloten dat het 
 niet duidelijk genoeg is.)
