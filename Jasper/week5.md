@@ -12,7 +12,7 @@ Tijdens de sprintplannning in week 4 hebben we verschillende goals gedefinieerd 
 ##Meeting
 Om de vervorming uit de beelden te halen is gevraagd aan Port of Rotterdam of zij beelden kunnen leveren voor de kalibratie. Er is eerder een kalibratiebord langs de camera's gehaald om de vervorming op te meten door CaptainAI. Deze beelden hebben wij daar vervolgens voor gebruikt.
 
-#Oplossing outliers probleem
+##Oplossing outliers probleem
 Er zijn verscheidene methodes bedacht om outliers te verwijderen, de een beter dan de andere:
 - STD-Filtering: 'Standaardeviatie-filtering'. Dit is hetzelfde algorithme dat in week 4 is toegelicht. Hierbij wordt er gekeken naar de variatie in de punten ten opzichte van een lineaire fit. Als de afstand tot deze fit groter is dan een x aantal keer de standaarddeviatie wordt dit punt verwijderd. Met de nieuwe array aan punten wordt opnieuwe gefit en dit is de nieuwe kantlijn.
 - Hoek-filtering: Hierbij wordt gekeken naar de hoek binnen het driedimensionale HSV of RGB velden ten opzichte van een vast punt binnen deze velden. Het vast punt is dan bijvoorbeeld wit omdat dit de kleur van het schuim is.
