@@ -1,4 +1,5 @@
 #WEEK 5
+In deze week is door mij veel gewerkt aan de code en daarmee ook voortgang gemaakt op het gebied van filtering.
 
 ##Aanpak
 Tijdens de sprintplannning in week 4 hebben we verschillende goals gedefinieerd voor het succesvol behalen van de sprint. De goals waren als volgt:
