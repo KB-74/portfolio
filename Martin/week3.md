@@ -37,7 +37,7 @@ Twee voorbeelden hiervan zijn Greyscale en RGB.
 Ik ben begonnen met het gebruiken van Greyscale. Ik heb een random frame gepakt vanuit de data 
 en hier gekeken of het zou werken. In het frame op het water lag er een schip en het bleek dat de 
 grijswaarde van de zijkant van het schip identiek was aan de grijswaarde van het water. 
-Dit werkt, dus niet. Hierna heb ik dezelfde foto geanalyseerd d.m.v. RGB en daar was er wel een duidelijk verschil.
+Dit werkt dus niet. Hierna heb ik dezelfde foto geanalyseerd d.m.v. RGB en daar was er wel een duidelijk verschil.
 
 Daar zijn we dus mee verder gegaan. 
 
@@ -48,3 +48,6 @@ Beide partijen waren zeer enthousiast.
 
 Ik heb het algoritme ook gepresenteerd aan CGI, aangezien hun experts zijn op het gebied van Data Science en hun vonden
 het een goed idee. Dat was voor ons ook een belangrijke reden om er mee verder te gaan. 
+
+## feedback
+Het is misschien goed om iets korter en krachtiger te schrijven.

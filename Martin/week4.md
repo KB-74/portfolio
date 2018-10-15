@@ -25,3 +25,6 @@ kustlijn niet recht.
 
 Ten slotte heb ik onderzoek gedaan naar pre-processing van afbeeldingen.
 Zodat het algoritme nog beter gaat werken. Hier ga ik volgende week weer mee verder.
+
+## Feedback
+kopje: Algoritme Water/Land: hoe kan je zeggen dat het accuraat is, heb je dat gemeten of was dat een schatting

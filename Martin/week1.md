@@ -1,7 +1,7 @@
 ## Projectkeuze SHIP:
 
 Mijn keuze voor het project SHIP is gebaseerd op onderstaande redenen:
-- SHIP gaat om leading edge technology, autonome mobiliteit is op dit moment heel hot en daar wil
+- SHIP gaat om leading edge technology, autonome mobiliteit is op dit moment heel erg populair en daar wil
 ik meer over leren. 
 - Verder dacht ik dat dit 1 van de uitdagenste projecten was en mijn doel was om mezelf in het 
 diepe te gooien en zoveel mogelijk te leren van de minor. 
@@ -34,7 +34,7 @@ informatie.
 
 Uiteindelijk hebben we bedacht om het project in drie fases uit te voeren.
 - De cameras gebruiken om objecten te herkennen in het water en het verschil tussen water en land.
-- De hardware onderdelen van de boot gereed maken, zodat de boot zelf kan varen. (Stap 1 = remote-control)
+- De hardware onderdelen van de boot gereed maken, zodat de boot zelf kan varen. (Stap 1 is remote-control)
 - Deze twee stappen combineren en de boot d.m.v. een algoritme zelf laten varen op basis van de input
 van fase 1.
 

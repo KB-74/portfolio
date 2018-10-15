@@ -30,3 +30,6 @@ Deze week heb ik veel geleerd, met name op de expo. Hoe ik moet netwerken en een
 pitch moet geven. Ook heb ik mijn presentatie skills verder vergroot en geleerd hoe een 
 wetenschappelijke paper in elkaar steekt. Bij mij studie technische bedrijfskunde, hebben papers een andere opzet.
 
+## Feedback
+Geef een link van het interview
+

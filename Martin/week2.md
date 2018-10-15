@@ -29,3 +29,8 @@ besloten om Maandag de doelstelling opnieuw te definiëren en een nieuwe aanpak 
 
 ## DataCamp:
 Tussendoor ben ik verder gegaan met Datacamp. 
+
+## feedback
+kopje: Bespreking plan van aanpak met school, 'Het was te veel en te gecompliceerd' zou ik graag uitgelegd willen
+
+Ik mis SMASH
