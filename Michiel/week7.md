@@ -7,7 +7,7 @@ Daarnaast zal ik samen met martin een tooltje maken om gemakkelijk de kust te la
 ## Havenbedrijf Rotterdam (donderdag)
 Op donderdag zijn we bij het havenbedrijf Rotterdam geweest. We hebben een korte demo gegeven en overlegd over de voortgang van ons project. Havenbedrijf Rotterdam is er goed over te spreken. 
 
-## onderzoek
+## Onderzoek
 ###- Objectherkenning:
 Geen voortgang
 
@@ -15,7 +15,9 @@ Geen voortgang
 De opstart voor het tooltje om de kustlijn de labelen gaat gestaag. Ik heb een gemakkelijke module gevonden om input van zowel de muis als het keyboard te monitoren. Het plan is om dit in een csv bestand te zetten en vervolgens met een ander scriptje automatisch d.m.v bepaalde keystrokes te labelen welke coördinaten bij de kust horen.
 
 
-##andere courses
+## Andere courses
 Coursera week 2 af
 Coursera week 3 vergevorderd
 
+## Feedback
+Opzich prima, wel weinig tekst dichtheid
