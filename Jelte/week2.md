@@ -13,13 +13,13 @@ om de groep te begeleiden naar een stabiel systeem op de lange termijn. Tijdens 
 ## Kick-off meeting / Smash event | 04-09-2018
 De kick-off van het project vondt plaatst in het hoofdkantoor van port of rotterdam. Hierbij waren Port of Rotterdam, CGI 
 en wij aanwezig. Tijdens deze meeting werd er kennis gemaakt met de partijen die betrokken zijn bij het project.
-Na afloop zijn we met de groep naar het SMASH smart shipping event in amsterdam geweest. Hier zijn we helemaal 
-bijgepraat op het onderwerp van smartshipping
+Na afloop zijn we met de groep naar het SMASH smart shipping event in Amsterdam geweest. Hier zijn we helemaal 
+bijgepraat op het onderwerp van smart shipping.
 
 
 ## Projectmeeting CGI |  06-09-2018
 Na de kickoff bij port of rotterdam was er een meeting bij CGI. Tijdens deze meeting kregen wij een 
-uitleg over machinelearning. Daarna zijn we verder gegaan met het maken van het algo
+uitleg over machine learning. Daarna zijn we verder gegaan met het maken van het algorithme.
 
 
 ## Ontwikkeling

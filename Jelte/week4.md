@@ -2,10 +2,10 @@
  
 #####17-09-2018 t/m 21-09-2018 (sprint4)
 
-## sprintplanning
+## Sprintplanning
 Tijdens de sprintplannning hebben we verschillende goals gedefinieerd voor
 het succesvol behalen van de sprint. De goals waren als volgt:
-- Caliberen van de camera's (verwijderen van fischeye)
+- Caliberen van de camera's (verwijderen van fisheye)
 - Object specifieke modellen inladen bij de object herkenning
 - Persoonlijk portfolio aanvullen
 - Kant herkennen op foto bij wall detection algorithme. 
@@ -17,9 +17,9 @@ Vorige week heb ik gekenen naar het bewerken van de foto's (toevoegen van filter
 de edge-detection te combineren met de al bestaande pixel walker software. Dit is hier te zien: [pixel_walker_edge_detection_v4](https://github.com/jobvink/wall_detection/blob/master/pixel_walker_edge_detection_v4.py)
 
 ##Retrospective 
-tijdens de retrospectief kwamen een aantal punten naar voren die we als groep kunnen gebruiken om beter 
+tijdens de retrospective kwamen een aantal punten naar voren die we als groep kunnen gebruiken om beter 
 te presteren of te worden:
-- meer comminucatie naar CGI.
+- Meer comminucatie met CGI.
 - Sprintplanning meer te focussen op wat we willen bereiken.
 - Productiever proberen te werken.
 
@@ -40,4 +40,5 @@ afgerond. Dit bevatten de volgende onderdelen:
     - Linear Algebra 
     - Matrices and Vectors
     - Matrix multiplication
-    - inverse and transpose Matrices
+    - Inverse and transpose Matrices
+

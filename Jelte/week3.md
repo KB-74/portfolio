@@ -15,11 +15,11 @@ Ik zat bij de groep zich focusten op het herkennen van land/water.
 Deze sprint heb ik mij gefocust op het herkennen van randen en het bewerken van afbeeldingen. Hiervoor moest ik
 eerst een afbeelding inladen in Python. Daarna was het mogelijk om een edge-detection filter toe te passen op de foto.
 Dit werkte redelijk maar had als groot nadeel dat ook de golven en de weerspiegeling in het water gezien werd als rand. 
-Op dit moment gaan we niet verder met edge-detection omdat het te veel False Positief geeft. <br/>
+Op dit moment gaan we niet verder met edge-detection omdat het te veel false positives geeft. <br/>
 Naast edge detection heb ik ook gekenen naar het bewerken van de foto's. Met het bewerken van de foto's
 wordt bedoelt: het veranderen van Brightness, contrast, contour en het uitknippen van een bepaalt
 gedeelte van de foto. De combinatie van het verhogen van de Brightness en het edge-dection filter was possitief. Hierdoor werden
-minder False Positiefs ontdekt. [pixel_walker_edge_detection_v3](https://github.com/jobvink/wall_detection/blob/master/pixel_walker_edge_detection_v3.py)
+minder false positives ontdekt. [pixel_walker_edge_detection_v3](https://github.com/jobvink/wall_detection/blob/master/pixel_walker_edge_detection_v3.py)
 
 ##Ontwikkeling
 Zoals voorgaande weken heb ik ook deze week ook gewerkt aan het vergroten van van
@@ -40,3 +40,7 @@ afgerond. Dit bevatten de volgende onderdelen:
 - Linear Regression with One Variable
     - Model and Cost Function
     - Parameter Learning
+    
+####Feedback
+
+Waarom heb je die beeldbewerking nodig bij edge detection? Leg dit uit. Nice dat je uitlegt wat je allemaal hebt gedaan in datacamp en coursera.
