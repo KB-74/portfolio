@@ -29,3 +29,6 @@ We hebben in de eerste week ook nagedacht over welke tools we wilde gebruiken, w
 Toen ik voor het eerst bij de projectgroep kwam was er al een doel gesteld om uiteindelijk de boot autonoom te laten varen aan het eind van dit project.
 Met mijn ervaring vanuit eerdere projecten kon mij vertellen dat dit doel eigenlijk te ambitieus was. Daarom heb ik voorgesteld om
 te focussen op lagere level onderdelen en die goed te verbeteren.
+
+## Datacamp
+Ik had al redelijk wat ervaring met python maar heb met mezelf wel afgesproken dat ik de Datacamp opdrachten serieus aan wilde pakken om mijn kennis op te frissen.

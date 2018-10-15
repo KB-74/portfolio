@@ -12,3 +12,7 @@ Na de presentatie bij Port of Rotterdam gingen we samen met CGI naar een bijeenk
 Een van de pitches die mij het meest aansprak was van [Novimar](https://novimar.eu/) die booten in een [vessel train](https://novimar.eu/concept/) wilde laten varen. Bij dit concept is er een hoofdship die voorop vaart in een reeks van boten. Dit ship is verantwoordelijk voor de navigatie en de schepen in de reeks varen autonoom achter dit ship aan tot ze de vessel train verlaten. 
 
 ## Project meeting bij CGI
+Bij de meeting op CGI hebben we de volgende ideeën besproken:
+- Het combineren van radar en camera beeld om een map te vormen.
+- De boot in mechaanisch vaarklaar maken om autonoom te varen.
+- Benodigtheden om data op te slaan op de boot.
