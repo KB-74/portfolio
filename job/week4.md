@@ -11,3 +11,6 @@ positief over de voortang en zag nog steeds kans in het slagen van het algoritme
 
 ## DataCamp
 In deze week heb ik verder gewerkt aan de cursus op datacamp
+
+#feedback
+Misschien een afbeelding van het resultaat invoegen zodat het iets zichtbaarder is wat je precies hebt bereikt.

@@ -12,3 +12,6 @@ Ik heb gekeken naar de volgende opmerkingen:
 ## verwerking in ons algoritme
 Voordat ik de concepten die ik onderzocht heb voor de paper kon integreren wilde ik eerst goed begrijpen hoe deze werkte.
 Daarom heb ik de delen van de algoritme eerste uitgetest op kleine afbeeldingen waarvan ik wist wat de uitkomst moest zijn.
+
+#Feedback
+wat van kernel en sobel en canny werkte wel of niet? waar gaan we mee verder. 
