@@ -1,5 +1,5 @@
 ## Research Paper
-Deze week hebben we in de sprintplanning besrpken dat we de focus gingen leggen op de research paper. We hebben afgesrpoken 
+Deze week hebben we in de sprintplanning besproken dat we de focus gingen leggen op de research paper. We hebben afgesrpoken 
 om te beginnen met related work.
 
 ## inhalen cursusen
@@ -15,3 +15,6 @@ Tijdens de expo was er veel belangstelling voor ons project door onderandere de
 [NOS](https://nos.nl/artikel/2253291-haven-rotterdam-bereidt-zich-voor-op-zelfvarende-schepen.html) 
 en [BNR](https://www.bnr.nl/programmas/wetenschap-vandaag/10356983/elektrisch-vliegen-en-autonoom-varen).
 Het was een erg geslaagde dag en we hebben goed kunnen brainstormen met andere partijen over ons werk.
+
+#Feedback
+wat was jou taak bij research paper en waarom?
