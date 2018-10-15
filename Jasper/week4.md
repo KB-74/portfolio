@@ -7,7 +7,7 @@ Tijdens de sprintplannning hebben we verschillende goals gedefinieerd voor het s
 - De vervorming dankzij de lens verwijderen uit de beelden
 - Object specifieke modellen inladen bij de object herkenning
 - Persoonlijk portfolio aanvullen
-- Kant herkennen op foto bij wall detection algorithme.
+- Kant herkennen op foto bij wall detection algoritme.
 
 ##Meeting
 In deze meeting is de huidige progressie laten zijn waarbij er enkele tips vanuit CGI en CaptainAI zijn gekomen. CaptainAI is een ander bedrijf dat zich ook bezig houdt met het Floating Lab en met een vergelijkbare opdracht vanuit Port of Rotterdam bezig zijn. Zij hebben de tip gegeven om niet TensorFlow maar Yolo (You only see once) te gebruiken. Dit is namelijk sneller en beter geoptimaliseerd. Ook heeft CaptainAI laten zien wat zij gebruikt hebben om de bolling uit de beelden te halen.
@@ -25,3 +25,6 @@ Uit de retrospective kwamen de volgende punten:
 - Meer communicatie met CGI. Zo kan de kennis die zij bezitten nuttig gebruikt worden.
 - De sprintplanning moet meer gefocusd op wat we willen bereiken zodat we zo productiever kunnen werken.
 
+#feedback michiel
+spelling
+yolov3 was een keuze gemaakt door CGI (jelmer), niet captain ai. daarnaast maakt yolov3 ook gebruik van tensorflow waarbij cuda etc dus wel handig was om te instaleren
