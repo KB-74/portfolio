@@ -48,4 +48,4 @@ In week 6 ben ik begonnen aan de derde week week van coursera machinelearning co
     - [Programming Assignment (ex2)](https://github.com/JelteMolenaar/machine_learning_standford_university/tree/master/ex2_(week3))
     
 ####Feedback
-links werken nog niet
+Links werken nog niet.
