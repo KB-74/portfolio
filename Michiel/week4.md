@@ -1,39 +1,30 @@
 # Week 4
 
 ## Aanpak
-Er is een meeting g
-
-sprint planning etc
+Tijdens de sprintplannning zijn de volgende goals gedefinieerd:
+- Caliberen van de camera's (verwijderen van fisheye)
+- Object specifieke modellen inladen bij de object herkenning
+- Persoonlijk portfolio aanvullen
+- Kant herkennen op foto bij wall detection algoritme. 
 
  
 ## Projectmeeting CGI (donderdag)
-donderdag CGI
+Zoals de andere weken hebben we een meeting gehad met CGI, hier is onze huidige voortgang besproken. Voor ons als groep had deze helaas weinig toegevoegde waarde gezien CGI geen oplossingen kan bieden voor problemen waar we momenteel tegen aan lopen. Zo lukt het hen ook niet om de Darknet modellen te splitsen.
 
 ## onderzoek
-Ubuntu geinstalleerd om errors te voorkomen die veel voorkomen op windows machines:
-Darknet live detectie van webcam werkt (op laptop echter met zogenaamd 'tiny-model' omdat normale weights te zwaar zijn voor mijn GPU)
-Darknet image detectie werkt naar behoren (sommige schepen echter niet herkend in zeer drukke plaatjes)
+###- Objectherkenning:
+Gezien de problemen waar ik tegenaan loop met het compilen en werkend krijgen van Darknet, heb ik Ubuntu geinstalleerd.
+Darknet live detectie van webcam werkt (op laptop echter met zogenaamd 'tiny-model' omdat normale weights te zwaar zijn voor mijn GPU), op de server kan ik het helaas niet werkend krijgen. Online worden verschillende oplossingen aangeboden zoals python wrappers, deze lijken echter niet te werken.
+Lokaal werkt darknet image detectie echter naar behoren (sommige schepen niet herkend in zeer drukke plaatjes, dit mogelijk door gebruik van het kleine weights model)
 
+Op de server krijg ik Darknet niet werkend op videobeelden. Ik loop tegen problemen aan met OpenCV. Gezien de geprobeerde oplossingen moet er misschien naar een ander model worden gekeken.
+
+###- Land-water
+land/ water herkenning uitgedacht (hoe te programeren, euclidian distance, greyscaling onderzocht en besloten dat het 
+niet duidelijk genoeg is.)
 
 ## Datacamp
 deadlines behaald
-
--- land/ water herkenning uitgedacht (hoe te programeren, euclidian distance, greyscaling onderzocht en besloten dat het 
-niet duidelijk genoeg is.)
-
-object detectie via yolov3 model werkt op linux!
-cuda, cudnn en opencv werkt correct
-live camera beeld object detectie werkt
-
-te weinig gpu memory, kan ik dit limiten/ met een kleiner model werken
-
-darknet op server - > werkt, openCV zou echter handig zijn
-
-(in verslag toevoegen: experimenten euclidian distance(samen met martin))
-(in verslag toevoegen: onderzoek naar euclidian distance: (misschien niet het beste ivm met 3d space rgb, grey scaling, andere varianten))
-
-Zonder opencv is het mogelijk, maar is een bottleneck die opgelost kan worden door jeroen
-
 
 ##andere courses
 coursera week 1 behaald

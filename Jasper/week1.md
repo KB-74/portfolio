@@ -1,5 +1,7 @@
 # WEEK 1
 
+In week 1 zijn eerste stappen gemaakt in de minor waarbij eerst de keuze is gemaakt voor een project en waarna een aanpak is bedacht met de nieuwe projectgroep.
+
 ## Projectkeuze: SHIP
 
 Bij SHIP is de mogelijkheid om naar een autonoom schip toe te werken. De eerste stap hierin is objectherkenning met gebruik van camera's. Dit wordt in samenwerking gedaan met Port of Rotterdam of CGI met gebruik van het 'Floating Lab'. Ik heb SHIP gekozen omdat ik dit als mogelijkheid zag om beter te worden in programmeren met Python en data. Dankzij de dagen in Rotterdam is het werk divers en wordt het niet saai.
@@ -34,6 +36,6 @@ Q: Wie is onze product owner?
 A: Port of Rotterdam
 
 ## Onderzoek, ontplooiing
-Het eerste deel onderzoek naar objectherkenning is ook uitgevoerd. Daarbij hebben we enkele papers gevonden op dit gebied. Deze zijn doorgelezen, samengevat en gepresenteerd aan elkaar om zo samen kennis op te doen. Daarnaast heb ik gewerkt aan zelfontplooiing door enkele datacamp courses te voltooien.
+Het eerste deel onderzoek naar objectherkenning is ook uitgevoerd. Daarbij hebben we enkele papers gevonden op dit gebied. Deze zijn doorgelezen, samengevat en gepresenteerd aan elkaar om zo samen kennis op te doen. Daarnaast heb ik gewerkt aan zelfontplooiing door enkele datacamp courses te voltooien. Dit zijn Intro to Python for Data Science en Intermediate Python for Data Science.
 
  
