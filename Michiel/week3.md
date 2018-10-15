@@ -1,7 +1,7 @@
 # Week 3
 
 ## Aanpak
-Na overleg met de groep is besloten om te werken zonder exact gedefinieerd einddoel omdat het zeer moeilijk is in te schatten wat voor ons mogelijk is in deze 20 weken. We zullen echter wel tussentijdse doelen stellen.
+Na overleg met de groep is besloten om te werken zonder exact gedefinïeerd einddoel omdat het zeer moeilijk is in te schatten wat voor ons mogelijk is in deze 20 weken. We zullen echter wel tussentijdse doelen stellen.
 
 Er is besloten om te beginnen met de data uit de front-facing camera's. We zullen proberen aan de hand van de beelden, de volgende twee dingen live te bepalen:
 - De scheiding tussen water en land.
@@ -18,7 +18,7 @@ Ons concept voor een land/water herkenning algoritme is gepresenteerd aan de sta
 Daarnaast is een nieuwe stakeholder geintroduceerd; Captain AI. 
 
 
-## onderzoek
+## Onderzoek
 ### Land/water herkenning
 Mogelijkheden hoe bepaald kan worden wat land en wat water is, zijn uitgedacht. (zie presentatie week 3)
 - Greyscale: kort python script geschreven samen met Martin om het verschil te bepalen tussen pixelgroepen. Differentiatie in waardes is te klein voor betrouwbare herkenning. Detectie op basis van greyscale is niet mogelijk.
@@ -38,5 +38,10 @@ Hoe en wat heb ik beschreven in ons verslag.
 ## Datacamp
 deadlines behaald
 
-## andere courses
+## Andere courses
 coursera intro uitgevoerd.
+
+## Feedback
+uitleggen wat captain AI is.
+
+Welk verslag bedoel je onder het kopje 'objectherkenning'?

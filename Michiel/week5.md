@@ -3,7 +3,7 @@
 ## Aanpak
 Tijdens de sprintplannning is duidelijk geworden dat de huidige doelen van de vorige sprint worden behouden.
 
-## onderzoek
+## Onderzoek
 ###- Objectherkenning:
 Ik heb samen met Martin getracht het huidige model van Darknet aan te passen en lichter te maken door onbelangrijke objecten zoals bananen eruit te halen. Het splitsen hiervan lijkt echter moeilijker dan gedacht. Ook samen met Jelmer van CGI kunnen we er niet uit komen.
 Is het dan toch beter om een een alternatief te zoeken?
@@ -15,5 +15,8 @@ De herkenning werkt naar behoren. Als de kade echter niet recht is, loopt de reg
 ## Datacamp
 deadlines behaald.
 
-##andere courses
+## Andere courses
 Coursera: Week 2 nog niet af. 
+
+## Feedback
+Prima, misschien iets meer bij land-water

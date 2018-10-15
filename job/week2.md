@@ -16,3 +16,6 @@ Bij de meeting op CGI hebben we de volgende ideeën besproken:
 - Het combineren van radar en camera beeld om een map te vormen.
 - De boot in mechaanisch vaarklaar maken om autonoom te varen.
 - Benodigtheden om data op te slaan op de boot.
+
+#Feedback
+Wat heb je geleerd deze week (misschien een beetje datacamp enz.)

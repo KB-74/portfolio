@@ -15,6 +15,7 @@ De opdracht zelf is niet gedefinieerd. Port of Rotterdam geeft echter aan dat da
 
 Op basis van deze meeting hebben we een lijst opgesteld ingedeeld op basis van prioriteit, met mogelijke deelprojecten.
 
+
 ## SMASH event (dinsdag middag)
 SMASH (Smart shipping event) was een event georganiseerd georganiseerd door Rijkswaterstaat. 
 Het doel van SMASH was om alle gaande projecten die te maken hebben met 'smart shipping' in kaart te brengen en de verschillende partijen te introduceren aan de deelnemers. Hiermee wil Rijkswaterstaat zogenaamde acties opzetten om de voortgang in Smart Shipping in Nederland te versnellen. 
@@ -29,7 +30,7 @@ Onze plannen:
 - Objectherkenning uitwerken en testen.
 - combineren radar en map voor wederzijdse verificatie
 
-## onderzoek
+## Onderzoek
 Tensorflow (objectherkenning):
 - Cuda geinstalleerd
 - Cudnn geinstalleerd
@@ -42,3 +43,6 @@ Tensorflow herkent succesvol mijn schoen.
 
 ## Datacamp
 deadlines behaald.
+
+## Feedback
+Leg 'floating lab' en 'agile' uit als je het tussen haakjes zet.
