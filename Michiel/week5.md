@@ -16,4 +16,4 @@ De herkenning werkt naar behoren. Als de kade echter niet recht is, loopt de reg
 deadlines behaald.
 
 ##andere courses
-Coursera: Week 2 nog niet af.
+Coursera: Week 2 nog niet af. 

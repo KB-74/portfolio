@@ -8,16 +8,16 @@ zie ik als een vaardigheid waarbij je complexe problemen kan oplossen met beperk
 Tijdens mijn opleiding (werktuigbouwkunde) komt dit niet aan de orde, daarom heb ik gekozen voor een minor in de
 richting van programmeren.
 
-De minor Applied data science lijkt me een uitdangende manier om zelf te leren programmeren. en daarnaast kennis 
+De minor Applied Data Science lijkt me een uitdagende manier om zelf te leren programmeren en daarnaast kennis 
 op te doen van programmeren in een groep.
  
 
 ## Projectkeuze: SHIP
 Aan het begin van week 1 werden we genoodzaakt een keuze te maken uit een zes tal verschillende projecten. Het project
-Waar mijn voorkeur naar uit gaat was het project automisch shipping. Dit leek mij erg uitdagend om de volgende redenen:
+Waar mijn voorkeur naar uit gaat was het project autonomous shipping. Dit leek mij erg uitdagend om de volgende redenen:
 - Meest passend bij mijn studie (werktuigbouwkunde).
-- Mijn intressen in scheepsvaart
-- Opdracht waarbij er veel contact is met de project onwner [Port of Rotterdam](https://www.portofrotterdam.com/nl)
+- Mijn intresse in scheepsvaart
+- Opdracht waarbij er veel contact is met de project owner [Port of Rotterdam](https://www.portofrotterdam.com/nl)
 - Samenwerking met consultant [CGI](https://www.cginederland.nl/)
 
 
@@ -27,7 +27,7 @@ gaat verdiepen. Daarnaast werd er veel toelichting geven over de verschillende t
 
 ### Tools
 Voor het project hebben we als groep een aantal verschillende tools en programma's nodig. 
-Deze tools helpen ons voor onderdelen zoals cominucatie of het vervardigen van een product. De volgende programma's
+Deze tools helpen ons met onderdelen zoals communicatie of het vervaardigen van een product. De volgende programma's
 en of tools hebben we daarom geinstalleerd:
 
 ####Benodigdheiden
@@ -47,7 +47,7 @@ en of tools hebben we daarom geinstalleerd:
 ####Installatie
 
 - [PyCharm](https://www.jetbrains.com/pycharm/)
-- [Mathlab](https://www.mathworks.com/)
+- [MATLAB](https://www.mathworks.com/)
 
 
 ### Scrum
@@ -55,10 +55,10 @@ Met de project aanpak methode van scrum focussen we ons op een daadwerkelijk wer
 Het bijhouden en schrijven van documentatie kost vaak veel tijd in projecten en gaat ten kosten van de kwaliteit en kwantiteit
 van het eindproduct. De Scrum aanpak komt oorspronkelijk uit de ICT-sector, en past goed bij het project wat we op dit 
 moment uitvoeren. Bij het scrum proces staan 4 regels centraal:
-1. Individue en interactie staat boven het proces en de tools 
-2. Working product over uitgebreide documentatie
-3. Samenwerken met klanten over onderhandelings contracten
-4. Verandering van een voorafgesteld plan
+1. Individu en interactie staat boven het proces en de tools. 
+2. Working product over uitgebreide documentatie.
+3. Samenwerken met klanten over onderhandelingscontracten.
+4. Verandering van een voorafgesteld plan.
 
 
 ## Ontwikkeling

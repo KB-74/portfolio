@@ -5,7 +5,7 @@
 ##Sprintplanning
 Tijdens de sprintplannning hebben we verschillende goals gedefinieerd voor
 het succesvol behalen van de sprint. De goals waren als volgt:
-- Caliberen van de camera's (verwijderen van fischeye)
+- Kaliberen van de camera's (verwijderen van fisheye vervorming)
 - Object specifieke modellen inladen bij de object herkenning
 - Persoonlijk portfolio aanvullen
 - Kant herkennen op foto bij wall detection algorithme
@@ -22,7 +22,7 @@ in te voegen in de code
 [Onderzoek Detectiemethode kleuren](bijlage/Detectiemethode%20kleuren.pdf)
 
 ## Retrospective
-Tijdens de retrospectief hebben we de volgende punten besprken:
+Tijdens de retrospective hebben we de volgende punten besproken:
 - Hoe zorgen we dat iedereen elkaars code blijft begrijpen
 - Zorgen dat we allemaal op dezelfde dag aanwezig (of afwezig) zijn.
 
@@ -47,3 +47,5 @@ de volgende onderdelen geleerd:
     - [Programming Assignment (ex1)](https://github.com/JelteMolenaar/machine_learning_standford_university/tree/master/ex1_(week2))
     
 
+####Feedback
+Leg bij de sprint planning (in elke week) uit waarom we deze goals hebben gekozen. De link bij onderzoek RGB/HSV werkt nog niet. Leg bij de retrospective uit (elke week) hoe we dit gaan verbeteren en waarom dit problemen zijn.
