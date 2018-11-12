@@ -49,9 +49,9 @@ D = [[-0.019105044374337198],
 
 Met behulp van deze parameters konden we de verstooring uit het beeld filteren. Ook hiervoor heb ik een [notebook](notebooks/fisheye_undistord.ipynb) aangemaakt.
 
-![verbormd beeld](resources/fisheye/camera_frame.jpg)
+<img src="resources/fisheye/camera_frame.jpg" alt="vervormd beeld" width="400">
 afbeelding 2: (vervormd beeld)
-![ongevormd beeld](resources/fisheye/undistorted_image.png)
+<img src="resources/fisheye/undistorted_image.png" alt="ontvormd beeld" width="400">
 afbeelding 3: (ontvormd beeld)
 
 ## Evaluation
