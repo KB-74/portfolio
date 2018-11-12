@@ -51,6 +51,7 @@ Met behulp van deze parameters konden we de verstooring uit het beeld filteren. 
 
 <img src="resources/fisheye/camera_frame.jpg" alt="vervormd beeld" width="400">
 afbeelding 2: (vervormd beeld)
+
 <img src="resources/fisheye/undistorted_image.png" alt="ontvormd beeld" width="400">
 afbeelding 3: (ontvormd beeld)
 
