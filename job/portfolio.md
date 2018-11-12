@@ -26,7 +26,8 @@ Deze biblotheek heeft hier wel een bepaalde configuratie voor nodig omdat versch
 kijkhoeken hebben waarin ze filmen. Deze configuratie kun je ook door opencv laten berekenen. Hiervoor heb je een 
 groot bord met een schaakpatroon nodig.
 
-![schaakboard patroon](resources/fisheye/checkerboard_1.jpg)
+![schaakboard patroon](resources/fisheye/checkerboard_1.jpg =200)
+<img src="resources/fisheye/checkerboard_1.jpg" alt="schaakboard patroon" width="200">
 afbeelding 1: (schaakboard patroon)
 
 Ik heb het script dat ik gemaakt heb om deze configuratie te krijgen opengenomen in een [notebook](notebooks/fisheye_configuration.ipynb). Uit dit script kwamen 
