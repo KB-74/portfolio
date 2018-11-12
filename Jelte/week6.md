@@ -37,8 +37,7 @@ De volgende courses en chapters heb ik succesvol afgerond deze week:
 - Supervised Learning with scikit-learn
 
 ### Coursera
-In week 6 ben ik begonnen aan de derde week week van coursera machinelearning course. In de week hierna
- zou ik de week willen afronden. Tot nu toe heb ik de volgende onderelen afgerond.
+In week 6 heb ik de derde week van Coursera afgerond
   - Classification and Representation
   - Logistic Regression model
   - Multiclass Classification

@@ -4,8 +4,8 @@
 
 Mijn keuze voor het project SHIP is gebaseerd op onderstaande redenen:
 - SHIP sprak erg tot de verbeelding door de huidige technologische voortgang op het gebied van autonome producten.
-- Om ervaring op te doen, en te leren, over programmeren met python.
-- Ervaring op te doen in het gebied van objectherkenning en machine learning
+- Om ervaring op te doen in en het leren van programmeren met python.
+- Ervaring op doen in het gebied van objectherkenning en machine learning
 
 ## Aanpak
 Hoewel het onderwerp was gepresenteerd, was er over de opdracht nog weinig duidelijk. De doelstelling voor de eerste week was dan ook om de opdracht duidelijk te krijgen.

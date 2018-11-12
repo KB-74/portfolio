@@ -38,4 +38,5 @@ A: Port of Rotterdam
 ## Onderzoek, ontplooiing
 Het eerste deel onderzoek naar objectherkenning is ook uitgevoerd. Daarbij hebben we enkele papers gevonden op dit gebied. Deze zijn doorgelezen, samengevat en gepresenteerd aan elkaar om zo samen kennis op te doen. Daarnaast heb ik gewerkt aan zelfontplooiing door enkele datacamp courses te voltooien. Dit zijn Intro to Python for Data Science en Intermediate Python for Data Science.
 
- 
+#feedback van michiel
+evt. floating lab kort uitleggen
