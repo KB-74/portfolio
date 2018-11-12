@@ -26,10 +26,10 @@ Deze biblotheek heeft hier wel een bepaalde configuratie voor nodig omdat versch
 kijkhoeken hebben waarin ze filmen. Deze configuratie kun je ook door opencv laten berekenen. Hiervoor heb je een 
 groot bord met een schaakpatroon nodig.
 
-![schaakboard patroon](job/resources/fisheye/checkerboard_1.jpg)
+![schaakboard patroon](resources/fisheye/checkerboard_1.jpg)
 afbeelding 1: (schaakboard patroon)
 
-Ik heb het script dat ik gemaakt heb om deze configuratie te krijgen opengenomen in een [notebook](job/notebooks/fisheye_configuration.ipynb). Uit dit script kwamen 
+Ik heb het script dat ik gemaakt heb om deze configuratie te krijgen opengenomen in een [notebook](notebooks/fisheye_configuration.ipynb). Uit dit script kwamen 
 de volgende waardes:
 
 ```python
@@ -46,11 +46,11 @@ D = [[-0.019105044374337198],
      [0.6830070634869604]]
 ```
 
-Met behulp van deze parameters konden we de verstooring uit het beeld filteren. Ook hiervoor heb ik een [notebook](job/notebooks/fisheye_undistord.ipynb) aangemaakt.
+Met behulp van deze parameters konden we de verstooring uit het beeld filteren. Ook hiervoor heb ik een [notebook](notebooks/fisheye_undistord.ipynb) aangemaakt.
 
-![verbormd beeld](job/resources/fisheye/camera_frame.jpg)
+![verbormd beeld](resources/fisheye/camera_frame.jpg)
 afbeelding 2: (vervormd beeld)
-![ongevormd beeld](job/resources/fisheye/undistorted_image.png)
+![ongevormd beeld](resources/fisheye/undistorted_image.png)
 afbeelding 3: (ontvormd beeld)
 
 ## Evaluation
