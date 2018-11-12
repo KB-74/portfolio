@@ -19,7 +19,7 @@ Op het Innovation Expo bij het RDM hebben wij de gehele dag ons verhaal mogen ve
 Eerder hebben we de innovation expo van 4 oktober als een omslagpunt vastgesteld om opnieuw te bepalen wat de focus wordt binnen smart shipping het het Floating Lab. We alle opties in kaart gebracht en hebben een aantal dingen duidelijk gemaakt:.
 
 De volgende onderwerpen worden *wel* opgepakt:
-- Algorithme kadeherkenning verder uitwerken
+- Algoritme kadeherkenning verder uitwerken
 - Objectherkenning verder uitwerken
 - Samenvoegen kade- en objectherkenning
 - Systeem valideren om de waarheid in de herkenning te bevestigen.
