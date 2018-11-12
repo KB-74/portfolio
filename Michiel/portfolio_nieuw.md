@@ -54,6 +54,12 @@ The weekly Opschaler presentations that I contributed to.
 
 `Algemeen mapje aanmaken waar alle notebooks komen`
 
+- frame checker
+- pixel walker (euclidian distance deel?)
+- wall labeler
+- video extraction ()deeltje
+- object detection () uitleg erbij van eerst yolo, maar code geven van keras (wel door job grotendeels gedaan dit nieuwe) 
+
 ## Scrum
 `TODO: fotos bijvoegen fysieke scrumboard`  
 `TODO: toevoegen welke tickets ik heb gedaan? moeilijk, kijk naar oude portfolio wat ik heb gedaan`  
