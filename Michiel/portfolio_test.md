@@ -1,103 +1,56 @@
-Last updated: 05-11-2018
+Versie: 12-11-2018
 
-# Personal portfolio  
-Personal portfolio for the minor Applied Data Science at the Hague University of Applied Sciences.  
+`LET OP
+Portfolio moet volgende bevatten (weghalen bij inleverdatum)`
+- 1 file (deze)
+- courses
+- domain knowledge
+- voorspel model
+- Data preparatie
+- Data visualisatie
+- Data collectie
+- Data evaluatie
+- leeproces
+- communicatie en presentaties
 
-Student name: Brian de Keijzer  
-Student number: 16011015
+# Persoonlijke portfolio  
+Persoonlijke portfolio voor de minor Applied Data Science op de Haagse Hogeschool.  
 
-## Introduction
-`TODO: Write a basic introduction about project Opschaler.`  
+Student: Michiel van Soest
+Studentnummer: 15080803
 
-## Jargon
-`TODO: Add more jargon.  `  
-Used jargon for Opschaler is listed below.
-* Dwelling: a unique house.  
-* Smartmeter data: electricity and gas meter data.   
-* gasPower: amount of gas being used at a given time.
-* ePower: amount of electricity being used at a given time.
-* smart: electricity DataFrame of a dwelling.
-* seq2seq: sequence to sequence
-* LSTM: long short-term memory
+## Introductie
+`TODO: Introductie project SHIP schrijven.`
 
-## Online courses
-Onlince courses from both DataCamp and Coursera have been followed for this minor.
+## Woordenlijst
+`TODO: betere naam dan woordenlijst verzinnen`
+`TODO: woorden die specifiek voor SHIP zijn bijvoegen` 
+
+## Courses
+Voor deze minor zijn verschillende courses gevolgd om de benodigde kennis op te doen, namelijk:
 
 ### DataCamp
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/datacamp_michiel.png"> </p>
 
-One of my personal goals is to finish the [Data Scientist with Python](https://www.datacamp.com/tracks/data-scientist-with-python) track on DataCamp. Apart from this I also did some other courses which seemed usefull for project Opschaler. All mandatory courses for the minor have been finished. Screenshots of the completed courses are shown below. Links to the course description including the statement of accomplishment can be seen below the screenshots. 
-
-**Completed courses (not in order)**  
-
-![courses part 1](https://github.com/deKeijzer/KB-74-OPSCHALER/blob/master/Personal_folders/Brian/appendix/datacamp/p1.png)  
-![courses part 2](https://github.com/deKeijzer/KB-74-OPSCHALER/blob/master/Personal_folders/Brian/appendix/datacamp/p2.png)  
-![courses part 3](https://github.com/deKeijzer/KB-74-OPSCHALER/blob/master/Personal_folders/Brian/appendix/datacamp/p3.png)  
-![courses part 4](https://github.com/deKeijzer/KB-74-OPSCHALER/blob/master/Personal_folders/Brian/appendix/datacamp/p4.png) 
-
-`TODO: Add link to a markdown file that contains all certificates.  `  
-
-Press `course description` to see the contents of the course, press `statement of accomplishment` to see the certificate given out by DataCamp upon completing the course.  
-
-**Basic Python**
-* Intro to Python for Data Science: [course description](https://www.datacamp.com/courses/intro-to-python-for-data-science), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/01e115bd07164cd840cc41c7fe831ba08d7dca1a)   
-* Intermediate Python for Data Science Course: [course description](https://www.datacamp.com/courses/intermediate-python-for-data-science), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/246fecb0b112d881f24131944063f3345cbb70d8)  
-
-**Python for Data Science**  
-* Python Data Science Toolbox (Part 1) Course: [course description](https://www.datacamp.com/courses/python-data-science-toolbox-part-1), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/d07e9a26136fd801656e94bd39049247602fbce1)  
-* Python Data Science Toolbox (Part 2) Course: [course description](https://www.datacamp.com/courses/python-data-science-toolbox-part-2), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/f88ff03b0c3bd4f71781cff692a3cbaed61a4be7)  
-
-**Importing data**
-* Importing Data in Python (Part 1) Course: [course description](https://www.datacamp.com/courses/importing-data-in-python-part-1), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/2e6d0dde86e189b3b79328a823104b3937c57b56)  
-* Importing Data in Python (Part 2) Course: [course description](https://www.datacamp.com/courses/importing-data-in-python-part-2), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/824adfac50d7835387dc9509863ec42aef63ee16)  
-
-**Cleaning and transforming data**
-* Cleaning Data in Python Course: [course description](https://www.datacamp.com/courses/cleaning-data-in-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/7a1c78cc670415289136447878822899ac968543)  
-* pandas Foundations Course: [course description](https://www.datacamp.com/courses/pandas-foundations), [](https://www.datacamp.com/statement-of-accomplishment/course/95341cab0c49de075afc345533b945176bb92f41)  
-* Manipulating DataFrames with pandas: [course description](https://www.datacamp.com/courses/manipulating-dataframes-with-pandas), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/24164e462d63070611fc45ff9349836c3f196551)  
-* Merging DataFrames with pandas Course: [course description](https://www.datacamp.com/courses/merging-dataframes-with-pandas), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/673dba72c544df4b977cf6b555d2d6799f81f33e)  
-
-**Databases**
-* Introduction to Databases in Python Course: [course description](https://www.datacamp.com/courses/introduction-to-relational-databases-in-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/bc8bc8a89124619d48d6338aab461c6177825c1d)  
-
-**Data visualisation**
-* Introduction to Data Visualization with Python Course: [course description](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/75b9fd93c583c0c0131106ef05b1a52515ccf0e2)  
-* Interactive Data Visualization with Bokeh Course: [course description](https://www.datacamp.com/courses/interactive-data-visualization-with-bokeh), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/0b559a1d25a6f3b1260f248838d6f968b22ed727)  
-
-**Statistics with Python**
-* Statistical Thinking in Python (Part 1) Course: [course description](https://www.datacamp.com/courses/statistical-thinking-in-python-part-1), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/9f6cd5082511ecb5d6b7c6bf9fd053350d3c13af)  
-* Statistical Thinking in Python (Part 2) Course: [course description](https://www.datacamp.com/courses/statistical-thinking-in-python-part-2), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/14f7db481ac78649805ff20d36355693157f2fce)  
-
-**Machine learning**
-* Supervised Learning with scikit-learn Course: [course description](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/8cf4bedbf7fc5cb2d81cf69a97e634fc818cd7a7)  
-
-* Deep Learning in Python Course: [course description](https://www.datacamp.com/courses/deep-learning-in-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/c90ac629566673ede129fa1e18fd4e42764cc702)   
-
-* Preprocessing for Machine Learning in Python Course: [course description](https://www.datacamp.com/courses/preprocessing-for-machine-learning-in-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/f43c37bfe1b7b90f0d9997ea180470e43c8d0b08)  
-
-**Big data & parallel computing**
-* Parallel Computing with Dask Course: [course description](https://www.datacamp.com/courses/parallel-computing-with-dask), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/2c005dbb8743cd4210165c2326863f2dddc5ded7)  
-
+`TODO: uitleg waarom deze en wat precies gedaan is`  
 
 ### Coursera: Machine Learning by Stanford University
-<p align="center"> <img src="https://github.com/deKeijzer/KB-74-OPSCHALER/blob/master/Personal_folders/Brian/appendix/coursera_progress.png"> </p>
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/coursera_michiel.png"> </p>
 Did not do a lot of Coursera yet, am planning on finishing it within 7 days from now (29-10-2018).
 
 
-## Friday presentations  
-`TODO: dump as PDF`  
+## Vrijdagse presentaties 
+`TODO: presentaties in algemene map als pdf bijvoegen`
+`uitzoeken welke presentaties ik heb gedaan, linkjes bijvoegen naar betreffende presentatie`  
 The weekly Opschaler presentations that I contributed to.
-* [Week 1: made by all group members](https://prezi.com/p/28wycwuqqggc/#present), presented by Megan & Brian. 
-* [Week 4](https://github.com/deKeijzer/KB-74-OPSCHALER/blob/master/appendix/friday%20presentations/21-09-2018.pptx), presented by Victor G. and Brian.
-* [Week 7](https://github.com/deKeijzer/KB-74-OPSCHALER/blob/master/appendix/friday%20presentations/12-10-2018.pptx), presented by Pol and Brian.
-* [Week 10](https://github.com/deKeijzer/KB-74-OPSCHALER/blob/master/appendix/friday%20presentations/9-11-2018.pptx), presented by Pol. Slide 2 up to and including 25 are made by me.
+* [Week X](Link naar de powerpoint!!), Gepresenteerd door ... en Michiel.
 
 
 ## Python notebooks
-`TODO: Only list relevant notebooks that show what has been learned. For example: do not list 5 notebooks for reading in data.`  
-`TODO: Add screenshots of important code & plots to show the learning progress`  
-`TODO: Clean up and run all notebooks show the correct output is shown.`  
-`TODO: Dump final versions of notebooks to pdf and link to those.`  
+`TODO: alle code omzetten naar python notebooks`
+`TODO: uitzoeken waaraan en wat ik heb gedaan in welk notebook`
+`TODO: comments toevoegen in notebook met uitleg`
+`TODO: evt. uitleggen waarom ik bepaalde dingen heb gedaan en hoe`
 All notebooks have been commented, apart from lines where the programming is basic Python (for data science). Besides commenting code, i try to document all changes by committing small changes to GitHub. Doing this helped to document the work being done. However, the amount of commits obviously is no estimate of the quality of the work.  
 
 <p align="center"> <img src="https://github.com/deKeijzer/KB-74-OPSCHALER/blob/master/Personal_folders/Brian/appendix/github_commits_v2.png"> </p>
