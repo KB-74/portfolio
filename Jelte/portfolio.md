@@ -1,4 +1,5 @@
 #Portfolio Data Science
+
 Onderdelen die in het portfolio toegevoegd moeten worden:
 Courses (add screenshots of the online courses you have finished (DataCamp, Coursera, etc))
 * Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
@@ -28,14 +29,21 @@ Courses (add screenshots of the online courses you have finished (DataCamp, Cour
 3.  
 
 ##Domein kennis
-https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
 
+https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+asdfasdf
 
 ##Predictive Models
+asdfasdfasdf
 
 ##Data preparation
 
+asdfasdfasdf
+
 ##Data Visualization
+
+
+asdfasdfasdf
 
 ##Data collection
 
