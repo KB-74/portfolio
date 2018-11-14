@@ -47,9 +47,8 @@ Waar mijn voorkeur naar uit gaat was het project autonomous shipping. Dit leek m
 
 ## Domein kennis
 
-![Datacamp afbeelding](Jelte/bijlage/datacamp_courses.PNG)
+![datacamp_courses](/Jelte/bijlage/datacamp_courses.jpg)
 
-https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
 
 
 ## Predictive Models
@@ -86,7 +85,7 @@ ___
 
 ___
 ### Bijlage
-[1]()
+[1](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
 
 #### Contact
