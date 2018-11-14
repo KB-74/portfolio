@@ -1,4 +1,4 @@
-#Portfolio Data Science
+# Portfolio Data Science
 
 Onderdelen die in het portfolio toegevoegd moeten worden:
 Courses (add screenshots of the online courses you have finished (DataCamp, Coursera, etc))
@@ -28,24 +28,24 @@ Courses (add screenshots of the online courses you have finished (DataCamp, Cour
 2. Introductie
 3.  
 
-##Domein kennis
+## Domein kennis
 
 https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
 asdfasdf
 
-##Predictive Models
+## Predictive Models
 asdfasdfasdf
 
-##Data preparation
-
-asdfasdfasdf
-
-##Data Visualization
-
+## Data preparation
 
 asdfasdfasdf
 
-##Data collection
+## Data Visualization
+
+
+asdfasdfasdf
+
+## Data collection
 
 ##Evaluation
 
