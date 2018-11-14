@@ -1,23 +1,24 @@
 # Portfolio Data Science
 
+|  | |
+| ---: | :--- |
+| Naam:         | Jelte Molenaar    |
+| Groep:        | KB-74 Shipping    |
+| Begeleider:   | Hugo Benne        |
+| Datum:        | 14-11-2018        |
+
+
+
+### Introduction
 Onderdelen die in het portfolio toegevoegd moeten worden:
-Courses (add screenshots of the online courses you have finished (DataCamp, Coursera, etc))
-* Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
-* Predictive Models
-* Data preparation
-* Data Visualization
-* Data collection
-* Evaluation
-* Diagnostics of the learning process
-* 
 
 In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
 
-|Onderdeel|Link| Afgerond | 
+|Beoordeling|Link| Afgerond | 
 |------|:------:| ---- |
 |Introductie |  | ✓ | 
 |Domein Knoledge | [Domein kennis](portfolio.md#domein-kennis) | |
-|Predictive Models|  | |
+|Predictive Models| [Voorspellingsmodel]() | |
 |Data Preparation|  | | 
 |Data Visualization|  | | 
 |Data collection| |
@@ -25,6 +26,17 @@ In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
 |Diagnostics of the learning process | |
 | Communication (presentations, summaries, paper, ...)
 (introductie) | | 
+
+## Projectkeuze: SHIP
+> hier staat kort beschreven waarom ik voor deze minor gekozen heb 
+>
+Aan het begin van week 1 werden we genoodzaakt een keuze te maken uit een zes tal verschillende projecten. Het project
+Waar mijn voorkeur naar uit gaat was het project autonomous shipping. Dit leek mij erg uitdagend om de volgende redenen:
+- Meest passend bij mijn studie (werktuigbouwkunde).
+- Mijn intresse in scheepsvaart
+- Opdracht waarbij er veel contact is met de project owner [Port of Rotterdam](https://www.portofrotterdam.com/nl)
+- Samenwerking met consultant [CGI](https://www.cginederland.nl/)
+
 > tabel ... Beordelings onderdelen portfolio data science
 >
 
@@ -36,10 +48,10 @@ In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
 ## Domein kennis
 
 https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
-asdfasdf
+
 
 ## Predictive Models
-asdfasdfasdf
+
 
 ___
 
@@ -54,17 +66,26 @@ ___
 
 ___
 
-asdfasdfasdf
+
 
 ___
 ## Data collection
 
 ___
-##Evaluation
+## Evaluation
 
 
 ___
-##Diagnostics of the learning process
+## Diagnostics of the learning process
 
 ___
-##Communication (presentations, summaries, papers, ...)
+## Communication (presentations, summaries, papers, ...)
+
+
+___
+## 
+
+#### Contact
+
+- [Student email](15084302student.hhs.nl)
+- [LinkedIn](https://www.linkedin.com/in/jeltemolenaar/) 
