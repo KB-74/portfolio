@@ -33,7 +33,7 @@ In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
 Aan het begin van week 1 werden we genoodzaakt een keuze te maken uit een zes tal verschillende projecten. Het project
 Waar mijn voorkeur naar uit gaat was het project autonomous shipping. Dit leek mij erg uitdagend om de volgende redenen:
 - Meest passend bij mijn studie (werktuigbouwkunde).
-- Mijn intresse in scheepsvaart
+- Mijn intressen in scheepvaart
 - Opdracht waarbij er veel contact is met de project owner [Port of Rotterdam](https://www.portofrotterdam.com/nl)
 - Samenwerking met consultant [CGI](https://www.cginederland.nl/)
 
@@ -46,6 +46,8 @@ Waar mijn voorkeur naar uit gaat was het project autonomous shipping. Dit leek m
 3.  
 
 ## Domein kennis
+
+![Datacamp afbeelding](Jelte/bijlage/datacamp_courses.PNG)
 
 https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
 
@@ -83,7 +85,9 @@ ___
 
 
 ___
-## 
+### Bijlage
+[1]()
+
 
 #### Contact
 
