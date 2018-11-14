@@ -9,19 +9,24 @@ Courses (add screenshots of the online courses you have finished (DataCamp, Cour
 * Data collection
 * Evaluation
 * Diagnostics of the learning process
-* Communication (presentations, summaries, paper, ...)
-(introductie)
+* 
 
-|Onderdeel|Afgerond| Datum | 
+In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
+
+|Onderdeel|Link| Afgerond | 
 |------|:------:| ---- |
-|Introductie | [Domein kennis](##Domein kennis) | ✓ | 
-|Domein Knoledge |  | |
+|Introductie |  | ✓ | 
+|Domein Knoledge | [Domein kennis](portfolio.md#domein-kennis) | |
 |Predictive Models|  | |
 |Data Preparation|  | | 
-|Data Visualization| ✓ | | 
+|Data Visualization|  | | 
 |Data collection| |
-|Evaluation| ✓ | | 
+|Evaluation|  | | 
 |Diagnostics of the learning process | |
+| Communication (presentations, summaries, paper, ...)
+(introductie) | | 
+> tabel ... Beordelings onderdelen portfolio data science
+>
 
 
 1. Spelling controlen
@@ -36,19 +41,30 @@ asdfasdf
 ## Predictive Models
 asdfasdfasdf
 
+___
+
 ## Data preparation
 
-asdfasdfasdf
+
+Onderzoek HSV RGB.
+
+___
 
 ## Data Visualization
 
+___
 
 asdfasdfasdf
 
+___
 ## Data collection
 
+___
 ##Evaluation
 
+
+___
 ##Diagnostics of the learning process
 
+___
 ##Communication (presentations, summaries, papers, ...)
