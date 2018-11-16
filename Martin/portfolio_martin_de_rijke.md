@@ -36,13 +36,19 @@ Op DataCamp heb ik meer courses afgemaakt dan vereist.
 Tentamen gehaald.
 
 # Predictive Models
-Wall labeler bedacht en meegewerkt aan onderdelen ervan.
+Ons algoritme zoals beschreven in de paper. (Land/water algoritme) is op conceptueel niveau door mij bedacht. Daarna is hij als groep uitgewerkt. Zelf heb ik ook aan delen meegewerkt.
+Ik heb besloten om in dit portfolio alleen het deel op te nemen, die het moeilijkst was. Op het einde heb ik samen met Job Kenny Edge detection toegevoegd op de plekken waar het algoritme de scheiding tussen land en water herkent had.
+Hieronder twee afbeeldingen die dat duidelijk maken. 
 
 # Data preparation
-Afbeeldingen ingeladen en getest of we RGB, Black and White of iets anders moeten gebruiken.
+Naast het algoritme dat de scheiding tussen het water en het land herkent, hebben Michiel en ik ook een stukje code ontwikkeld waarmee we handmatig frames kunnen labelen.
+Dat kunnen we gebruiken om de niet juist gelabelde data die uit het algoritme voortkomt te labelen. 
 
 # Data Visualization
-
+In het begin stadium van het project heb ik de ontvangen frames van Port of Rotterdam gevisualiseerd en ermee getest. 
+De eerste vraag die we hadden was of we gebruik gingen maken van Zwart/Wit, RGB of iets anders. 
+Ik heb de frames met een programma gevisualiseerd en getest. Ik kwam erachter dat zwart/wit niet werkte aangezien er soms boten waren of andere objecten op het water die een bijna dezelfde zwart/wit waarde hadden.
+RGB werkte in die gevallen wel en dus is er besloten om daarmee te beginnen.
 
 # Data collection
 Naast het algoritme dat de scheiding tussen het water en het land herkent, hebben Michiel en ik ook een stukje code ontwikkeld waarmee we handmatig frames kunnen labelen.
