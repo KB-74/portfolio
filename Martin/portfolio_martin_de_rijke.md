@@ -7,11 +7,13 @@ Studentnummer: 18098568
 
 Group: SHIP2018
 
+Groepsleden: Job Vink, Michiel van Soest, Jelte Molenaar en Jasper Vlaar
+
 Teacher: Hugo Benne
 
 
 
-#Introductie
+#Reading Guide
 In dit portfolio zijn de resultaten beschreven die behaald zijn door mijzelf binnen het SHIP project. 
 Het doel is om een duidelijke weergave te geven van hetgene dat ik geleerd heb binnen Data Science. 
 Dankzij die reden is dit portfolio ook opgedeeld in een structuur die de verschillende belangrijke aspecten van Data Science weergeeft. 
@@ -24,17 +26,32 @@ Wanneer dat het geval was heb ik iets anders gedaan om te laten zien dat ik ook 
 # Courses
 Binnen de minor waren er twee courses verplicht. De Machine Learning course van Coursera week 1-3 + 6 en een aantal Python courses op DataCamp. 
 
-###Coursera Course
+### Coursera Course
 Binnen deze course heb ik de benodigde vier weken afgerond. Hieronder het bewijs daarvan.
 
-###DataCamp
+### DataCamp
 Op DataCamp heb ik meer courses afgemaakt dan vereist. 
 
 # Domain Knowledge
+Tentamen gehaald.
+
 # Predictive Models
+Wall labeler bedacht en meegewerkt aan onderdelen ervan.
+
 # Data preparation
+Afbeeldingen ingeladen en getest of we RGB, Black and White of iets anders moeten gebruiken.
+
 # Data Visualization
+
+
 # Data collection
+Naast het algoritme dat de scheiding tussen het water en het land herkent, hebben Michiel en ik ook een stukje code ontwikkeld waarmee we handmatig frames kunnen labelen.
+Dat kunnen we gebruiken om de niet juist gelabelde data die uit het algoritme voortkomt te labelen. 
+
 # Evaluation
+Samen met Michiel heb ik een tool ontwikkeld waarmee de gelabelde data die uit het land/water herkennings algoritme komt geverifieerd kan worden. De gelabelde frames worden 1 voor 1 ingeladen en als een frame goed is kan de gebruiker op Y klikken en als hij niet goed is op N. Zo wordt de correct gelabelde data gefilterd voor het neurale netwerk en kan de niet correct gelabelde data handmatig correct gelabeld worden. Zo kan er gelijk onderzocht worden welk % van het totaal aantal frames correct gelabeld zijn door het algoritme. 
+
+ 
+
 # Diagnostics of the learning process
 # Communication (presentations, summaries, paper, ...)
