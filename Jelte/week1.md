@@ -10,7 +10,6 @@ richting van programmeren.
 
 De minor Applied Data Science lijkt me een uitdagende manier om zelf te leren programmeren en daarnaast kennis 
 op te doen van programmeren in een groep.
- 
 
 ## Projectkeuze: SHIP
 Aan het begin van week 1 werden we genoodzaakt een keuze te maken uit een zes tal verschillende projecten. Het project
