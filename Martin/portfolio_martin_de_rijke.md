@@ -29,8 +29,10 @@ Binnen de minor waren er twee courses verplicht. De Machine Learning course van 
 ### Coursera Course
 Binnen deze course heb ik de benodigde vier weken afgerond. Hieronder het bewijs daarvan.
 
-<img src="resources/coursera.png">
+<img src="resources/coursera.png" alt="vervormd beeld" width="400">
 afbeelding 2: (vervormd beeld)
+
+![alt text](Martin/resources/coursera.png)
 
 
 ### DataCamp
