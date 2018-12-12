@@ -36,6 +36,7 @@ afbeelding 1: (Bewijs afronding week 1-3 + 6 Coursera)
 ### DataCamp
 Op DataCamp heb ik meer courses afgemaakt dan vereist. 
 
+<img src="resources/datacamp6.png" alt="datacamp6" width="700">
 <img src="resources/datacamp1.png" alt="datacamp1" width="700">
 <img src="resources/datacamp2.png" alt="datacamp2" width="700">
 <img src="resources/datacamp3.png" alt="datacamp3" width="700">
