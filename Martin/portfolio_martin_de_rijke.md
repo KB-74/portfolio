@@ -32,8 +32,6 @@ Binnen deze course heb ik de benodigde vier weken afgerond. Hieronder het bewijs
 <img src="resources/coursera.png" alt="vervormd beeld" width="400">
 afbeelding 2: (vervormd beeld)
 
-![alt text](Martin/resources/coursera.png)
-
 
 ### DataCamp
 Op DataCamp heb ik meer courses afgemaakt dan vereist. 
