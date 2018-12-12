@@ -27,14 +27,18 @@ Wanneer dat het geval was heb ik iets anders gedaan om te laten zien dat ik ook 
 Binnen de minor waren er twee courses verplicht. De Machine Learning course van Coursera week 1-3 + 6 en een aantal Python courses op DataCamp. 
 
 ### Coursera Course
-Binnen deze course heb ik de benodigde vier weken afgerond. Hieronder het bewijs daarvan.
+Coursera is een online platform dat courses aanbiedt. Voor de minor waren de studenten verplicht om deel te nemen aan de machine learning course.
+Uiteraard heb ik dat ook gedaan en week 1-3 en 6 succesvol afgerond. In afbeelding 1 is het bewijs daarvan terug te vinden. 
 
 <img src="resources/coursera.png" alt="coursera" width="700">
 afbeelding 1: (Bewijs afronding week 1-3 + 6 Coursera)
 
 
 ### DataCamp
-Op DataCamp heb ik meer courses afgemaakt dan vereist. 
+Datacamp is een platform waarop programmeren op een interactieve manier kan worden aangeleerd.
+Ik heb het gebruikt om Python te leren. Er was een speciale omgeving ingericht genaamd de 'Data Scientist Track'.
+Vanuit de minor waren niet alle onderdelen verplicht. Uiteindelijk heb ik 13 weken afgerond. Een stuk meer dan vereist voor het afsluiten van de minor.
+In afbeelding 2 het bewijs daarvan. 
 
 <img src="resources/datacamp6.png" alt="datacamp6" width="700">
 <img src="resources/datacamp1.png" alt="datacamp1" width="700">
