@@ -67,7 +67,7 @@ algoritme mee te evalueren.
 Ik heb een deel van de code om het algoritme te evalueren opgenomen in een jupyter notebook.
 
 De notebook bekijkt het volgende voorbeeld:
-<img src="resources/example_data/example.png" alt="Voorbeeld">
+<img src="resources/example_data/example.png" alt="Voorbeeld frame">
 En geeft de volgende output:
 ```
 True Positives:     2037054
