@@ -29,8 +29,20 @@ Binnen de minor waren er twee courses verplicht. De Machine Learning course van 
 ### Coursera Course
 Binnen deze course heb ik de benodigde vier weken afgerond. Hieronder het bewijs daarvan.
 
+<img src="resources/coursera.png" alt="coursera" width="700">
+afbeelding 1: (Bewijs afronding week 1-3 + 6 Coursera)
+
+
 ### DataCamp
 Op DataCamp heb ik meer courses afgemaakt dan vereist. 
+
+<img src="resources/datacamp6.png" alt="datacamp6" width="700">
+<img src="resources/datacamp1.png" alt="datacamp1" width="700">
+<img src="resources/datacamp2.png" alt="datacamp2" width="700">
+<img src="resources/datacamp3.png" alt="datacamp3" width="700">
+<img src="resources/datacamp4.png" alt="datacamp4" width="700">
+<img src="resources/datacamp5.png" alt="datacamp5" width="700">
+afbeelding 2: (DataCamp All Courses Completed)
 
 # Domain Knowledge
 Tentamen gehaald.
