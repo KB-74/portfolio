@@ -27,25 +27,40 @@ Wij (Groep SHIP) werken namens de HHS aan beeldherkenning van verscheidene dinge
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/rpa3.jpg"> </p>
 
 # Courses
-Om bovenstaande algoritmen en software te kunnen ontwikkelen heb ik voor zover mogelijk de nodige kennis opgedaan met Datacamp en Coursera.
-<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/datacamp_michiel.png"> </p>
+Om bovenstaande algoritmen en software te kunnen ontwikkelen heb ik voor zover mogelijk de nodige kennis opgedaan met Datacamp en Coursera. Op onderstaande afbeeldingen is te zien welke courses ik precies heb afgerond.  
+
+<b>Datacamp</b>
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/datacamp_michiel.png"> </p>  
+<b>Coursera</b>
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/coursera_michiel.png"> </p>
 
-`TODO: uitleg waarom deze en wat precies gedaan is`
-
 # Domain Knowledge
+`Welke features zijn belangrijk bij onze algoritmen?`
 
 # Predictive Models
+`??`
 
 # Data preparation
+`picture processing notebook`
+`frame checker`
+`wall labeler`
 
 # Data Visualization
+`picture processing notebook`
+`frame checker`
+`wall labeler`
 
 # Data collection
+`video extraction`
+`picture processing notebook`
 
 # Evaluation
+`picture processing notebook`
+`frame checker`
+en filmpjes
 
 # Diagnostics of the learning process
+`verhaaltje?`
 
 # Communication (presentations, summaries, paper, ...)
 ## presentaties 
