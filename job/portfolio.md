@@ -1,12 +1,11 @@
-# Courses
 # Domain Knowledge
 # Predictive Models
-# Data preparation
-# Data Visualization
 # Data collection
-# Evaluation
 # Diagnostics of the learning process
 # Communication (presentations, summaries, paper, ...)
+
+# Courses
+
 
 # Kade herkenning
 Een van de doelen van dit project is om op camera beelden te herkennen waar gevaren kan worden en waar zich de kade bevind.
@@ -68,7 +67,7 @@ algoritme mee te evalueren.
 Ik heb een deel van de code om het algoritme te evalueren opgenomen in een jupyter notebook.
 
 De notebook bekijkt het volgende voorbeeld:
-![Voorbeeld](resources/example_data/example.png)
+<img src="resources/example_data/example.png" alt="Voorbeeld">
 En geeft de volgende output:
 ```
 True Positives:     2037054
@@ -79,5 +78,5 @@ True Negatives:     4127079
 De notebook output een confucion matrix van een bepaalde frame. Om ons algoritme goed te evalueren hebben we het script 
 gedraait over allen 250 frames
 
-
+# Data Visualization
 
