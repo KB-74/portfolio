@@ -65,14 +65,19 @@ door te kijken hoeveel pixels goed zijn geindenitficeerd als water en hoeveel pi
 Hiervoor hebben we wel een aantal frames nodig, we hebben er voor gekozen om 250 frames zelf handmatig te labelen om ons
 algoritme mee te evalueren.
 
-Het script waarmee we de output verglijken met de gelablede data heb ik opgenomen in een notebook.
+Ik heb een deel van de code om het algoritme te evalueren opgenomen in een jupyter notebook.
 
-De uitkomst van het algoritme was als volgt:
+De notebook bekijkt het volgende voorbeeld:
+![Voorbeeld](resources/example_data/example.png)
+En geeft de volgende output:
 ```
-evaluation matrix:
+True Positives:     2037054
+False Positives:    56664
+False Negatives:    3
+True Negatives:     4127079
+```
+De notebook output een confucion matrix van een bepaalde frame. Om ons algoritme goed te evalueren hebben we het script 
+gedraait over allen 250 frames
 
-precision:
-recall:
-```
 
 
