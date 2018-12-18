@@ -15,6 +15,16 @@ Student: <b>Michiel van Soest</b>
 Studentnummer: <b>15080803</b>
 
 # Inhoudsopgave
+* [Courses](Courses)   
+
+
+
+### Notebooks
+* [frame_checker](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb) 
+* [picture_processing](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb) 
+* [wall_labeler](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/wall_labeler.ipynb) 
+* [Xe](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/Xe.ipynb)
+* [Y](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/Y.ipynb)   
 `linkjes naar elke paragraaf en notebook`
 
 # Shipping "Floating Lab"
