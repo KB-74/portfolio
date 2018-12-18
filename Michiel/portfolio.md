@@ -12,12 +12,21 @@ Add any other assignment you feel is evidence of your abilities`
 Persoonlijke portfolio voor de minor Applied Data Science op de Haagse Hogeschool.  
 
 Student: <b>Michiel van Soest</b>  
-Studentnummer: <b>15080803</b>
+Studentnummer: <b>15080803</b>  
+Groep: <b>SHIP</b>  
+Opdrachtgever: <b>Port of Rotterdam</b>  
 
 # Inhoudsopgave
-* [Courses](Courses)   
-
-
+* [Shipping "Floating Lab"](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#shipping-floating-lab)  
+* [Courses](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#courses) 
+* [Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#domain-knowledge) 
+* [Predictive models](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#predictive-models) 
+* [Data preperation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-preparation) 
+* [Data visialization](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-visualization) 
+* [Data collection](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-collection) 
+* [Evaluation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#evaluation) 
+* [Diagnostics of the learning process](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#diagnostics-of-the-learning-process) 
+* [Communication](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#communication-presentations-summaries-paper-) 
 
 ### Notebooks
 * [frame_checker](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb) 
