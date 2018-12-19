@@ -8,7 +8,7 @@
 
 
 
-### Introduction
+## Introductie
 Onderdelen die in het portfolio toegevoegd moeten worden:
 
 In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
@@ -23,25 +23,27 @@ In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
 |Data collection| |
 |Evaluation|  | | 
 |Diagnostics of the learning process | |
-| Communication (presentations, summaries, paper, ...)
-(introductie) | | 
+|Communication (presentations, summaries, paper, ...)
 > tabel ... Beordelings onderdelen portfolio data science
 >
 1. Spelling controlen
 2. Introductie
 3.  
 
-## Projectkeuze: SHIP
+#### Projectkeuze: SHIP
 > hier staat kort beschreven waarom ik voor deze minor gekozen heb 
 >
 Aan het begin van week 1 werden we genoodzaakt een keuze te maken uit een zes tal verschillende projecten. Het project
 Waar mijn voorkeur naar uit gaat was het project autonomous shipping. Dit leek mij erg uitdagend om de volgende redenen:
 - Meest passend bij mijn studie (werktuigbouwkunde).
-- Mijn intressen in scheepvaart
+- Mijn interesses in scheepvaart
 - Opdracht waarbij er veel contact is met de project owner [Port of Rotterdam](https://www.portofrotterdam.com/nl)
 - Samenwerking met consultant [CGI](https://www.cginederland.nl/)
 
 ## Domein kennis
+Voorafgaand aan het de minor had ik geen ervaring met programmeren in python. Om de kennis op te doen die nodig was voor 
+het project heb ik een aantal  coursers gevolgd. Deze coursers werden door de Haagse hogeschool aangeboden 
+   
 
 ###DataCamp
 
@@ -63,9 +65,11 @@ Waar mijn voorkeur naar uit gaat was het project autonomous shipping. Dit leek m
 | Statistical Thinking in Python (Part 1) | 6 |
 | Supervised Learning with scikit-learn | 6 |
 
+<p align="left"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/datacamp_courses.jpg"> </p>
 
+> behaalde courses op datacamp
 
-####Coursera
+#### Coursera
 Om kennis op te doen voor het maken van Algorithmes zijn er online courses beschikbaar op Coursera. 
 
 In week drie is een start gemaakt aan de online machine learning course bij Standford Universty. [course](https://www.coursera.org/learn/machine-learning)
@@ -81,32 +85,33 @@ De volgende weken waren
 
 ## Predictive Models
 voor onderzoek NN + bouwen van NN
+pixel_walker_v2
 
 ___
 
 ## Data preparation
-
-
+picture_processing
 Onderzoek HSV RGB.
-label tool
+
 ___
 
 ## Data Visualization
 grafiek plotten
+picture_processing visualization pictures
 ___
 
 
 
 ___
 ## Data collection
+Labelen in photoshop handmatig
 
 
 ___
-## Evaluation
-
+## Evaluation and Diagnostics
+verwijzing naar samenvatting van tentame
 
 ___
-## Diagnostics of the learning process
 
 ___
 ## Communication (presentations, summaries, papers, ...)
