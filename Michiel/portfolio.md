@@ -92,9 +92,6 @@ Aanpassingen die uitgevoerd zijn, zijn:
 |mirrored image| [1]|
 
 Bijghorende masks worden in deze notebook ook automatisch met bijbehorend framenummer meegekopieerd/ aangepast.
-`picture processing notebook`
-`frame checker`
-`wall labeler`
 
 # Data Visualization
 `picture processing notebook`
