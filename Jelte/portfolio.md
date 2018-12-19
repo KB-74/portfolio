@@ -31,7 +31,7 @@ In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
 #### Opdracht omschrijving
 > kleine beschrijving wat de opdracht inhoud + toevoegen foto van de RPA
 s
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/bootje.gif" width="40" height="40" />
 
 #### Projectkeuze: SHIPPING
 Aan het begin van week 1 werden we genoodzaakt een keuze te maken uit een zes tal verschillende projecten. Het project
