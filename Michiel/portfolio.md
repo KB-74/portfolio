@@ -57,9 +57,21 @@ Om bovenstaande algoritmen en software te kunnen ontwikkelen heb ik voor zover m
 `Welke features zijn belangrijk bij onze algoritmen?`
 
 # Predictive Models
-`??`
+`?? ons huidige algoritme beschijven?`
 
 # Data preparation
+De data die we in eerste instantie ontvangen hebben, bestaat uit een .avi videobestand met de output van een van de voorwaards gerichte camera's(camera 3).  
+Om de data te kunnen gebruiken hebben we als eerste elk frame in de video met gebruik van opencv geëxporteerd als png. hiervan hebben we 250 willekeurige frames met een script gekozen en hernoemd tot frame 1 t/m 250 (het originele framenummer en welke daaraan gekoppeld is, is opgeslagen in een .json bestand).
+
+We hebben gekozen om het water te labelen d.m.v. een mask met zwart en witte pixels. We hebben expliciet niet gekozen voor het labelen van objecten, gezien de al bestaande modellen omtrent objectdetectie (vb. Yolov3) niet  zomaar kunnen worden gesplit, en er niet genoeg data beschikbaar was gesteld om de beschikbare modellen te trainen.  
+
+Om deze data te labelen heb ik een "framechecker" gemaakt. Deze vergelijkt de automatisch gelabelde data (gelabeld door ons bestaande algoritme voorland/water herkenning) met de bijpassende frame, door deze over elkaar heen te leggen.
+[Frame checker](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb)
+
+Vervolgens moest deze data gelabeld worden. Er is i.v.m.   
+
+[Picture Processing notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb)
+
 `picture processing notebook`
 `frame checker`
 `wall labeler`
