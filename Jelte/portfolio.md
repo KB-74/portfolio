@@ -29,9 +29,12 @@ In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
 
 ## Introduction
 #### Opdracht omschrijving
-> kleine beschrijving wat de opdracht inhoud + toevoegen foto van de RPA
-s
+
+ `Beschrijving van de opdracht toevoegen`
+ 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/bootje.gif" width="480" height="270" /> </p>
+
+> RPA 3, Smart Ship van Port Of Rotterdam. 
 
 #### Projectkeuze: SHIPPING
 Aan het begin van week 1 werden we genoodzaakt een keuze te maken uit een zes tal verschillende projecten. Het project
@@ -51,7 +54,8 @@ met behulp van datacamp heb ik mijn domein kennis op het gebied van programmeren
 In figuur 1 staat een screenshot van alle courses die ik in de eerste weken van de minor heb gevolgd. 
 
 
-<p align="left"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/datacamp_courses.jpg"> </p>
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/datacamp_courses.jpg" 
+ width="480" height="270"</p>
 
 > Screenshot afgeronden courses Datacamp (08-11-2018)
 
