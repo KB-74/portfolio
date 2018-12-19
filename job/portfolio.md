@@ -1,12 +1,11 @@
-# Courses
 # Domain Knowledge
 # Predictive Models
-# Data preparation
-# Data Visualization
 # Data collection
-# Evaluation
 # Diagnostics of the learning process
 # Communication (presentations, summaries, paper, ...)
+
+# Courses
+
 
 # Kade herkenning
 Een van de doelen van dit project is om op camera beelden te herkennen waar gevaren kan worden en waar zich de kade bevind.
@@ -65,14 +64,19 @@ door te kijken hoeveel pixels goed zijn geindenitficeerd als water en hoeveel pi
 Hiervoor hebben we wel een aantal frames nodig, we hebben er voor gekozen om 250 frames zelf handmatig te labelen om ons
 algoritme mee te evalueren.
 
-Het script waarmee we de output verglijken met de gelablede data heb ik opgenomen in een notebook.
+Ik heb een deel van de code om het algoritme te evalueren opgenomen in een jupyter notebook.
 
-De uitkomst van het algoritme was als volgt:
+De notebook bekijkt het volgende voorbeeld:
+<img src="resources/example_data/example.png" alt="Voorbeeld frame">
+En geeft de volgende output:
 ```
-evaluation matrix:
-
-precision:
-recall:
+True Positives:     2037054
+False Positives:    56664
+False Negatives:    3
+True Negatives:     4127079
 ```
+De notebook output een confucion matrix van een bepaalde frame. Om ons algoritme goed te evalueren hebben we het script 
+gedraait over allen 250 frames
 
+# Data Visualization
 
