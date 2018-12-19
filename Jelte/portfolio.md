@@ -57,7 +57,7 @@ In figuur 1 staat een screenshot van alle courses die ik in de eerste weken van 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/datacamp_courses.jpg" 
  width="480" height="270"</p>
 
-> Screenshot afgeronden courses Datacamp (08-11-2018)
+<p align="center"> > Screenshot afgeronden courses Datacamp (08-11-2018) </p>
 
 #### Coursera
 Om kennis op te doen voor het maken van machine learning ben ik de online courses gevolgd die op coursera beschikbaar 
