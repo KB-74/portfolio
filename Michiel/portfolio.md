@@ -11,12 +11,16 @@ Add any other assignment you feel is evidence of your abilities`
 # Persoonlijke portfolio
 Persoonlijke portfolio voor de minor Applied Data Science op de Haagse Hogeschool.  
 
-Student: <b>Michiel van Soest</b>  
-Studentnummer: <b>15080803</b>  
-Groep: <b>SHIP</b>  
-Opdrachtgever: <b>Port of Rotterdam</b>  
+|  | |
+| ---: | :--- |
+|Student:| <b>Michiel van Soest</b>|
+|Studentnummer:| <b>15080803</b>|
+|Groep:| <b>KB-74 Shipping</b>|
+|Opdrachtgever:| <b>Port of Rotterdam</b>|
 
 # Inhoudsopgave
+
+
 * [Shipping "Floating Lab"](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#shipping-floating-lab)  
 * [Courses](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#courses) 
 * [Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#domain-knowledge) 
@@ -35,7 +39,7 @@ Opdrachtgever: <b>Port of Rotterdam</b>
 * [Xe](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/Xe.ipynb)
 * [Y](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/Y.ipynb)   
 `linkjes naar elke paragraaf en notebook`
-
+___
 # Shipping "Floating Lab"
 `TODO: Introductie project SHIP schrijven.`  
 Floating Lab is een samenwerkingsverband van verscheidene partijen, zoals Port of Rotterdam (PoR), CGI en de Haagse Hogeschool (HHS). PoR biedt de RPA3 (boot uitgerust met camera's en overige sensoren) ter beschikking aan de andere partijen om algoritmen en software te ontwikkelen om autonoom varen mogelijk te maken.  
@@ -65,13 +69,29 @@ Om de data te kunnen gebruiken hebben we als eerste elk frame in de video met ge
 
 We hebben gekozen om het water te labelen d.m.v. een mask met zwart en witte pixels. We hebben expliciet niet gekozen voor het labelen van objecten, gezien de al bestaande modellen omtrent objectdetectie (vb. Yolov3) niet  zomaar kunnen worden gesplit, en er niet genoeg data beschikbaar was gesteld om de beschikbare modellen te trainen.  
 
-Om deze data te labelen heb ik een "framechecker" gemaakt. Deze vergelijkt de automatisch gelabelde data (gelabeld door ons bestaande algoritme voorland/water herkenning) met de bijpassende frame, door deze over elkaar heen te leggen.
-[Frame checker](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb)
+Om deze data te labelen heb ik een "framechecker" gemaakt. Deze vergelijkt de automatisch gelabelde data (gelabeld door ons bestaande algoritme voorland/water herkenning) met de bijpassende frame, door deze over elkaar heen te leggen.  
+[Frame checker notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb)  
+Door gebruik te maken van deze framechecker kan de goed gelabelde data gesplitst worden van de juist gelabelde data.  
 
-Vervolgens moest deze data gelabeld worden. Er is i.v.m.   
 
+De verkeerd gelabelde data kon daarna correct gelabeld worden met een tooltje dat lijkt op de hiervoor getoonde Frame Checker.  
+[Wall labeler notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/wall_labeler.ipynb)  
+Halverwege is echter gekozen om Photoshop te gebruikenm gezien de magnet-lasso tool hier beter geschikt voor is.
+
+De 250 gelabelde frames waren naar ons inzicht echter niet genoeg. Om deze reden, en om verschillende situaties na te bootsen welke niet in onze dataset voorkomen, hebben we verschillende aanpassingen gedaan op de frames. Hoe dit gedaan is, is te zien in de picture processing notebook.  
 [Picture Processing notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb)
 
+Aanpassingen die uitgevoerd zijn, zijn:  
+
+|  | |
+| :--- | :--- |
+|brightness| [0.3,1.4]|        # [0.4,0.5,0.6,0.7,0.8,0.9,1.1,1.2,1.3,1.4]
+|contrast| [0.3,1.4]|        # [0.4,0.5,0.6,0.7,0.8,0.9,1.0,1.2,1.3,1.4]
+|sharpness| [5.0,20.0]|        # [5.0, 10.0, 15.0, 20.0]
+|color| [0.0,10.0]|            # [0.0, 3.0, 6.0, 10.0]
+|mirrored image| [1]|
+
+Bijghorende masks worden in deze notebook ook automatisch met bijbehorend framenummer meegekopieerd/ aangepast.
 `picture processing notebook`
 `frame checker`
 `wall labeler`
