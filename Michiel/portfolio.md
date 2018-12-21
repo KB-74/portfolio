@@ -58,6 +58,8 @@ Om bovenstaande algoritmen en software te kunnen ontwikkelen heb ik voor zover m
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/coursera_michiel.png"> </p>
 
 # Domain Knowledge
+Voorafgaand aan dit project had ik zeer beperkte programeer ervaring. Deze kennis heb ik aangescherpt a.d.h.v. de aangeboden [Courses](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#courses).  
+
 `Welke features zijn belangrijk bij onze algoritmen?`
 
 # Predictive Models
@@ -114,10 +116,16 @@ en filmpjes
 ## presentaties 
 `TODO: presentaties in algemene map als pdf bijvoegen`
 `uitzoeken welke presentaties ik heb gedaan, linkjes bijvoegen naar betreffende presentatie`  
-* [Week 2](Link naar de powerpoint!!), Gepresenteerd door ... en Michiel.
-* [Week X](Link naar de powerpoint!!), Gepresenteerd door ... en Michiel.
-* [Week X](Link naar de powerpoint!!), Gepresenteerd door ... en Michiel.
-* [Week X](Link naar de powerpoint!!), Gepresenteerd door ... en Michiel.
+* [Week 3](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_3.pptx), Gepresenteerd door ... en Michiel.
+* [Week 4](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_4.pptx), Gepresenteerd door ... en Michiel.
+* [Week 5](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_5.pptx), Gepresenteerd door ... en Michiel.
+* [Week 6](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_6.pptx), Gepresenteerd door ... en Michiel.
+* [Week 7](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_7.pptx), Gepresenteerd door ... en Michiel.
+* [Week 8](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_8.pptx), Gepresenteerd door ... en Michiel.
+* [Week 12](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_12.pptx), Gepresenteerd door ... en Michiel.
+* [Week 13](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_13.pptx), Gepresenteerd door ... en Michiel.
+
+
 
 
 # Kade herkenning
