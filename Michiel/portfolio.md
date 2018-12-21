@@ -91,7 +91,7 @@ Aanpassingen die uitgevoerd zijn, zijn:
 |color| [0.0,10.0]|            # [0.0, 3.0, 6.0, 10.0]
 |mirrored image| [1]|
 
-Bijghorende masks worden in deze notebook ook automatisch met bijbehorend framenummer meegekopieerd/ aangepast.
+Bijbehorende masks worden in deze notebook ook automatisch met bijbehorend framenummer meegekopieerd/ aangepast.
 
 # Data Visualization
 `picture processing notebook`
@@ -114,7 +114,7 @@ en filmpjes
 ## presentaties 
 `TODO: presentaties in algemene map als pdf bijvoegen`
 `uitzoeken welke presentaties ik heb gedaan, linkjes bijvoegen naar betreffende presentatie`  
-* [Week X](Link naar de powerpoint!!), Gepresenteerd door ... en Michiel.
+* [Week 2](Link naar de powerpoint!!), Gepresenteerd door ... en Michiel.
 * [Week X](Link naar de powerpoint!!), Gepresenteerd door ... en Michiel.
 * [Week X](Link naar de powerpoint!!), Gepresenteerd door ... en Michiel.
 * [Week X](Link naar de powerpoint!!), Gepresenteerd door ... en Michiel.
