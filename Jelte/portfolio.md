@@ -7,11 +7,11 @@
 | Datum:        | 14-11-2018        |
 
 ## Inleiding
-
+Dit portfolio is tijdens de minor Data science idendivudeel opgesteld. en toond de bijdragen voor het project, de capaciteiten en
+datgeen dat tijdens de minor geleerd is. 
 
 ## Inhoudsopgave
 In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
-
 
 |Beoordeling        |Link           | Afgerond | 
 |------             |:------| ---- |
@@ -19,15 +19,16 @@ In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
 |Domein Knoledge    | [Domein kennis](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#domein-kennis)           | |
 |Predictive Models  | [Predictive Models](https://github.com/KB-74/portfolio/blob/master/Jelte/protfolio.md#predictive-models)   | |
 |Data Preparation   |  | | 
-|Data Visualization |  | | 
+|Data Visualization | [Visualization](https://github.com/KB-74/portfolio/blob/master/Jelte/protfolio.md#Data-Visualization) | | 
 |Data collection    | |
-|Evaluation|        | | 
+|Evaluation         | | 
 |Diagnostics of the learning process | |
 |Communication (presentations, summaries, paper, ...)
 > Hoofdstuk en Beordelings indeling portfolio
 
 
-## Introduction
+## Introductie
+
 #### Opdracht omschrijving
 
  `Beschrijving van de opdracht toevoegen`
@@ -108,6 +109,7 @@ ___
 grafiek plotten
 picture_processing visualization pictures
 
+[picture_processing Visualiseren](https://github.com/KB-74/portfolio/blob/master/Jelte/notebooks/picture_processing_3.ipynb#Visualiseren)
 
 Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 
@@ -124,7 +126,6 @@ Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelt
 
 ___
 ## Evaluation and Diagnostics
-verwijzing naar samenvatting van tentamen
 
 Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 
@@ -133,8 +134,10 @@ ___
 ___
 ## Communication (presentations, summaries, papers, ...)
 
-Voor het studeren van 
-[samenvatting tentamen](Jelte/bijlage/samenvatting_tentamen.pdf)
+gebruik gemaakt van samenvatting. Deze samenvattingen zijn gemaakt op basis van de informatie die gegeven werd tijdens 
+de coursera courses, en aangevuld met lessstof uit de colleges.  
+[samenvatting tentamen](https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/samenvatting_tentamen.pdf)
+
 Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 
 ###Scrum
