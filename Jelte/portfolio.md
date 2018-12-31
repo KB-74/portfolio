@@ -109,7 +109,10 @@ ___
 grafiek plotten
 picture_processing visualization pictures
 
-[picture_processing Visualiseren](https://github.com/KB-74/portfolio/blob/master/Jelte/notebooks/picture_processing_3.ipynb#Visualiseren)
+Tijdens het maken van het picture processing script was het moeilijk om te zien of de afbeelding en de frame 
+[picture_processing](https://github.com/KB-74/portfolio/blob/master/Jelte/notebooks/picture_processing_3.ipynb)
+wat heb ik hiervan geleerd: debug 
+
 
 Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 
@@ -136,7 +139,7 @@ ___
 
 gebruik gemaakt van samenvatting. Deze samenvattingen zijn gemaakt op basis van de informatie die gegeven werd tijdens 
 de coursera courses, en aangevuld met lessstof uit de colleges.  
-[samenvatting tentamen](https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/samenvatting_tentamen.pdf)
+[samenvatting tentamen](https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/samenvatting_tentamen.pdf){:targer="_blank"}
 
 Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 
