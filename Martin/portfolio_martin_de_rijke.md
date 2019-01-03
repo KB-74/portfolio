@@ -139,14 +139,15 @@ Om dit project succesvol te laten zijn is er met de SCRUM methode gewerkt. Er is
 - Niet werken met een vooraf opgesteld plan van aanpak, maar agile werken en dus continu het plan veranderen.
 
 ### Sprint presentaties
-In totaal heb ik 3 presentaties gedaan gedurende het project.
+In totaal heb ik 3 presentaties gedaan gedurende het project. Voor de presentatie in week 6 heb ik de opdrachtgever Port of Rotterdam uitgenodigd.
+Lukas de Bruijn en Ton van der Weele zijn beide aanwezig geweest.
 
 |  | | |
 | ---: | :--- | :--- | 
 |<b>Week</b>| <b>Link</b>|<b>Medestudent</b>|
-|1| | Jasper Vlaar |
-|2| | - |
-|5| | Michiel van Soest |
+|1| [Presentatie Sprint 1](https://github.com/KB-74/portfolio/blob/master/Martin/resources/Presentation_Sprint_1.pptx)| Jasper Vlaar |
+|2| [Presentatie Sprint 2](https://github.com/KB-74/portfolio/blob/master/Martin/resources/Presentation_Sprint_2.pptx)| - |
+|6| [Presentatie Sprint 6](https://github.com/KB-74/portfolio/blob/master/Martin/resources/Presentation_Sprint_6.pptx)| Michiel van Soest |
 
 ### Wekelijkse Vergaderingen
 Elke Donderdag was er een vergadering met de opdrachtgever. Wij als groep bespraken de voortgang en kregen nieuwe input om door te bouwen aan het algoritme en de andere stukken code.
@@ -159,7 +160,7 @@ Hier ben ik geinterviewed door BNR radio en het is vervolgens de week erna uitge
 Port of Rotterdam heeft hier zeer positief op gereageerd, aangezien positieve media aandacht goed is voor hun als bedrijf.
 Verder was het een unieke en leerzame ervaring.
 
-[BNR Radio Interview](https://www.bnr.nl/programmas/wetenschap-vandaag/10356983/elektrisch-vliegen-en-autonoom-varen)
+[BNR Radio Interview](https://www.bnr.nl/programmas/wetenschap-vandaag/10356983/elektrisch-vliegen-en-autonoom-varen) (Vanaf minuut 8)
 
 <img src="resources/interview_bnr.jpg" alt="Interview BNR Radio" width="700">
 afbeelding x: (Interview BNR Radio)
