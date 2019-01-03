@@ -159,7 +159,10 @@ Hier ben ik geinterviewed door BNR radio en het is vervolgens de week erna uitge
 Port of Rotterdam heeft hier zeer positief op gereageerd, aangezien positieve media aandacht goed is voor hun als bedrijf.
 Verder was het een unieke en leerzame ervaring.
 
-'Link invoegen van Radio Interview'
+[BNR Radio Interview](https://www.bnr.nl/programmas/wetenschap-vandaag/10356983/elektrisch-vliegen-en-autonoom-varen)
+
+<img src="resources/interview_bnr.jpg" alt="Interview BNR Radio" width="700">
+afbeelding x: (Interview BNR Radio)
 
 ### Tommie Awards
 Een tweede hoogtepunt was het pitchen in de finales van de Tommie Awards. Het 'floating lab' was geselecteerd voor de prijs:
@@ -167,13 +170,14 @@ Een tweede hoogtepunt was het pitchen in de finales van de Tommie Awards. Het 'f
 Dat heb ik uiteraard gedaan. Vervolgens was er een prijs uitreiking tijdens een diner. Hier heb ik met een aantal succesvolle mensen uit het bedrijfsleven gepraat
 en een jurylid heeft mij zelfs een baan aangeboden. Helaas hebben we de prijs niet gewonnen, maar het was een extreem leerzame ervaring en een geweldige dag.
 
-'Foto toevoegen Tommie Awards'
+<img src="resources/tommie_awards.jpg" alt="Tommie Awards" width="700">
+afbeelding x: (Tommie Awards)
 
 ### Innovation Expo
 Op 4 Oktober vond er een innovatie expo plaats in Rotterdam. Hier hebben wij als groep gepresenteerd.
 Op dat moment waren we ook nog druk bezig met opject herkenning, iets dat we later hebben laten vallen wegens tijdsgebrek.
 Hier hebben we met allerlei mensen gepraat, een demo gegeven van ons land/water algoritme en van object herkenning en heb ik dus het BNR interview afgegeven.
 
-<img src="resources/demo_innovationexpo.jpg" alt="coursera" width="700">
+<img src="resources/demo_innovationexpo.jpg" alt="innovation expo" width="700">
 afbeelding x: (Demo Innovation Expo)
 
