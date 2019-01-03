@@ -56,6 +56,8 @@ Ons algoritme zoals beschreven in de paper. (Land/water algoritme) is op concept
 Ik heb besloten om in dit portfolio alleen het deel op te nemen, die het moeilijkst was. Op het einde heb ik samen met Job Kenny Edge detection toegevoegd op de plekken waar het algoritme de scheiding tussen land en water herkent had.
 Hieronder twee afbeeldingen die dat duidelijk maken. 
 
+[pixel_walker_v5 notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/pixel_walker_v5.ipynb) 
+
 # Data preparation
 Naast het algoritme dat de scheiding tussen het water en het land herkent, hebben Michiel en ik ook een stukje code ontwikkeld waarmee we handmatig frames kunnen labelen.
 Dat kunnen we gebruiken om de niet juist gelabelde data die uit het algoritme voortkomt te labelen. 
