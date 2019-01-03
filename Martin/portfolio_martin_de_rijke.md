@@ -1,16 +1,13 @@
 #Portfolio
-Name: Martin de Rijke
+Het persoonlijk portfolio voor de minor Data Science 2018/2019 op de Haagse hogeschool.
 
-Group: SHIP
-
-Studentnummer: 18098568
-
-Group: SHIP2018
-
-Groepsleden: Job Vink, Michiel van Soest, Jelte Molenaar en Jasper Vlaar
-
-Teacher: Hugo Benne
-
+|  | |
+| ---: | :--- |
+|Student:| <b>Martin de Rijke</b>|
+|Studentnummer:| <b>18098568</b>|
+|Groep:| <b>KB-74 Shipping</b>|
+|Opdrachtgever:| <b>Port of Rotterdam</b>|
+|Begeleider:| <b>Hugo Benne</b>|
 
 
 #Reading Guide
@@ -22,6 +19,34 @@ Vervolgens is er een link of afbeelding toegevoegd met het bewijs van het behale
 Binnen het project SHIP zijn niet alle onderdelen van Data Science heel goed boven gekomen of heb ik niet deelgenomen aan het werken aan dat specifieke onderdeel. 
 Wanneer dat het geval was heb ik iets anders gedaan om te laten zien dat ik ook dat onderdeel onder de knie heb. 
 
+#Inhoudsopgave
+
+|Hoofdstuk        |Codebook           | Afgerond | 
+|------             |:------| ---- |
+|[Introduction](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Introduction)             | - | ✓ | 
+|[Courses](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Courses)                       | - | |
+|[Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Domain-Knowledge)     | - | |
+|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Predictive-Models)   | - | | 
+|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Preparation)     | - | | 
+|[Data Visualization](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Visualization) |   | |
+|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Collection)       |   | |
+|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Evaluation)                 |   | |
+|[Diagnostics](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Diagnostics)               |   | |
+|[Communication](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Communication)           |   | |
+
+# Introduction 
+
+Mijn keuze voor het project SHIP is gebaseerd op onderstaande redenen:
+- SHIP gaat om leading edge technology, autonome mobiliteit is op dit moment heel erg populair en daar wil
+ik meer over leren. 
+- Verder dacht ik dat dit 1 van de meest uitdagende projecten was en mijn doel was om mezelf in het 
+diepe te gooien en zoveel mogelijk te leren van de minor. 
+- Verder vond ik het reizen naar Rotterdam en het hebben van zoveel stakeholders heel interessant,
+omdat dit ook inzichten geeft in belangen en project management met meerdere partijen.
+- De scheepvaart is ook iets wat mij aanspreekt. Ik wil meer leren over hoe de haven van 
+Rotterdam werkt en hoe de trend Smart Shipping zich ontwikkeld.
+- Ten slotte vind ik machine learning en deep learning zeer interessant en dat komt in dit project
+naar voren.
 
 # Courses
 Binnen de minor waren er twee courses verplicht. De Machine Learning course van Coursera week 1-3 + 6 en een aantal Python courses op DataCamp. 
@@ -49,33 +74,106 @@ In afbeelding 2 het bewijs daarvan.
 afbeelding 2: (DataCamp All Courses Completed)
 
 # Domain Knowledge
-Tentamen gehaald.
+Het halen van het tentamen met een 7,2 is het voornaamste bewijs van het bezitten van de benodigde domein kennis. Verder heb ik in de bovenstaande afgeronde courses ook kennis opgedaan.
+Dit is vooral theoretische kennis. In het project zelf heb ik de praktische kennis opgedaan. De voornaamste voorbeelden daarvan staan in de onderstaande hoofdstukken van dit portfolio.
 
 # Predictive Models
 Ons algoritme zoals beschreven in de paper. (Land/water algoritme) is op conceptueel niveau door mij bedacht. Daarna is hij als groep uitgewerkt. Zelf heb ik ook aan delen meegewerkt.
-Ik heb besloten om in dit portfolio alleen het deel op te nemen, die het moeilijkst was. Op het einde heb ik samen met Job Kenny Edge detection toegevoegd op de plekken waar het algoritme de scheiding tussen land en water herkent had.
-Hieronder twee afbeeldingen die dat duidelijk maken. 
+De eerste versies van het algoritme heb ik samen met Job geschreven. In de onderstaande notebook is de output van het algoritme te zien met de bijbehorende code.
+Het algoritme neemt de gemiddelde waarde van de rode lijn en schiet vervolgens pixel walkers die over de afbeelding gaan. Zodra de gemiddelde pixel waarde buiten een bepaalde treshold valt
+die gebaseerd is op de Euclidian Distance wordt er een gekleurd puntje gezet. Dit is meestal de scheiding tussen het water en het land.
 
 [pixel_walker_v5 notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/pixel_walker_v5.ipynb) 
 
-# Data preparation
-Naast het algoritme dat de scheiding tussen het water en het land herkent, hebben Michiel en ik ook een stukje code ontwikkeld waarmee we handmatig frames kunnen labelen.
-Dat kunnen we gebruiken om de niet juist gelabelde data die uit het algoritme voortkomt te labelen. 
+Na deze versie zijn er meer geoptimaliseerdere versies gebouwd met meer toepassingen. Daar heb ik wel aan meegewerkt, maar daar was mijn impact minder.
+Tot en met versie 5 heb ik meer dan 50% van het algoritme bedacht en gebouwd.
+
+# Data Preparation
+In het begin stadium van het project heb ik de ontvangen frames van Port of Rotterdam gevisualiseerd en ermee getest. 
+De eerste vraag die we hadden was of we gebruik gingen maken van Zwart/Wit of RGB. 
+Het gebruik maken van zwart/wit is het meest gunstig aangezien het minder rekenkracht nodig heeft dan RGB.
+Ik heb de frames met Python gevisualiseerd en getest. Ik kwam erachter dat zwart/wit niet werkte aangezien er soms boten waren 
+of andere objecten op het water die een bijna dezelfde zwart/wit waarde hadden als het water zelf.
+RGB werkte in die gevallen wel als er gebruik werd gemaakt van de Euclidian Distance om het verschil te bepalen. Er is dus besloten om daarmee te beginnen. 
+
+`Toevoegen van het Notebook waarbij de zwart/wit, normale RGB en de RGB aan de hand van Euclidian Distance`
 
 # Data Visualization
-In het begin stadium van het project heb ik de ontvangen frames van Port of Rotterdam gevisualiseerd en ermee getest. 
-De eerste vraag die we hadden was of we gebruik gingen maken van Zwart/Wit, RGB of iets anders. 
-Ik heb de frames met een programma gevisualiseerd en getest. Ik kwam erachter dat zwart/wit niet werkte aangezien er soms boten waren of andere objecten op het water die een bijna dezelfde zwart/wit waarde hadden.
-RGB werkte in die gevallen wel en dus is er besloten om daarmee te beginnen.
+Tijdens het project heb ik veel data gevisualiseerd. Vooral tijdens de DataCamp courses kwam dit veel voor.
+De moeilijkheidsgraad daarvan is echter laag. Ik heb wel een Python programma geschreven die twee afbeeldingen over elkaar heen plot.
+Dit werd gebruikt om te checken of de data wel of niet correct is gelabeled door het algoritme.
+Hetgeen het algoritme had aangegeven als water werd dus geplot als wit en de rest als zwart. Met een 'alpha' van 0.2, zodat het zichtbaar was.
+Vervolgens kan een persoon dan bepalen of de gelabelde data wel of niet correct is.
+
+`Toevoegen Notebook overlay_checker`
 
 # Data Collection
-Naast het algoritme dat de scheiding tussen het water en het land herkent, hebben Michiel en ik ook een stukje code ontwikkeld waarmee we handmatig frames kunnen labelen.
-Dat kunnen we gebruiken om de niet juist gelabelde data die uit het algoritme voortkomt te labelen. 
+Er is geen nieuwe data voor het algoritme verzameld tijdens het project. Er is echter wel data gelabeled, zodat er data ontstond voor het neurale netwerk.
+Deze data kwam voort uit de niet goed gelabelde data door het algoritme. Alle wel goed gelabelde data, kon direct gebruikt worden. Zo hebben we als groep veel tijd
+bespaard door het laten labelen van data door het algoritme.
+'Uitleggen wall_labeler tool'
+
+'wall_labeler'
 
 # Evaluation
 Samen met Michiel heb ik een tool ontwikkeld waarmee de gelabelde data die uit het land/water herkennings algoritme komt geverifieerd kan worden. De gelabelde frames worden 1 voor 1 ingeladen en als een frame goed is kan de gebruiker op Y klikken en als hij niet goed is op N. Zo wordt de correct gelabelde data gefilterd voor het neurale netwerk en kan de niet correct gelabelde data handmatig correct gelabeld worden. Zo kan er gelijk onderzocht worden welk % van het totaal aantal frames correct gelabeld zijn door het algoritme. 
+Dit is een programma dat een frame opent in een nieuw venster, vervolgens kan de gebruiker klikken op 'y' om het frame als goed te bestempelen of op 'n' om hem als niet goed te bestempelen.
+De frames worden dan in aparte mappen opgeslagen. De goed gelabelde data kan direct gebruikt worden voor het neurale netwerk en de niet goed gelabelde data kan opnieuw handmatig gelabeled worden.
 
- 
+'frame_checker'
 
-# Diagnostics of the learning process
+# Diagnostics
+Naast het algoritme dat de scheiding tussen het water en het land herkent, hebben Michiel en ik ook een stukje code ontwikkeld waarmee we handmatig frames kunnen labelen.
+Dat kunnen we gebruiken om de niet juist gelabelde data die uit het algoritme voortkomt te labelen. 
+
 # Communication (presentations, summaries, paper, ...)
+Tijdens het project was ik de contactpersoon voor buitenaf. Dat houdt in dat ik contact hield met de opdrachtgever(s), CGI en Port of Rotterdam.
+Ik heb niet alleen veel technische skills opgedaan, maar ook soft skills. De twee uniekste voorbeelden hiervan zijn dat ik een interview heb gehad met BNR radio en 
+dat ik heb gepresenteerd op de Tommie Awards in Amsterdam.
+
+### Scrum 
+Om dit project succesvol te laten zijn is er met de SCRUM methode gewerkt. Er is besloten om dit op een fysiek bord te doen. Met de project aanpak methode van scrum focussen we ons vooral op een werkend product en niet zozeer op documentatie. Bij het scrum proces staan 4 regels centraal:  
+- Individu en interactie staat boven het proces en de tools.  
+- Working- product over uitgebreide documentatie.  
+- Samenwerken met klanten over onderhandelingscontracten.  
+- Niet werken met een vooraf opgesteld plan van aanpak, maar agile werken en dus continu het plan veranderen.
+
+### Sprint presentaties
+In totaal heb ik 3 presentaties gedaan gedurende het project.
+
+|  | | |
+| ---: | :--- | :--- | 
+|<b>Week</b>| <b>Link</b>|<b>Medestudent</b>|
+|1| | Jasper Vlaar |
+|2| | - |
+|5| | Michiel van Soest |
+
+### Wekelijkse Vergaderingen
+Elke Donderdag was er een vergadering met de opdrachtgever. Wij als groep bespraken de voortgang en kregen nieuwe input om door te bouwen aan het algoritme en de andere stukken code.
+Ikheb de vergaderingen soms geleidt en leerde om effectief te communiceren en verantwoording af te leggen.
+Dit dwong ons ook om wekelijks vooruitgang te boeken en nieuwe resultaten te laten zien en dat deden we ook.
+
+### BNR Interview
+Één van mijn hoogtepunten was 4 Oktober, toen was er een Innovation Expo in Rotterdam.
+Hier ben ik geinterviewed door BNR radio en het is vervolgens de week erna uitgezonden. 
+Port of Rotterdam heeft hier zeer positief op gereageerd, aangezien positieve media aandacht goed is voor hun als bedrijf.
+Verder was het een unieke en leerzame ervaring.
+
+'Link invoegen van Radio Interview'
+
+### Tommie Awards
+Een tweede hoogtepunt was het pitchen in de finales van de Tommie Awards. Het 'floating lab' was geselecteerd voor de prijs:
+'Most enabling innovative ecosysteem'. Port of Rotterdam vroeg mij, mede dankzij het succesvolle radiointerview, om te pitchen tijdens de finale.
+Dat heb ik uiteraard gedaan. Vervolgens was er een prijs uitreiking tijdens een diner. Hier heb ik met een aantal succesvolle mensen uit het bedrijfsleven gepraat
+en een jurylid heeft mij zelfs een baan aangeboden. Helaas hebben we de prijs niet gewonnen, maar het was een extreem leerzame ervaring en een geweldige dag.
+
+'Foto toevoegen Tommie Awards'
+
+### Innovation Expo
+Op 4 Oktober vond er een innovatie expo plaats in Rotterdam. Hier hebben wij als groep gepresenteerd.
+Op dat moment waren we ook nog druk bezig met opject herkenning, iets dat we later hebben laten vallen wegens tijdsgebrek.
+Hier hebben we met allerlei mensen gepraat, een demo gegeven van ons land/water algoritme en van object herkenning en heb ik dus het BNR interview afgegeven.
+
+<img src="resources/demo_innovationexpo.jpg" alt="coursera" width="700">
+afbeelding x: (Demo Innovation Expo)
+
