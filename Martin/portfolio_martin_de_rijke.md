@@ -66,7 +66,7 @@ De eerste vraag die we hadden was of we gebruik gingen maken van Zwart/Wit, RGB 
 Ik heb de frames met een programma gevisualiseerd en getest. Ik kwam erachter dat zwart/wit niet werkte aangezien er soms boten waren of andere objecten op het water die een bijna dezelfde zwart/wit waarde hadden.
 RGB werkte in die gevallen wel en dus is er besloten om daarmee te beginnen.
 
-# Data collection
+# Data Collection
 Naast het algoritme dat de scheiding tussen het water en het land herkent, hebben Michiel en ik ook een stukje code ontwikkeld waarmee we handmatig frames kunnen labelen.
 Dat kunnen we gebruiken om de niet juist gelabelde data die uit het algoritme voortkomt te labelen. 
 
