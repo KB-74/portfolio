@@ -7,11 +7,11 @@
 | Datum:        | 14-11-2018        |
 
 ## Inleiding
-
+Dit portfolio is tijdens de minor Data science idendivudeel opgesteld. en toond de bijdragen voor het project, de capaciteiten en
+datgeen dat tijdens de minor geleerd is. 
 
 ## Inhoudsopgave
 In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
-
 
 |Beoordeling        |Link           | Afgerond | 
 |------             |:------| ---- |
@@ -19,15 +19,16 @@ In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
 |Domein Knoledge    | [Domein kennis](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#domein-kennis)           | |
 |Predictive Models  | [Predictive Models](https://github.com/KB-74/portfolio/blob/master/Jelte/protfolio.md#predictive-models)   | |
 |Data Preparation   |  | | 
-|Data Visualization |  | | 
+|Data Visualization | [Visualization](https://github.com/KB-74/portfolio/blob/master/Jelte/protfolio.md#Data-Visualization) | | 
 |Data collection    | |
-|Evaluation|        | | 
+|Evaluation         | | 
 |Diagnostics of the learning process | |
 |Communication (presentations, summaries, paper, ...)
 > Hoofdstuk en Beordelings indeling portfolio
 
 
-## Introduction
+## Introductie
+
 #### Opdracht omschrijving
 
  `Beschrijving van de opdracht toevoegen`
@@ -54,10 +55,10 @@ met behulp van datacamp heb ik mijn domein kennis op het gebied van programmeren
 In figuur 1 staat een screenshot van alle courses die ik in de eerste weken van de minor heb gevolgd. 
 
 
-<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/datacamp_courses.jpg" 
+<p align="left"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/datacamp_courses.jpg" 
  width="480" height="270"</p>
 
-<p align="center"> > Screenshot afgeronden courses Datacamp (08-11-2018) </p>
+> Screenshot afgeronden courses Datacamp (08-11-2018)
 
 #### Coursera
 Om kennis op te doen voor het maken van machine learning ben ik de online courses gevolgd die op coursera beschikbaar 
@@ -70,14 +71,24 @@ oefeningen.
 Naast de verplichten coursers heb ik zelf wat extra courses gevolgd omtrend Neural networks. Dit omdat we dit verderop in het
 project nodig hebben.    
 
+<p align="left"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/coursera_courses.JPG" 
+ width="480" height="270"</p>
 
-> schermafbeelding coursera in blijlagen toevoegen
+> Screenshot afgeronden courses Coursera (10-11-2018)
+
 
 Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
-
 ___
+
 ## Predictive Models
 voor onderzoek NN + bouwen van NN
+artiekelen die ik heb gelezen:
+
+http://cs231n.github.io/convolutional-networks/
+https://www.degruyter.com/downloadpdf/j/itms.2017.20.issue-1/itms-2017-0002/itms-2017-0002.pdf
+https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+http://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf
+
 pixel_walker_v2
 
 Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
@@ -85,6 +96,8 @@ ___
 
 
 ## Data preparation
+
+
 picture_processing
 Onderzoek HSV RGB.
 
@@ -96,6 +109,11 @@ ___
 grafiek plotten
 picture_processing visualization pictures
 
+Tijdens het maken van het picture processing script was het moeilijk om te zien of de afbeelding en de frame 
+[picture_processing](https://github.com/KB-74/portfolio/blob/master/Jelte/notebooks/picture_processing_3.ipynb)
+wat heb ik hiervan geleerd: debug 
+
+
 Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 
 ___
@@ -104,13 +122,13 @@ ___
 
 ___
 ## Data collection
+Voor trainen van een neural network zijn afbeeldingen van het het noodzakelijk om
 Labelen in photoshop handmatig
 
 Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 
 ___
 ## Evaluation and Diagnostics
-verwijzing naar samenvatting van tentamen
 
 Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 
@@ -118,6 +136,12 @@ ___
 
 ___
 ## Communication (presentations, summaries, papers, ...)
+
+gebruik gemaakt van samenvatting. Deze samenvattingen zijn gemaakt op basis van de informatie die gegeven werd tijdens 
+de coursera courses, en aangevuld met lessstof uit de colleges.  
+[samenvatting tentamen](https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/samenvatting_tentamen.pdf){:targer="_blank"}
+
+Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 
 ###Scrum
 Met de project aanpak methode van scrum focussen we ons op een daadwerkelijk werkend product en minder op documentatie.
@@ -148,3 +172,12 @@ ___
 
 - [Student email](15084302student.hhs.nl)
 - [LinkedIn](https://www.linkedin.com/in/jeltemolenaar/) 
+
+
+'toevoegen afbeelding in MD'
+
+<p align="left"> <img src="link-adress" width="480" height="270"</p>
+
+> Screenshot toevoegen
+
+
