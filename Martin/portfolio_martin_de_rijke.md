@@ -121,9 +121,18 @@ afbeelding x: (Overlay Checker Image)
 Er is geen nieuwe data voor het algoritme verzameld tijdens het project. Er is echter wel data gelabeled, zodat er data ontstond voor het neurale netwerk.
 Deze data kwam voort uit de niet goed gelabelde data door het algoritme. Alle wel goed gelabelde data, kon direct gebruikt worden. Zo hebben we als groep veel tijd
 bespaard door het laten labelen van data door het algoritme.
-'Uitleggen wall_labeler tool'
+Met deze tool kunnen er rode puntjes gezet worden bij de scheiding tussen water en land. Dat is ook geillustreerd in de onderstaande afbeelding. De coordinaten van die rode puntjes worden opgeslagen en kunnen vervolgens worden gebruikt om
+definitief te bepalen waar water is en waar land, op dezelfde manier als het algoritme dat op dit moment doet.
+De notebook werkt niet in Jupyter en wel in PyCharm, ook omdat er gebruik gemaakt wordt van classes. Ik heb een afbeelding toegevoegd waarin de rode puntjes geplaatst zijn door mijzelf met de muis dankzij het programma. Vervolgens ook een screenshot van de code in Pycharm met de 
+coördinaten die ik aangevinkt heb als output en ten slotte het notebook in Jupyter, zodat u de code kunt inzien.
 
-'wall_labeler'
+[wall_labeler_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/wall_labeler.ipynb)
+
+<img src="resources/wall_labeler_1.png" alt="wall_labeler_1" width="700">
+afbeelding x: (wall_labeler: Bepaling van de water/land scheiding)
+
+<img src="resources/wall_labeler_2.png" alt="wall_labeler_2" width="700">
+afbeelding x: (wall_labeler: Bewijs dat de code werkt, dankzij de output)
 
 # Evaluation
 Samen met Michiel heb ik een tool ontwikkeld waarmee de gelabelde data die uit het land/water herkennings algoritme komt geverifieerd kan worden. De gelabelde frames worden 1 voor 1 ingeladen en als een frame goed is kan de gebruiker op Y klikken en als hij niet goed is op N. Zo wordt de correct gelabelde data gefilterd voor het neurale netwerk en kan de niet correct gelabelde data handmatig correct gelabeld worden. Zo kan er gelijk onderzocht worden welk % van het totaal aantal frames correct gelabeld zijn door het algoritme. 
