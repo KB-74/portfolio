@@ -105,7 +105,15 @@ Dit werd gebruikt om te checken of de data wel of niet correct is gelabeled door
 Hetgeen het algoritme had aangegeven als water werd dus geplot als wit en de rest als zwart. Met een 'alpha' van 0.2, zodat het zichtbaar was.
 Vervolgens kan een persoon dan bepalen of de gelabelde data wel of niet correct is.
 
-`Toevoegen Notebook overlay_checker`
+De code kan niet helemaal uitgevoerd worden in Jupyter, aangezien we gebruik hebben gemaakt van verschillende classes in PyCharm.
+De notebook bewijst wel dat de code werkt, aangezien er geen error komt en de output geeft ook aan dat hij de twee afbeeldingen over elkaar heen zou plotten.
+Ik heb de code ook uitgevoerd in PyCharm en de uitkomende afbeeldingen toegevoegd. De afbeelding geplot over de afbeelding genomen door een camera op de RPA 3 is geen uitkomst uit het algoritme, maar een random afbeelding van internet.
+Er is parallel gewerkt en het algoritme had nog geen output filters die gebruikt konden worden voor dit programma.
+
+[overlay_checker_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/overlay_checker.ipynb)
+
+<img src="resources/overlay_checker.png" alt="Overlay Checker" width="700">
+afbeelding x: (Overlay Checker Image)
 
 # Data Collection
 Er is geen nieuwe data voor het algoritme verzameld tijdens het project. Er is echter wel data gelabeled, zodat er data ontstond voor het neurale netwerk.
