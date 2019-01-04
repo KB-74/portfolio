@@ -26,14 +26,14 @@ Wanneer dat het geval was heb ik iets anders gedaan om te laten zien dat ik ook 
 |[Introduction](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Introduction)             | - |✓| 
 |[Courses](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Courses)                       | - |✓|
 |[Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Domain-Knowledge)     | - |✓|
-|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Predictive-Models)   |***|✓| 
-|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Preparation)     |***|✓| 
-|[Data Visualization](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Visualization) |***|✓|
-|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Collection)       |***| |
-|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Evaluation)                 |***| |
-|[Diagnostics](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Diagnostics)               | - | |
+|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Predictive-Models)   |[pixel_walker_v5 notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/pixel_walker_v5.ipynb)|✓| 
+|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Preparation)     |[black&white_or_rgb_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/black&white_or_rgb.ipynb)|✓| 
+|[Data Visualization](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Visualization) |[overlay_checker_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/overlay_checker.ipynb)|✓|
+|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Collection)       |[wall_labeler_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/wall_labeler.ipynb)|✓|
+|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Evaluation)                 |[frame_checker_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/frame_checker.ipynb)|✓|
+|[Diagnostics](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Diagnostics)               | - ||
 |[Communication](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Communication)           | - |✓|
-|[Conclusie](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Conclusie)                   | - ||
+|[Conclusie](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Conclusie)                   | - |✓|
 
 # Introduction 
 
@@ -213,4 +213,7 @@ Hier hebben we met allerlei mensen gepraat, een demo gegeven van ons land/water 
 afbeelding x: (Demo Innovation Expo)
 
 # Conclusie
+Tijdens de minor heb ik mezelf enorm ontwikkeld qua programmeer skills. Ik kwam binnen als leek, die nog nooit iets geprogrammeerd had. Ik wist bijvoorbeeld niet wat een string was of het 'print' command.
+Op dit moment kan ik programmeren met functies, for loops, while loops en in verschillende classes. Ik heb vooral geleerd dat effectief zoeken op internet en dingen combineren een sleutel zijn in programmeren.
+Daarnaast heb ik ook twee unieke kansen gekregen, die weinig studenten krijgen. Daarmee doel ik op het radio interview en de pitch bij de Tommie awards.
 
