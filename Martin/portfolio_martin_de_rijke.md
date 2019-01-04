@@ -23,16 +23,16 @@ Wanneer dat het geval was heb ik iets anders gedaan om te laten zien dat ik ook 
 
 |Hoofdstuk        |Codebook           | Afgerond | 
 |------             |:------| ---- |
-|[Introduction](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Introduction)             | - | ✓ | 
-|[Courses](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Courses)                       | - | |
-|[Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Domain-Knowledge)     | - | |
-|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Predictive-Models)   | - | | 
-|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Preparation)     | - | | 
-|[Data Visualization](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Visualization) |   | |
-|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Collection)       |   | |
-|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Evaluation)                 |   | |
-|[Diagnostics](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Diagnostics)               |   | |
-|[Communication](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Communication)           |   | |
+|[Introduction](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Introduction)             | - |✓| 
+|[Courses](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Courses)                       | - |✓|
+|[Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Domain-Knowledge)     | - |✓|
+|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Predictive-Models)   |***|✓| 
+|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Preparation)     |***|✓| 
+|[Data Visualization](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Visualization) |***|✓|
+|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Collection)       |***| |
+|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Evaluation)                 |***| |
+|[Diagnostics](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Diagnostics)               | - | |
+|[Communication](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Communication)           | - |✓|
 
 # Introduction 
 
