@@ -1,4 +1,4 @@
-#Portfolio
+# Portfolio
 Het persoonlijk portfolio voor de minor Data Science 2018/2019 op de Haagse hogeschool.
 
 |  | |
@@ -10,7 +10,7 @@ Het persoonlijk portfolio voor de minor Data Science 2018/2019 op de Haagse hoge
 |Begeleider:| <b>Hugo Benne</b>|
 
 
-#Reading Guide
+# Reading Guide
 In dit portfolio zijn de resultaten beschreven die behaald zijn door mijzelf binnen het SHIP project. 
 Het doel is om een duidelijke weergave te geven van hetgene dat ik geleerd heb binnen Data Science. 
 Dankzij die reden is dit portfolio ook opgedeeld in een structuur die de verschillende belangrijke aspecten van Data Science weergeeft. 
@@ -19,7 +19,7 @@ Vervolgens is er een link of afbeelding toegevoegd met het bewijs van het behale
 Binnen het project SHIP zijn niet alle onderdelen van Data Science heel goed boven gekomen of heb ik niet deelgenomen aan het werken aan dat specifieke onderdeel. 
 Wanneer dat het geval was heb ik iets anders gedaan om te laten zien dat ik ook dat onderdeel onder de knie heb. 
 
-#Inhoudsopgave
+# Inhoudsopgave
 
 |Hoofdstuk        |Codebook           | Afgerond | 
 |------             |:------| ---- |
