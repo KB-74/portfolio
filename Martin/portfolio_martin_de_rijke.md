@@ -26,13 +26,14 @@ Wanneer dat het geval was heb ik iets anders gedaan om te laten zien dat ik ook 
 |[Introduction](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Introduction)             | - |✓| 
 |[Courses](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Courses)                       | - |✓|
 |[Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Domain-Knowledge)     | - |✓|
-|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Predictive-Models)   |***|✓| 
-|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Preparation)     |***|✓| 
-|[Data Visualization](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Visualization) |***|✓|
-|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Collection)       |***| |
-|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Evaluation)                 |***| |
-|[Diagnostics](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Diagnostics)               | - | |
+|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Predictive-Models)   |[pixel_walker_v5 notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/pixel_walker_v5.ipynb)|✓| 
+|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Preparation)     |[black&white_or_rgb_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/black&white_or_rgb.ipynb)|✓| 
+|[Data Visualization](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Visualization) |[overlay_checker_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/overlay_checker.ipynb)|✓|
+|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Collection)       |[wall_labeler_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/wall_labeler.ipynb)|✓|
+|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Evaluation)                 |[frame_checker_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/frame_checker.ipynb)|✓|
+|[Diagnostics](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Diagnostics)               | - ||
 |[Communication](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Communication)           | - |✓|
+|[Conclusie](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Conclusie)                   | - |✓|
 
 # Introduction 
 
@@ -128,18 +129,28 @@ coördinaten die ik aangevinkt heb als output en ten slotte het notebook in Jupy
 
 [wall_labeler_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/wall_labeler.ipynb)
 
-<img src="resources/wall_labeler_1.png" alt="wall_labeler_1" width="700">
+<img src="resources/wall_labeler_2.png" alt="wall_labeler_2" width="700">
 afbeelding x: (wall_labeler: Bepaling van de water/land scheiding)
 
-<img src="resources/wall_labeler_2.png" alt="wall_labeler_2" width="700">
+<img src="resources/wall_labeler_1.png" alt="wall_labeler_1" width="700">
 afbeelding x: (wall_labeler: Bewijs dat de code werkt, dankzij de output)
 
 # Evaluation
 Samen met Michiel heb ik een tool ontwikkeld waarmee de gelabelde data die uit het land/water herkennings algoritme komt geverifieerd kan worden. De gelabelde frames worden 1 voor 1 ingeladen en als een frame goed is kan de gebruiker op Y klikken en als hij niet goed is op N. Zo wordt de correct gelabelde data gefilterd voor het neurale netwerk en kan de niet correct gelabelde data handmatig correct gelabeld worden. Zo kan er gelijk onderzocht worden welk % van het totaal aantal frames correct gelabeld zijn door het algoritme. 
 Dit is een programma dat een frame opent in een nieuw venster, vervolgens kan de gebruiker klikken op 'y' om het frame als goed te bestempelen of op 'n' om hem als niet goed te bestempelen.
 De frames worden dan in aparte mappen opgeslagen. De goed gelabelde data kan direct gebruikt worden voor het neurale netwerk en de niet goed gelabelde data kan opnieuw handmatig gelabeled worden.
+De code werkt niet in Jupyter, aangezien er gewerkt is met Classes in PyCharm. De code is wel toegevoegd.
+Daaronder twee afbeeldingen, in de eerste afbeelding is het programma nog niet gerund en staan er dus geen afbeeldingen opgeslagen in de twee mappen: 'frames_goed' en 'frames_fout'.
+Op de tweede afbeelding is het programma wel gerund, direct erna (te zien aan de tijd, dag en de output) waarin ik een aantal keer op 'y' heb geklikt en een aantal keer op 'n', waardoor de afbeeldingen in de verschillende mappen zijn opgeslagen.
+Op deze manier konden we heel makkelijk data beoordelen op wel of niet goed gelabeld door het algoritme.
 
-'frame_checker'
+[frame_checker_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/frame_checker.ipynb)
+
+<img src="resources/frame_checker_1.png" alt="frame_checker_1" width="700">
+afbeelding x: (frame_checker: De twee lege mappen: 'frames_goed' en 'frames_fout' links in beeld)
+
+<img src="resources/frame_checker_2.png" alt="frame_checker_2" width="700">
+afbeelding x: (frame_checker: De opgeslagen frames links in de twee mappen 'frames_goed' en 'frames_fout' opgeslagen)
 
 # Diagnostics
 Naast het algoritme dat de scheiding tussen het water en het land herkent, hebben Michiel en ik ook een stukje code ontwikkeld waarmee we handmatig frames kunnen labelen.
@@ -200,4 +211,9 @@ Hier hebben we met allerlei mensen gepraat, een demo gegeven van ons land/water 
 
 <img src="resources/demo_innovationexpo.jpg" alt="innovation expo" width="700">
 afbeelding x: (Demo Innovation Expo)
+
+# Conclusie
+Tijdens de minor heb ik mezelf enorm ontwikkeld qua programmeer skills. Ik kwam binnen als leek, die nog nooit iets geprogrammeerd had. Ik wist bijvoorbeeld niet wat een string was of het 'print' command.
+Op dit moment kan ik programmeren met functies, for loops, while loops en in verschillende classes. Ik heb vooral geleerd dat effectief zoeken op internet en dingen combineren een sleutel zijn in programmeren.
+Daarnaast heb ik ook twee unieke kansen gekregen, die weinig studenten krijgen. Daarmee doel ik op het radio interview en de pitch bij de Tommie awards.
 
