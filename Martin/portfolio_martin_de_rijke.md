@@ -80,7 +80,7 @@ Dit is vooral theoretische kennis. In het project zelf heb ik de praktische kenn
 
 # Predictive Models
 Ons algoritme zoals beschreven in de paper. (Land/water algoritme) is op conceptueel niveau door mij bedacht. Daarna is hij als groep uitgewerkt. Zelf heb ik ook aan delen meegewerkt.
-De eerste versies van het algoritme heb ik samen met Job geschreven. In de onderstaande notebook is de output van het algoritme te zien met de bijbehorende code.
+De eerste versies van het algoritme heb ik samen met Job geschreven. In de onderstaande notebook (pixel_walker_v5 notebook) is de output van het algoritme te zien met de bijbehorende code.
 Het algoritme neemt de gemiddelde waarde van de rode lijn en schiet vervolgens pixel walkers die over de afbeelding gaan. Zodra de gemiddelde pixel waarde buiten een bepaalde treshold valt
 die gebaseerd is op de Euclidian Distance wordt er een gekleurd puntje gezet. Dit is meestal de scheiding tussen het water en het land.
 
@@ -96,7 +96,7 @@ Het gebruik maken van zwart/wit is het meest gunstig aangezien het minder rekenk
 Ik heb de frames met Python gevisualiseerd en getest. Ik kwam erachter dat zwart/wit niet werkte aangezien er soms boten waren 
 of andere objecten op het water die een bijna dezelfde zwart/wit waarde hadden als het water zelf.
 RGB werkte in die gevallen wel als er gebruik werd gemaakt van de Euclidian Distance om het verschil te bepalen. Er is dus besloten om daarmee te beginnen. 
-In de onderstaande notebook staan allereerst Black&White en RGB uitgewerkt aan de hand van de mean. Daar is echter in beide gevallen geen significant verschil tussen de zee en het schip.
+In de onderstaande notebook (black&white_or_rgb_notebook) staan allereerst Black&White en RGB uitgewerkt aan de hand van de mean. Daar is echter in beide gevallen geen significant verschil tussen de zee en het schip.
 Als de Euclidian Distance wordt gebruikt, is er wel een significant verschil tussen de zee en het schip. Er is dus besloten om die te gebruiken.
 
 [black&white_or_rgb_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/black&white_or_rgb.ipynb)
@@ -109,7 +109,7 @@ Hetgeen het algoritme had aangegeven als water werd dus geplot als wit en de res
 Vervolgens kan een persoon dan bepalen of de gelabelde data wel of niet correct is.
 
 De code kan niet helemaal uitgevoerd worden in Jupyter, aangezien we gebruik hebben gemaakt van verschillende classes in PyCharm.
-De notebook bewijst wel dat de code werkt, aangezien er geen error komt en de output geeft ook aan dat hij de twee afbeeldingen over elkaar heen zou plotten.
+De notebook (overlay_checker_notebook) bewijst wel dat de code werkt, aangezien er geen error komt en de output geeft ook aan dat hij de twee afbeeldingen over elkaar heen zou plotten.
 Ik heb de code ook uitgevoerd in PyCharm en de uitkomende afbeelding (3) toegevoegd. De afbeelding geplot over de afbeelding genomen door een camera op de RPA 3 is geen uitkomst uit het algoritme, maar een random afbeelding van internet.
 Er is parallel gewerkt en het algoritme had nog geen output filters die gebruikt konden worden voor dit programma.
 
@@ -124,7 +124,7 @@ Deze data kwam voort uit de niet goed gelabelde data door het algoritme. Alle we
 bespaard door het laten labelen van data door het algoritme.
 Met deze tool kunnen er rode puntjes gezet worden bij de scheiding tussen water en land. Dat is ook geillustreerd in de onderstaande afbeelding. De coordinaten van die rode puntjes worden opgeslagen en kunnen vervolgens worden gebruikt om
 definitief te bepalen waar water is en waar land, op dezelfde manier als het algoritme dat op dit moment doet.
-De notebook werkt niet in Jupyter en wel in PyCharm, ook omdat er gebruik gemaakt wordt van classes. Ik heb een afbeelding (4) toegevoegd waarin de rode puntjes geplaatst zijn door mijzelf met de muis dankzij het programma. Vervolgens ook een screenshot (afbeelding 5) van de code in Pycharm met de 
+De notebook (wall_labeler_notebook) werkt niet in Jupyter en wel in PyCharm, ook omdat er gebruik gemaakt wordt van classes. Ik heb een afbeelding (4) toegevoegd waarin de rode puntjes geplaatst zijn door mijzelf met de muis dankzij het programma. Vervolgens ook een screenshot (afbeelding 5) van de code in Pycharm met de 
 coördinaten die ik aangevinkt heb als output en ten slotte het notebook in Jupyter, zodat u de code kunt inzien.
 
 [wall_labeler_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/wall_labeler.ipynb)
@@ -139,7 +139,7 @@ afbeelding 5: (wall_labeler: Bewijs dat de code werkt, dankzij de output)
 Samen met Michiel heb ik een tool ontwikkeld waarmee de gelabelde data die uit het land/water herkennings algoritme komt geverifieerd kan worden. De gelabelde frames worden 1 voor 1 ingeladen en als een frame goed is kan de gebruiker op Y klikken en als hij niet goed is op N. Zo wordt de correct gelabelde data gefilterd voor het neurale netwerk en kan de niet correct gelabelde data handmatig correct gelabeld worden. Zo kan er gelijk onderzocht worden welk % van het totaal aantal frames correct gelabeld zijn door het algoritme. 
 Dit is een programma dat een frame opent in een nieuw venster, vervolgens kan de gebruiker klikken op 'y' om het frame als goed te bestempelen of op 'n' om hem als niet goed te bestempelen.
 De frames worden dan in aparte mappen opgeslagen. De goed gelabelde data kan direct gebruikt worden voor het neurale netwerk en de niet goed gelabelde data kan opnieuw handmatig gelabeled worden.
-De code werkt niet in Jupyter, aangezien er gewerkt is met Classes in PyCharm. De code is wel toegevoegd.
+De notebook (frame_checker_notebook) werkt niet in Jupyter, aangezien er gewerkt is met Classes in PyCharm. De code is wel toegevoegd.
 Daaronder twee afbeeldingen, in de eerste afbeelding (6) is het programma nog niet gerund en staan er dus geen afbeeldingen opgeslagen in de twee mappen: 'frames_goed' en 'frames_fout'.
 Op de tweede afbeelding (7) is het programma wel gerund, direct erna (te zien aan de tijd, dag en de output) waarin ik een aantal keer op 'y' heb geklikt en een aantal keer op 'n', waardoor de afbeeldingen in de verschillende mappen zijn opgeslagen.
 Op deze manier konden we heel makkelijk data beoordelen op wel of niet goed gelabeld door het algoritme.
