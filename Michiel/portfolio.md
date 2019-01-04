@@ -81,35 +81,38 @@ Als eerste was het de taak om uit te zoeken wat een effectieve manier was om de 
 Na bovenstaand onderzoek heb ik samen met Jelte en Job het onderstaand notebook gemaakt. Hier in is te zien hoe we de Euclidian distance werkelijk toepassen om de scheidingen tussen water, land en boot te bepalen. (de data was op dit moment nog niet tot onze beschikking, om deze reden is een willekeurig plaatje gebruikt)  
 [pixel_walker_V2.1](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V2.1.ipynb)
 
+Nadat we de data hebben ontvangen is het idee ontstaan van de "pixel_walker". Het algoritme neemt de gemiddelde waarde van de groene lijn en schiet vervolgens een zogenaamde "pixel walkers" over de afbeelding af richting de andere kant van de afbeelding. Van elke stap/iteratie die de walker neemt, wordt de rgb waarde toegevoegd aan het huidige gemiddelde van die betreffende walker. zodra deze rgb waarde echter teveel afwijkt van het al bestaande gemiddelde, wordt een puntje geplot.   
 [pixel_walker_V5](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V5.ipynb)
-Het algoritme neemt de gemiddelde waarde van de rode lijn en schiet vervolgens pixel walkers die over de afbeelding gaan. Zodra de gemiddelde pixel waarde buiten een bepaalde treshold valt die gebaseerd is op de Euclidian Distance wordt er een gekleurd puntje gezet. Dit is meestal de scheiding tussen het water en het land.
-om voorspelling uit te voeren
-doortrekken regressielijn is voorspelling kade?
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/pixel_walker_v5.PNG"> </p> 
 
-`?? ons huidige algoritme beschijven?`
+De hieropvolgende stappen van dit algoritme zijn grotendeels door Job uitgewerkt gezien hij onze ideen met zijn programeerkennis het beste tot uitwerking kon brengen. Er is vervolgens vooral gewerkt in pair-programming.
 
+Aan de objectherkenningskant heb ik zelf veel moeite gedaan om de gekozen objectdetectiemethode YOLO (na onderzoek gebleken meest effectieve methode voor objectherkenning op dat moment) te begrijpen. In onderstaand Notebook is te zien hoe we onze verkegen data door het algoritme konden halen. Het aanpassen van YOLO bleek echter niet binnen mijn programeerkennis te liggen. Daarnaast was het splitsen van het huidig gebruikte model niet mogelijk, en zou het compleet zelf trainen ervan niet binnen de scope liggen van ons project.  
+
+Later is ook Keras uitgewerkt, hoewel dit beter aanpasbaar was, was dit wel zwaarder en te langzaam voor live processing.  
+[object_detection_V_1](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/object_detection_V1.ipynb)
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/object_detection.png"> </p> 
 # Data preparation
 De data die we in eerste instantie ontvangen hebben, bestaat uit een .avi videobestand met de output van een van de voorwaards gerichte camera's(camera 3).  
 Om de data te kunnen gebruiken hebben we als eerste elk frame in de video met gebruik van opencv geëxporteerd als png. hiervan hebben we 250 willekeurige frames met een script gekozen en hernoemd tot frame 1 t/m 250 (het originele framenummer en welke daaraan gekoppeld is, is opgeslagen in een .json bestand).
 
 We hebben gekozen om het water te labelen d.m.v. een mask met zwart en witte pixels. We hebben expliciet niet gekozen voor het labelen van objecten, gezien de al bestaande modellen omtrent objectdetectie (vb. Yolov3) niet  zomaar kunnen worden gesplit, en er niet genoeg data beschikbaar was gesteld om de beschikbare modellen te trainen.  
 
-Om deze data te labelen heb ik een "framechecker" gemaakt. Deze vergelijkt de automatisch gelabelde data (gelabeld door ons bestaande algoritme voorland/water herkenning) met de bijpassende frame, door deze over elkaar heen te leggen.  
+Om deze data te labelen heb ik samen met Martin een "framechecker" gemaakt. Deze vergelijkt de automatisch gelabelde data (gelabeld door ons bestaande algoritme voorland/water herkenning) met de bijpassende frame, door deze over elkaar heen te leggen.  
 [Frame checker notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb)  
 Door gebruik te maken van deze framechecker kan de goed gelabelde data gesplitst worden van de juist gelabelde data.  
 
-`plaatje bijvoegen`
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/frame_checker.png"> </p> 
 
-De verkeerd gelabelde data kon daarna correct gelabeld worden met een tooltje dat lijkt op de hiervoor getoonde Frame Checker.  
+De verkeerd gelabelde data kon daarna correct gelabeld worden met een tooltje dat lijkt op de hiervoor getoonde Frame Checker. Dit tooltje gebrukt net zoals voorgaande frame_checker code uit de de [app](https://github.com/KB-74/portfolio/tree/master/Michiel/Notebooks/app) grotendeels gecreerd door Job. Om deze reden kan deze ook alleen gerund worden als deze kan worden aangeroepen. Door op het plaatje te klikken werden er puntjes gecreërd waarvan de locatie wordt opgeslagen in een .json bestand.  
 [Wall labeler notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/wall_labeler.ipynb)  
-Halverwege is echter gekozen om Photoshop te gebruikenm gezien de magnet-lasso tool hier beter geschikt voor is.
+Halverwege is echter gekozen om Photoshop te gebruiken gezien de magnet-lasso tool hier beter geschikt voor is.
 
-`plaatje bijvoegen`
 
 De 250 gelabelde frames waren naar ons inzicht echter niet genoeg. Om deze reden, en om verschillende situaties na te bootsen welke niet in onze dataset voorkomen, hebben we verschillende aanpassingen gedaan op de frames. Hoe dit gedaan is, is te zien in de picture processing notebook.  
 [Picture Processing notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb)
 
-`plaatje bijvoegen van de presentatie nog`
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/picture_processing.PNG"> </p> 
 
 Aanpassingen die uitgevoerd zijn, zijn:  
 
