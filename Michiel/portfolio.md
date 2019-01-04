@@ -75,12 +75,13 @@ Bovenstaande activiteiten hebben geholpen om de nodige features te onderscheiden
 In eerste instantie bestond ons project grotendels uit twee subprojecten; Objectherkenning en land/water herkenning.
 Het land/water herkennings algoritme is op conceptueel niveau bedacht door Martin, de uitwerking en de nodige berekeningen zijn vervolgens als groep uitgewerkt.
 
-Als eerste was het de taak om uit te zoeken wat een effectieve manier was om de grens tussen water en land te vinden.  
-[grijswaarden_of_rgb](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/grijswaarden_of_rgb.ipynb.ipynb)
+Als eerste was het de taak om uit te zoeken wat een effectieve manier was om de grens tussen water en land te vinden. In onderstaand notebook gecreerd door mijzelf en Martin is te zien waarom besloten is voor RGB i.p.v. grijswaarden, ondanks dat grijswaarden uiteindelijk minder zwaar zijn voor de cpu. Ook is onderaan het notebook te zien dat we zijn gaan experimenteren met de Euclidian distance, ik had bedacht dat dit wel een effectieve manier kon zijn om het verschil in wardes te berekenen.  
+[grijswaarden_of_rgb](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/grijswaarden_of_rgb.ipynb)
 
+Na bovenstaand onderzoek heb ik samen met Jelte en Job het onderstaand notebook gemaakt. Hier in is te zien hoe we de Euclidian distance werkelijk toepassen om de scheidingen tussen water, land en boot te bepalen. (de data was op dit moment nog niet tot onze beschikking, om deze reden is een willekeurig plaatje gebruikt)  
 [pixel_walker_V2.1](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V2.1.ipynb)
 
-
+[pixel_walker_V5](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V5.ipynb)
 Het algoritme neemt de gemiddelde waarde van de rode lijn en schiet vervolgens pixel walkers die over de afbeelding gaan. Zodra de gemiddelde pixel waarde buiten een bepaalde treshold valt die gebaseerd is op de Euclidian Distance wordt er een gekleurd puntje gezet. Dit is meestal de scheiding tussen het water en het land.
 om voorspelling uit te voeren
 doortrekken regressielijn is voorspelling kade?
