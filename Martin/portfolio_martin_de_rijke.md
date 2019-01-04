@@ -181,9 +181,9 @@ Lukas de Bruijn en Ton van der Weele zijn beide aanwezig geweest.
 |  | | |
 | ---: | :--- | :--- | 
 |<b>Week</b>| <b>Link</b>|<b>Medestudent</b>|
-|1| [Presentatie Sprint 1](https://github.com/KB-74/portfolio/blob/master/Martin/resources/Presentation_Sprint_1.pptx)| Jasper Vlaar |
-|2| [Presentatie Sprint 2](https://github.com/KB-74/portfolio/blob/master/Martin/resources/Presentation_Sprint_2.pptx)| - |
-|6| [Presentatie Sprint 6](https://github.com/KB-74/portfolio/blob/master/Martin/resources/Presentation_Sprint_6.pptx)| Michiel van Soest |
+|1| [Presentatie Sprint 1](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_1.pptx)| Jasper Vlaar |
+|2| [Presentatie Sprint 2](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_2.pptx)| - |
+|6| [Presentatie Sprint 6](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_6.pptx)| Michiel van Soest |
 
 ### Wekelijkse Vergaderingen
 Elke Donderdag was er een vergadering met de opdrachtgever. Wij als groep bespraken de voortgang en kregen nieuwe input om door te bouwen aan het algoritme en de andere stukken code.
