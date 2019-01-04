@@ -110,13 +110,13 @@ Vervolgens kan een persoon dan bepalen of de gelabelde data wel of niet correct 
 
 De code kan niet helemaal uitgevoerd worden in Jupyter, aangezien we gebruik hebben gemaakt van verschillende classes in PyCharm.
 De notebook bewijst wel dat de code werkt, aangezien er geen error komt en de output geeft ook aan dat hij de twee afbeeldingen over elkaar heen zou plotten.
-Ik heb de code ook uitgevoerd in PyCharm en de uitkomende afbeeldingen toegevoegd. De afbeelding geplot over de afbeelding genomen door een camera op de RPA 3 is geen uitkomst uit het algoritme, maar een random afbeelding van internet.
+Ik heb de code ook uitgevoerd in PyCharm en de uitkomende afbeelding (3) toegevoegd. De afbeelding geplot over de afbeelding genomen door een camera op de RPA 3 is geen uitkomst uit het algoritme, maar een random afbeelding van internet.
 Er is parallel gewerkt en het algoritme had nog geen output filters die gebruikt konden worden voor dit programma.
 
 [overlay_checker_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/overlay_checker.ipynb)
 
 <img src="resources/overlay_checker.png" alt="Overlay Checker" width="700">
-afbeelding x: (Overlay Checker Image)
+afbeelding 3: (Overlay Checker Image)
 
 # Data Collection
 Er is geen nieuwe data voor het algoritme verzameld tijdens het project. Er is echter wel data gelabeled, zodat er data ontstond voor het neurale netwerk.
@@ -124,33 +124,33 @@ Deze data kwam voort uit de niet goed gelabelde data door het algoritme. Alle we
 bespaard door het laten labelen van data door het algoritme.
 Met deze tool kunnen er rode puntjes gezet worden bij de scheiding tussen water en land. Dat is ook geillustreerd in de onderstaande afbeelding. De coordinaten van die rode puntjes worden opgeslagen en kunnen vervolgens worden gebruikt om
 definitief te bepalen waar water is en waar land, op dezelfde manier als het algoritme dat op dit moment doet.
-De notebook werkt niet in Jupyter en wel in PyCharm, ook omdat er gebruik gemaakt wordt van classes. Ik heb een afbeelding toegevoegd waarin de rode puntjes geplaatst zijn door mijzelf met de muis dankzij het programma. Vervolgens ook een screenshot van de code in Pycharm met de 
+De notebook werkt niet in Jupyter en wel in PyCharm, ook omdat er gebruik gemaakt wordt van classes. Ik heb een afbeelding (4) toegevoegd waarin de rode puntjes geplaatst zijn door mijzelf met de muis dankzij het programma. Vervolgens ook een screenshot (afbeelding 5) van de code in Pycharm met de 
 coördinaten die ik aangevinkt heb als output en ten slotte het notebook in Jupyter, zodat u de code kunt inzien.
 
 [wall_labeler_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/wall_labeler.ipynb)
 
 <img src="resources/wall_labeler_2.png" alt="wall_labeler_2" width="700">
-afbeelding x: (wall_labeler: Bepaling van de water/land scheiding)
+afbeelding 4: (wall_labeler: Bepaling van de water/land scheiding)
 
 <img src="resources/wall_labeler_1.png" alt="wall_labeler_1" width="700">
-afbeelding x: (wall_labeler: Bewijs dat de code werkt, dankzij de output)
+afbeelding 5: (wall_labeler: Bewijs dat de code werkt, dankzij de output)
 
 # Evaluation
 Samen met Michiel heb ik een tool ontwikkeld waarmee de gelabelde data die uit het land/water herkennings algoritme komt geverifieerd kan worden. De gelabelde frames worden 1 voor 1 ingeladen en als een frame goed is kan de gebruiker op Y klikken en als hij niet goed is op N. Zo wordt de correct gelabelde data gefilterd voor het neurale netwerk en kan de niet correct gelabelde data handmatig correct gelabeld worden. Zo kan er gelijk onderzocht worden welk % van het totaal aantal frames correct gelabeld zijn door het algoritme. 
 Dit is een programma dat een frame opent in een nieuw venster, vervolgens kan de gebruiker klikken op 'y' om het frame als goed te bestempelen of op 'n' om hem als niet goed te bestempelen.
 De frames worden dan in aparte mappen opgeslagen. De goed gelabelde data kan direct gebruikt worden voor het neurale netwerk en de niet goed gelabelde data kan opnieuw handmatig gelabeled worden.
 De code werkt niet in Jupyter, aangezien er gewerkt is met Classes in PyCharm. De code is wel toegevoegd.
-Daaronder twee afbeeldingen, in de eerste afbeelding is het programma nog niet gerund en staan er dus geen afbeeldingen opgeslagen in de twee mappen: 'frames_goed' en 'frames_fout'.
-Op de tweede afbeelding is het programma wel gerund, direct erna (te zien aan de tijd, dag en de output) waarin ik een aantal keer op 'y' heb geklikt en een aantal keer op 'n', waardoor de afbeeldingen in de verschillende mappen zijn opgeslagen.
+Daaronder twee afbeeldingen, in de eerste afbeelding (6) is het programma nog niet gerund en staan er dus geen afbeeldingen opgeslagen in de twee mappen: 'frames_goed' en 'frames_fout'.
+Op de tweede afbeelding (7) is het programma wel gerund, direct erna (te zien aan de tijd, dag en de output) waarin ik een aantal keer op 'y' heb geklikt en een aantal keer op 'n', waardoor de afbeeldingen in de verschillende mappen zijn opgeslagen.
 Op deze manier konden we heel makkelijk data beoordelen op wel of niet goed gelabeld door het algoritme.
 
 [frame_checker_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/frame_checker.ipynb)
 
 <img src="resources/frame_checker_1.png" alt="frame_checker_1" width="700">
-afbeelding x: (frame_checker: De twee lege mappen: 'frames_goed' en 'frames_fout' links in beeld)
+afbeelding 6: (frame_checker: De twee lege mappen: 'frames_goed' en 'frames_fout' links in beeld)
 
 <img src="resources/frame_checker_2.png" alt="frame_checker_2" width="700">
-afbeelding x: (frame_checker: De opgeslagen frames links in de twee mappen 'frames_goed' en 'frames_fout' opgeslagen)
+afbeelding 7: (frame_checker: De opgeslagen frames links in de twee mappen 'frames_goed' en 'frames_fout' opgeslagen)
 
 # Diagnostics
 Aan het stukje diagnostics heb ik niet gewerkt tijdens dit project, dat hebben andere groepsleden gedaan. Uiteraard heb ik wel de kennis ervoor opgedaan in de courses en de lessen.
@@ -189,29 +189,31 @@ Dit dwong ons ook om wekelijks vooruitgang te boeken en nieuwe resultaten te lat
 Één van mijn hoogtepunten was 4 Oktober, toen was er een Innovation Expo in Rotterdam.
 Hier ben ik geinterviewed door BNR radio en het is vervolgens de week erna uitgezonden. 
 Port of Rotterdam heeft hier zeer positief op gereageerd, aangezien positieve media aandacht goed is voor hun als bedrijf.
-Verder was het een unieke en leerzame ervaring.
+Verder was het een unieke en leerzame ervaring. Afbeelding 8 is een foto van het interview.
 
 [BNR Radio Interview](https://www.bnr.nl/programmas/wetenschap-vandaag/10356983/elektrisch-vliegen-en-autonoom-varen) (Vanaf minuut 8)
 
 <img src="resources/interview_bnr.jpg" alt="Interview BNR Radio" width="700">
-afbeelding x: (Interview BNR Radio)
+afbeelding 8: (Interview BNR Radio)
 
 ### Tommie Awards
 Een tweede hoogtepunt was het pitchen in de finales van de Tommie Awards. Het 'floating lab' was geselecteerd voor de prijs:
 'Most enabling innovative ecosysteem'. Port of Rotterdam vroeg mij, mede dankzij het succesvolle radiointerview, om te pitchen tijdens de finale.
 Dat heb ik uiteraard gedaan. Vervolgens was er een prijs uitreiking tijdens een diner. Hier heb ik met een aantal succesvolle mensen uit het bedrijfsleven gepraat
 en een jurylid heeft mij zelfs een baan aangeboden. Helaas hebben we de prijs niet gewonnen, maar het was een extreem leerzame ervaring en een geweldige dag.
+Afbeelding 9 is foto genomen tijdens de avond van de Tommie Awards.
 
 <img src="resources/tommie_awards.jpg" alt="Tommie Awards" width="700">
-afbeelding x: (Tommie Awards)
+afbeelding 9: (Tommie Awards)
 
 ### Innovation Expo
 Op 4 Oktober vond er een innovatie expo plaats in Rotterdam. Hier hebben wij als groep gepresenteerd.
 Op dat moment waren we ook nog druk bezig met opject herkenning, iets dat we later hebben laten vallen wegens tijdsgebrek.
 Hier hebben we met allerlei mensen gepraat, een demo gegeven van ons land/water algoritme en van object herkenning en heb ik dus het BNR interview afgegeven.
+Afbeelding 10 is genomen tijdens de Innovation Expo om onze demo te demonstreren.
 
 <img src="resources/demo_innovationexpo.jpg" alt="innovation expo" width="700">
-afbeelding x: (Demo Innovation Expo)
+afbeelding 10: (Demo Innovation Expo)
 
 # Conclusie
 Tijdens de minor heb ik mezelf enorm ontwikkeld qua programmeer skills. Ik kwam binnen als leek, die nog nooit iets geprogrammeerd had. Ik wist bijvoorbeeld niet wat een string was of het 'print' command.
