@@ -1,18 +1,7 @@
-Versie: 16-12-2018
-`!!weghalen!!!:`  
-
-`Darknet/ Yolo/ keras?`
-
-`Additional portfolio requirements:`
-
-`Include your Friday presentations  ``
-Add screenshots of the online courses you have finished (DataCamp, Coursera, etc)  
-Link to the Python Notebooks you have finished (you can dump them to PDF)  
-List the tickets from the Scrum backlog that you worked on, linked to deliverables, own experiments, etc.  
-Add any other assignment you feel is evidence of your abilities`
+Versie: 04-01-2019
 
 # Persoonlijke portfolio
-Persoonlijke portfolio voor de minor Applied Data Science op de Haagse Hogeschool.  
+Persoonlijke portfolio voor de minor Applied Data Science 2018/2019 op de Haagse Hogeschool.  
 
 |  | |
 | ---: | :--- |
@@ -20,33 +9,47 @@ Persoonlijke portfolio voor de minor Applied Data Science op de Haagse Hogeschoo
 |Studentnummer:| <b>15080803</b>|
 |Groep:| <b>KB-74 Shipping</b>|
 |Opdrachtgever:| <b>Port of Rotterdam</b>|
+|Begeleider:| <b>Hugo Benne</b>|
+
+# Leeswijzer
+In dit portfolio is te lezen wat ik gedaan en behaald heb binnen dit SHIP project. Er is geprobeerd een zo duidelijk mogelijke weergave te geven van de denkwijze, hoe beslissingen tot stand zijn gekomen, en wat er proecies is behaald.
+De hoofdstukken zijn verdeeld over de verscheidene velden van Applied Data science, om gemakkelijk een beeld te krijgen wat er binnen elk gebied is gedaan.
 
 # Inhoudsopgave
 
-
-* [Shipping "Floating Lab"](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#shipping-floating-lab)  
-* [Courses](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#courses) 
-* [Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#domain-knowledge) 
-* [Predictive models](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#predictive-models) 
-* [Data preperation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-preparation) 
-* [Data visialization](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-visualization) 
-* [Data collection](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-collection) 
-* [Evaluation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#evaluation) 
-* [Diagnostics of the learning process](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#diagnostics-of-the-learning-process) 
-* [Communication](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#communication-presentations-summaries-paper-) 
+|Hoofdstuk        | 
+|------             |
+|[Shipping "Floating Lab"](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#shipping-floating-lab)|  
+|[Courses](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#courses)| 
+|[Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#domain-knowledge)| 
+|[Predictive models](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#predictive-models)| 
+|[Data preperation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-preparation)| 
+|[Data visialization](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-visualization)| 
+|[Data collection](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-collection)| 
+|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#evaluation)| 
+|[Diagnostics of the learning process](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#diagnostics-of-the-learning-process)| 
+|[Communication](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#communication-presentations-summaries-paper-)| 
 
 ### Notebooks
-* [frame_checker](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb) 
-* [picture_processing](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb) 
-* [wall_labeler](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/wall_labeler.ipynb) 
-* [pixel_walker_V2.1](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V2.1.ipynb)
-* [video_extraction](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/video_extraction.ipynb)   
-- object detection () uitleg erbij van eerst yolo, maar code geven van keras (wel door job grotendeels gedaan dit nieuwe) 
+|Notebooks        | 
+|------             |
+|[frame_checker](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb)| 
+|[picture_processing](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb)| 
+|[wall_labeler](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/wall_labeler.ipynb)| 
+|[pixel_walker_V2.1](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V2.1.ipynb)|
+|[pixel_walker_V5](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V5.ipynb)|
+|[video_extraction](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/video_extraction.ipynb)|
+|[object_detection_V_1](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/object_detection_V1.ipynb)|  
+|[grijswaarden_of_rgb](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/grijswaarden_of_rgb.ipynb)|  
 
-`linkjes naar elke paragraaf en notebook`
-___
 # Shipping "Floating Lab"
-`TODO: Introductie project SHIP schrijven.`  
+### Keuze SHIP
+Mijn keuze voor het project SHIP is gebaseerd op onderstaande redenen:
+- SHIP sprak erg tot de verbeelding door de huidige technologische voortgang op het gebied van autonome producten. Ik wilde dan ook graag in de voorhoede staan van deze ontwikkelingen.
+- Om ervaring op te doen in en het leren van programmeren met python.
+- Ervaring op doen in het gebied van objectherkenning en machine learning
+
+### Floating Lab 
 Floating Lab is een samenwerkingsverband van verscheidene partijen, zoals Port of Rotterdam (PoR), CGI en de Haagse Hogeschool (HHS). PoR biedt de RPA3 (boot uitgerust met camera's en overige sensoren) ter beschikking aan de andere partijen om algoritmen en software te ontwikkelen om autonoom varen mogelijk te maken.  
 
 Wij (Groep SHIP) werken namens de HHS aan beeldherkenning van verscheidene dingen zoals: land/water en objectherkenning.  
@@ -63,17 +66,33 @@ Om bovenstaande algoritmen en software te kunnen ontwikkelen heb ik voor zover m
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/coursera_michiel.png"> </p>
 
 # Domain Knowledge
-Voorafgaand aan dit project had ik zeer beperkte programeer ervaring. Deze kennis heb ik aangescherpt a.d.h.v. de aangeboden [Courses](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#courses). en youtube videos.  
-Daarnaast hebben we het SMASH (Smart shipping) event bezocht om kennis op te doen omtrent de veranderende kennis en regelgeving omtrent smart shipping.
+Voorafgaand aan dit project had ik zeer beperkte programeer ervaring. Deze kennis heb ik aangescherpt a.d.h.v. de aangeboden [Courses](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#courses) en youtube videos. Daarnaast hebben we het SMASH (Smart shipping) event bezocht om kennis op te doen omtrent de veranderende kennis en regelgeving omtrent smart shipping.
+De overige opgedane theoretische kennis is behaald door het lezen van verscheidene papers over detectie van onder andere de horizon, randen, richting van randen etc. De bronnen hiervan zijn te vinden in ons paper.
 
 Bovenstaande activiteiten hebben geholpen om de nodige features te onderscheiden en te analyseren om ons algoritme te laten werken.
 
 # Predictive Models
-Moeilijk om te doen gezien het live dtectie betreft
-object detectie niet precies genoeg om voorspelling uit te voeren
-doortrekken regressielijn is voorspelling kade?
+In eerste instantie bestond ons project grotendels uit twee subprojecten; Objectherkenning en land/water herkenning.
+Het land/water herkennings algoritme is op conceptueel niveau bedacht door Martin, de uitwerking en de nodige berekeningen zijn vervolgens als groep uitgewerkt.
 
-`?? ons huidige algoritme beschijven?`
+Als eerste was het de taak om uit te zoeken wat een effectieve manier was om de grens tussen water en land te vinden. In onderstaand notebook gecreerd door mijzelf en Martin is te zien waarom besloten is voor RGB i.p.v. grijswaarden, ondanks dat grijswaarden uiteindelijk minder zwaar zijn voor de cpu. Ook is onderaan het notebook te zien dat we zijn gaan experimenteren met de Euclidian distance, ik had bedacht dat dit wel een effectieve manier kon zijn om het verschil in wardes te berekenen.  
+
+- [grijswaarden_of_rgb](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/grijswaarden_of_rgb.ipynb)
+
+Na bovenstaand onderzoek heb ik samen met Jelte en Job het onderstaand notebook gemaakt. Hier in is te zien hoe we de Euclidian distance werkelijk toepassen om de scheidingen tussen water, land en boot te bepalen. (de data was op dit moment nog niet tot onze beschikking, om deze reden is een willekeurig plaatje gebruikt)  
+- [pixel_walker_V2.1](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V2.1.ipynb)
+
+Nadat we de data hebben ontvangen is het idee ontstaan van de "pixel_walker". Het algoritme neemt de gemiddelde waarde van de groene lijn en schiet vervolgens een zogenaamde "pixel walkers" over de afbeelding af richting de andere kant van de afbeelding. Van elke stap/iteratie die de walker neemt, wordt de rgb waarde toegevoegd aan het huidige gemiddelde van die betreffende walker. zodra deze rgb waarde echter teveel afwijkt van het al bestaande gemiddelde, wordt een puntje geplot.   
+- [pixel_walker_V5](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V5.ipynb)
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/pixel_walker_v5.PNG"> </p> 
+
+De hieropvolgende stappen van dit algoritme zijn grotendeels door Job uitgewerkt gezien hij onze ideen met zijn programeerkennis het beste tot uitwerking kon brengen. Er is vervolgens vooral gewerkt in pair-programming.
+
+Aan de objectherkenningskant heb ik zelf veel moeite gedaan om de gekozen objectdetectiemethode YOLO (na onderzoek gebleken meest effectieve methode voor objectherkenning op dat moment) te begrijpen. In onderstaand Notebook is te zien hoe we onze verkegen data door het algoritme konden halen. Het aanpassen van YOLO bleek echter niet binnen mijn programeerkennis te liggen. Daarnaast was het splitsen van het huidig gebruikte model niet mogelijk, en zou het compleet zelf trainen ervan niet binnen de scope liggen van ons project.  
+
+Later is ook Keras uitgewerkt, hoewel dit beter aanpasbaar was, was dit wel zwaarder en te langzaam voor live processing.  
+- [object_detection_V_1](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/object_detection_V1.ipynb)
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/object_detection.png"> </p> 
 
 # Data preparation
 De data die we in eerste instantie ontvangen hebben, bestaat uit een .avi videobestand met de output van een van de voorwaards gerichte camera's(camera 3).  
@@ -81,22 +100,23 @@ Om de data te kunnen gebruiken hebben we als eerste elk frame in de video met ge
 
 We hebben gekozen om het water te labelen d.m.v. een mask met zwart en witte pixels. We hebben expliciet niet gekozen voor het labelen van objecten, gezien de al bestaande modellen omtrent objectdetectie (vb. Yolov3) niet  zomaar kunnen worden gesplit, en er niet genoeg data beschikbaar was gesteld om de beschikbare modellen te trainen.  
 
-Om deze data te labelen heb ik een "framechecker" gemaakt. Deze vergelijkt de automatisch gelabelde data (gelabeld door ons bestaande algoritme voorland/water herkenning) met de bijpassende frame, door deze over elkaar heen te leggen.  
-[Frame checker notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb)  
+Om deze data te labelen heb ik samen met Martin een "framechecker" gemaakt. Deze vergelijkt de automatisch gelabelde data (gelabeld door ons bestaande algoritme voorland/water herkenning) met de bijpassende frame, door deze over elkaar heen te leggen.  
+- [Frame checker notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb) 
+ 
 Door gebruik te maken van deze framechecker kan de goed gelabelde data gesplitst worden van de juist gelabelde data.  
 
-`plaatje bijvoegen`
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/frame_checker.PNG"> </p> 
 
-De verkeerd gelabelde data kon daarna correct gelabeld worden met een tooltje dat lijkt op de hiervoor getoonde Frame Checker.  
-[Wall labeler notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/wall_labeler.ipynb)  
-Halverwege is echter gekozen om Photoshop te gebruikenm gezien de magnet-lasso tool hier beter geschikt voor is.
+De verkeerd gelabelde data kon daarna correct gelabeld worden met een tooltje dat lijkt op de hiervoor getoonde Frame Checker. Dit tooltje gebrukt net zoals voorgaande frame_checker code uit de de [app](https://github.com/KB-74/portfolio/tree/master/Michiel/Notebooks/app) grotendeels gecreerd door Job. Om deze reden kan deze ook alleen gerund worden als deze kan worden aangeroepen. Door op het plaatje te klikken werden er puntjes gecreërd waarvan de locatie wordt opgeslagen in een .json bestand.  
+- [Wall labeler notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/wall_labeler.ipynb)  
 
-`plaatje bijvoegen`
+Halverwege is echter gekozen om Photoshop te gebruiken gezien de magnet-lasso tool hier beter geschikt voor is.
+
 
 De 250 gelabelde frames waren naar ons inzicht echter niet genoeg. Om deze reden, en om verschillende situaties na te bootsen welke niet in onze dataset voorkomen, hebben we verschillende aanpassingen gedaan op de frames. Hoe dit gedaan is, is te zien in de picture processing notebook.  
-[Picture Processing notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb)
+- [Picture Processing notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb)
 
-`plaatje bijvoegen van de presentatie nog`
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/picture_processing.PNG"> </p> 
 
 Aanpassingen die uitgevoerd zijn, zijn:  
 
@@ -111,17 +131,14 @@ Aanpassingen die uitgevoerd zijn, zijn:
 Bijbehorende masks worden in deze notebook ook automatisch met bijbehorend framenummer meegekopieerd/ aangepast.
 
 # Data Visualization
-link video?
-`picture processing notebook`
-`frame checker`
-`wall labeler`
+Om erachter to komen of wat we deden werkte, en of het nut had, hebben we zoveel mogelijk gevisualiseerd. Door de bijgevoegde notebooks te openen zul je ook zien dat elke aanpassing door een snelle plot gevisualizeerd is. Daarnaast zijn er ook videos gerenderd. Deze zijn te vinden in onze presentaties en gedeelde onedrive (Hugo Benne heeft toegang). 
 
 # Data collection
 De data die we nodig hadden bestaat uit videomateriaal van verscheidene camera's op de RPA3. Helaas was na analyse van deze beelden duidelijk dat alleen de beelden van camera 3 bruikbaar waren. De overige camera's, waaronder de stereoscopische camera's, waren door onder andere trillingen en de verkeerde instellingen van zeer slechte kwaliteit. Dit heeft ook grotendeels ons onderzoek naar afstandsherkening gehinderd en stopgezet.   
 
 Om de beelden te kunnen gebruiken voor herkenning, hebben we elk frame omgezet naar een aparte afbeelding. Zie onderstaand notebook:
-[video_extraction](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/video_extraction.ipynb)
-Deze notebook bewerkt indien aangezet, ook de frames door de Fisheye lens te corrigeren. Dit gedeelte is door Job beschreven.
+- [video_extraction](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/video_extraction.ipynb)
+Deze notebook bewerkt indien aangezet, ook de frames door de Fisheye lens te corrigeren. Dit gedeelte is door Job beschreven en uitgewerkt.
 
 
 Omdat de verkregen afbeeldingen slechts op één moment gefilmd zijn, bestaat de kans dat ons algoritme slechts getraind wordt op zeer specifieke omstandigheden. Om deze reden is het eerder beschreven [Picture Processing notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb) gebruikt om het algoritme te verbeteren aan de hand van aanpassing van de afbeeldingen.  
@@ -129,6 +146,8 @@ Wat dit inhoud en doet is te lezen in [Data preperation](https://github.com/KB-7
 
 # Evaluation
 
+De Frane
+- [Frame checker notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb) 
 
 `frame checker`
 `dat ding dat trainde en bekeek wat t beste is`
