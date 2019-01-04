@@ -95,8 +95,10 @@ Het gebruik maken van zwart/wit is het meest gunstig aangezien het minder rekenk
 Ik heb de frames met Python gevisualiseerd en getest. Ik kwam erachter dat zwart/wit niet werkte aangezien er soms boten waren 
 of andere objecten op het water die een bijna dezelfde zwart/wit waarde hadden als het water zelf.
 RGB werkte in die gevallen wel als er gebruik werd gemaakt van de Euclidian Distance om het verschil te bepalen. Er is dus besloten om daarmee te beginnen. 
+In de onderstaande notebook staan allereerst Black&White en RGB uitgewerkt aan de hand van de mean. Daar is echter in beide gevallen geen significant verschil tussen de zee en het schip.
+Als de Euclidian Distance wordt gebruikt, is er wel een significant verschil tussen de zee en het schip. Er is dus besloten om die te gebruiken.
 
-`Toevoegen van het Notebook waarbij de zwart/wit, normale RGB en de RGB aan de hand van Euclidian Distance`
+[black&white_or_rgb_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/black&white_or_rgb.ipynb)
 
 # Data Visualization
 Tijdens het project heb ik veel data gevisualiseerd. Vooral tijdens de DataCamp courses kwam dit veel voor.
