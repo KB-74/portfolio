@@ -1,18 +1,7 @@
-Versie: 16-12-2018
-`!!weghalen!!!:`  
-
-`Darknet/ Yolo/ keras?`
-
-`Additional portfolio requirements:`
-
-`Include your Friday presentations  ``
-Add screenshots of the online courses you have finished (DataCamp, Coursera, etc)  
-Link to the Python Notebooks you have finished (you can dump them to PDF)  
-List the tickets from the Scrum backlog that you worked on, linked to deliverables, own experiments, etc.  
-Add any other assignment you feel is evidence of your abilities`
+Versie: 04-01-2019
 
 # Persoonlijke portfolio
-Persoonlijke portfolio voor de minor Applied Data Science op de Haagse Hogeschool.  
+Persoonlijke portfolio voor de minor Applied Data Science 2018/2019 op de Haagse Hogeschool.  
 
 |  | |
 | ---: | :--- |
@@ -20,33 +9,47 @@ Persoonlijke portfolio voor de minor Applied Data Science op de Haagse Hogeschoo
 |Studentnummer:| <b>15080803</b>|
 |Groep:| <b>KB-74 Shipping</b>|
 |Opdrachtgever:| <b>Port of Rotterdam</b>|
+|Begeleider:| <b>Hugo Benne</b>|
+
+# Leeswijzer
+In dit portfolio is te lezen wat ik gedaan en behaald heb binnen dit SHIP project. Er is geprobeerd een zo duidelijk mogelijke weergave te geven van de denkwijze, hoe beslissingen tot stand zijn gekomen, en wat er proecies is behaald.
+De hoofdstukken zijn verdeeld over de verscheidene velden van Applied Data science, om gemakkelijk een beeld te krijgen wat er binnen elk gebied is gedaan.
 
 # Inhoudsopgave
 
-
-* [Shipping "Floating Lab"](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#shipping-floating-lab)  
-* [Courses](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#courses) 
-* [Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#domain-knowledge) 
-* [Predictive models](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#predictive-models) 
-* [Data preperation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-preparation) 
-* [Data visialization](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-visualization) 
-* [Data collection](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-collection) 
-* [Evaluation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#evaluation) 
-* [Diagnostics of the learning process](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#diagnostics-of-the-learning-process) 
-* [Communication](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#communication-presentations-summaries-paper-) 
+|Hoofdstuk        | 
+|------             |
+|[Shipping "Floating Lab"](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#shipping-floating-lab)|  
+|[Courses](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#courses)| 
+|[Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#domain-knowledge)| 
+|[Predictive models](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#predictive-models)| 
+|[Data preperation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-preparation)| 
+|[Data visialization](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-visualization)| 
+|[Data collection](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-collection)| 
+|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#evaluation)| 
+|[Diagnostics of the learning process](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#diagnostics-of-the-learning-process)| 
+|[Communication](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#communication-presentations-summaries-paper-)| 
 
 ### Notebooks
-* [frame_checker](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb) 
-* [picture_processing](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb) 
-* [wall_labeler](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/wall_labeler.ipynb) 
-* [pixel_walker_V2.1](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V2.1.ipynb)
-* [video_extraction](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/video_extraction.ipynb)   
-- object detection () uitleg erbij van eerst yolo, maar code geven van keras (wel door job grotendeels gedaan dit nieuwe) 
+|Notebooks        | 
+|------             |
+|[frame_checker](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb)| 
+|[picture_processing](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb)| 
+|[wall_labeler](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/wall_labeler.ipynb)| 
+|[pixel_walker_V2.1](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V2.1.ipynb)|
+|[pixel_walker_V5](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V5.ipynb)|
+|[video_extraction](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/video_extraction.ipynb)|
+|[object_detection_V_1](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/object_detection_V1.ipynb)|  
+|[grijswaarden_of_rgb](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/grijswaarden_of_rgb.ipynb)|  
 
-`linkjes naar elke paragraaf en notebook`
-___
 # Shipping "Floating Lab"
-`TODO: Introductie project SHIP schrijven.`  
+### Keuze SHIP
+Mijn keuze voor het project SHIP is gebaseerd op onderstaande redenen:
+- SHIP sprak erg tot de verbeelding door de huidige technologische voortgang op het gebied van autonome producten. Ik wilde dan ook graag in de voorhoede staan van deze ontwikkelingen.
+- Om ervaring op te doen in en het leren van programmeren met python.
+- Ervaring op doen in het gebied van objectherkenning en machine learning
+
+### Floating Lab 
 Floating Lab is een samenwerkingsverband van verscheidene partijen, zoals Port of Rotterdam (PoR), CGI en de Haagse Hogeschool (HHS). PoR biedt de RPA3 (boot uitgerust met camera's en overige sensoren) ter beschikking aan de andere partijen om algoritmen en software te ontwikkelen om autonoom varen mogelijk te maken.  
 
 Wij (Groep SHIP) werken namens de HHS aan beeldherkenning van verscheidene dingen zoals: land/water en objectherkenning.  
@@ -63,14 +66,23 @@ Om bovenstaande algoritmen en software te kunnen ontwikkelen heb ik voor zover m
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/coursera_michiel.png"> </p>
 
 # Domain Knowledge
-Voorafgaand aan dit project had ik zeer beperkte programeer ervaring. Deze kennis heb ik aangescherpt a.d.h.v. de aangeboden [Courses](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#courses). en youtube videos.  
-Daarnaast hebben we het SMASH (Smart shipping) event bezocht om kennis op te doen omtrent de veranderende kennis en regelgeving omtrent smart shipping.
+Voorafgaand aan dit project had ik zeer beperkte programeer ervaring. Deze kennis heb ik aangescherpt a.d.h.v. de aangeboden [Courses](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#courses) en youtube videos. Daarnaast hebben we het SMASH (Smart shipping) event bezocht om kennis op te doen omtrent de veranderende kennis en regelgeving omtrent smart shipping.
+De overige opgedane theoretische kennis is behaald door het lezen van verscheidene papers over detectie van onder andere de horizon, randen, richting van randen etc. De bronnen hiervan zijn te vinden in ons paper.
 
 Bovenstaande activiteiten hebben geholpen om de nodige features te onderscheiden en te analyseren om ons algoritme te laten werken.
 
 # Predictive Models
-Moeilijk om te doen gezien het live dtectie betreft
-object detectie niet precies genoeg om voorspelling uit te voeren
+In eerste instantie bestond ons project grotendels uit twee subprojecten; Objectherkenning en land/water herkenning.
+Het land/water herkennings algoritme is op conceptueel niveau bedacht door Martin, de uitwerking en de nodige berekeningen zijn vervolgens als groep uitgewerkt.
+
+Als eerste was het de taak om uit te zoeken wat een effectieve manier was om de grens tussen water en land te vinden.  
+[grijswaarden_of_rgb](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/grijswaarden_of_rgb.ipynb.ipynb)
+
+[pixel_walker_V2.1](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/pixel_walker_V2.1.ipynb)
+
+
+Het algoritme neemt de gemiddelde waarde van de rode lijn en schiet vervolgens pixel walkers die over de afbeelding gaan. Zodra de gemiddelde pixel waarde buiten een bepaalde treshold valt die gebaseerd is op de Euclidian Distance wordt er een gekleurd puntje gezet. Dit is meestal de scheiding tussen het water en het land.
+om voorspelling uit te voeren
 doortrekken regressielijn is voorspelling kade?
 
 `?? ons huidige algoritme beschijven?`
