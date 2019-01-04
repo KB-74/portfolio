@@ -31,7 +31,7 @@ Wanneer dat het geval was heb ik iets anders gedaan om te laten zien dat ik ook 
 |[Data Visualization](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Visualization) |[overlay_checker_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/overlay_checker.ipynb)|✓|
 |[Data Collection](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Data-Collection)       |[wall_labeler_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/wall_labeler.ipynb)|✓|
 |[Evaluation](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Evaluation)                 |[frame_checker_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/frame_checker.ipynb)|✓|
-|[Diagnostics](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Diagnostics)               | - ||
+|[Diagnostics](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Diagnostics)               | - |✓|
 |[Communication](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Communication)           | - |✓|
 |[Conclusie](https://github.com/KB-74/portfolio/blob/master/Martin/portfolio_martin_de_rijke.md#Conclusie)                   | - |✓|
 
@@ -153,8 +153,9 @@ afbeelding x: (frame_checker: De twee lege mappen: 'frames_goed' en 'frames_fout
 afbeelding x: (frame_checker: De opgeslagen frames links in de twee mappen 'frames_goed' en 'frames_fout' opgeslagen)
 
 # Diagnostics
-Naast het algoritme dat de scheiding tussen het water en het land herkent, hebben Michiel en ik ook een stukje code ontwikkeld waarmee we handmatig frames kunnen labelen.
-Dat kunnen we gebruiken om de niet juist gelabelde data die uit het algoritme voortkomt te labelen. 
+Aan het stukje diagnostics heb ik niet gewerkt tijdens dit project, dat hebben andere groepsleden gedaan. Uiteraard heb ik wel de kennis ervoor opgedaan in de courses en de lessen.
+Ik heb voor mezelf ook een dataset van internet gedownload en daar alle stappen op doorlopen. Ik heb echter van meneer Vuurens begrepen, dat het geen meerwaarde heeft voor het portfolio aangezien ik alles van internet had kunnen kopiëren.
+Dat heb ik niet gedaan, aangezien ik ervan wilde leren, maar dat kan ik natuurlijk niet bewijzen.
 
 # Communication (presentations, summaries, paper, ...)
 Tijdens het project was ik de contactpersoon voor buitenaf. Dat houdt in dat ik contact hield met de opdrachtgever(s), CGI en Port of Rotterdam.
@@ -216,4 +217,7 @@ afbeelding x: (Demo Innovation Expo)
 Tijdens de minor heb ik mezelf enorm ontwikkeld qua programmeer skills. Ik kwam binnen als leek, die nog nooit iets geprogrammeerd had. Ik wist bijvoorbeeld niet wat een string was of het 'print' command.
 Op dit moment kan ik programmeren met functies, for loops, while loops en in verschillende classes. Ik heb vooral geleerd dat effectief zoeken op internet en dingen combineren een sleutel zijn in programmeren.
 Daarnaast heb ik ook twee unieke kansen gekregen, die weinig studenten krijgen. Daarmee doel ik op het radio interview en de pitch bij de Tommie awards.
+Ik heb van de lessen ook veel geleerd. Ik heb kennis gemaakt met linear regression en classification door middel van machine learning en deep learning oftewel neural networks. 
+Persoonlijk ben ik meer een alpha dan een beta, maar deze minor was een goede stap uit mijn comfort zone. Ik zie veel kansen voor de toepassing van machine learning en neural networks in de wereld en ik zou zulke projecten
+in de toekomst graag begeleiden. 
 
