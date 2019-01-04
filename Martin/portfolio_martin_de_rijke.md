@@ -21,6 +21,8 @@ Daar heb ik wel over geleerd in de lessen in in de online courses. Verder heb ik
 voor dit portfolio, aangezien ik niet het bewijs kan leveren, dat ik het zelf gemaakt heb. 
 In dit portfolio heb ik zo min mogelijk zaken gezet die ook in de paper naar voren komen, zoals uitleg over het project, of in algemene zin het product
 dat we ontwikkeld hebben. Dit naar aanleiding van de feedback les op het portfolio. Dit gaat puur om persoonlijk resultaat en laten zien dat ik op een bepaald level ben als 'data scientist'.
+Gedurende de feedbackles van het portfolio is er vermeld dat de 5 meest ingewikkelde stukken code meegenomen moesten worden in het portfolio.
+Dat heb ik ook gedaan. Tijdens het project heb ik nog een stuk meer code geschreven, maar ik denk dat de 5 stukken in dit portfolio mijn niveau goed weergeven.
 
 # Inhoudsopgave
 
@@ -128,7 +130,7 @@ bespaard door het laten labelen van data door het algoritme.
 Met deze tool kunnen er rode puntjes gezet worden bij de scheiding tussen water en land. Dat is ook geillustreerd in de onderstaande afbeelding. De coordinaten van die rode puntjes worden opgeslagen en kunnen vervolgens worden gebruikt om
 definitief te bepalen waar water is en waar land, op dezelfde manier als het algoritme dat op dit moment doet.
 De notebook (wall_labeler_notebook) werkt niet in Jupyter en wel in PyCharm, ook omdat er gebruik gemaakt wordt van classes. Ik heb een afbeelding (4) toegevoegd waarin de rode puntjes geplaatst zijn door mijzelf met de muis dankzij het programma. Vervolgens ook een screenshot (afbeelding 5) van de code in Pycharm met de 
-coördinaten die ik aangevinkt heb als output en ten slotte het notebook in Jupyter, zodat u de code kunt inzien.
+coördinaten die ik aangevinkt heb als output en ten slotte het notebook (wall_labeler_notebook) in Jupyter, zodat u de code kunt inzien.
 
 [wall_labeler_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/wall_labeler.ipynb)
 
@@ -145,7 +147,7 @@ De frames worden dan in aparte mappen opgeslagen. De goed gelabelde data kan dir
 De notebook (frame_checker_notebook) werkt niet in Jupyter, aangezien er gewerkt is met Classes in PyCharm. De code is wel toegevoegd.
 Daaronder twee afbeeldingen, in de eerste afbeelding (6) is het programma nog niet gerund en staan er dus geen afbeeldingen opgeslagen in de twee mappen: 'frames_goed' en 'frames_fout'.
 Op de tweede afbeelding (7) is het programma wel gerund, direct erna (te zien aan de tijd, dag en de output) waarin ik een aantal keer op 'y' heb geklikt en een aantal keer op 'n', waardoor de afbeeldingen in de verschillende mappen zijn opgeslagen.
-Op deze manier konden we heel makkelijk data beoordelen op wel of niet goed gelabeld door het algoritme.
+Met deze tool konden we heel makkelijk data beoordelen op wel of niet goed gelabeld door het algoritme.
 
 [frame_checker_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/frame_checker.ipynb)
 
@@ -185,7 +187,7 @@ Lukas de Bruijn en Ton van der Weele zijn beide aanwezig geweest.
 
 ### Wekelijkse Vergaderingen
 Elke Donderdag was er een vergadering met de opdrachtgever. Wij als groep bespraken de voortgang en kregen nieuwe input om door te bouwen aan het algoritme en de andere stukken code.
-Ikheb de vergaderingen soms geleidt en leerde om effectief te communiceren en verantwoording af te leggen.
+Ik heb de vergaderingen soms geleidt en leerde om effectief te communiceren en verantwoording af te leggen.
 Dit dwong ons ook om wekelijks vooruitgang te boeken en nieuwe resultaten te laten zien en dat deden we ook.
 
 ### BNR Interview
@@ -194,7 +196,7 @@ Hier ben ik geinterviewed door BNR radio en het is vervolgens de week erna uitge
 Port of Rotterdam heeft hier zeer positief op gereageerd, aangezien positieve media aandacht goed is voor hun als bedrijf.
 Verder was het een unieke en leerzame ervaring. Afbeelding 8 is een foto van het interview.
 
-[BNR Radio Interview](https://www.bnr.nl/programmas/wetenschap-vandaag/10356983/elektrisch-vliegen-en-autonoom-varen) (Vanaf minuut 8)
+De link naar het interview: [BNR Radio Interview](https://www.bnr.nl/programmas/wetenschap-vandaag/10356983/elektrisch-vliegen-en-autonoom-varen) (Vanaf minuut 8)
 
 <img src="resources/interview_bnr.jpg" alt="Interview BNR Radio" width="700">
 afbeelding 8: (Interview BNR Radio)
