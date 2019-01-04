@@ -101,13 +101,15 @@ Om de data te kunnen gebruiken hebben we als eerste elk frame in de video met ge
 We hebben gekozen om het water te labelen d.m.v. een mask met zwart en witte pixels. We hebben expliciet niet gekozen voor het labelen van objecten, gezien de al bestaande modellen omtrent objectdetectie (vb. Yolov3) niet  zomaar kunnen worden gesplit, en er niet genoeg data beschikbaar was gesteld om de beschikbare modellen te trainen.  
 
 Om deze data te labelen heb ik samen met Martin een "framechecker" gemaakt. Deze vergelijkt de automatisch gelabelde data (gelabeld door ons bestaande algoritme voorland/water herkenning) met de bijpassende frame, door deze over elkaar heen te leggen.  
-- [Frame checker notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb)  
+- [Frame checker notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb) 
+ 
 Door gebruik te maken van deze framechecker kan de goed gelabelde data gesplitst worden van de juist gelabelde data.  
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Michiel/pictures/frame_checker.PNG"> </p> 
 
 De verkeerd gelabelde data kon daarna correct gelabeld worden met een tooltje dat lijkt op de hiervoor getoonde Frame Checker. Dit tooltje gebrukt net zoals voorgaande frame_checker code uit de de [app](https://github.com/KB-74/portfolio/tree/master/Michiel/Notebooks/app) grotendeels gecreerd door Job. Om deze reden kan deze ook alleen gerund worden als deze kan worden aangeroepen. Door op het plaatje te klikken werden er puntjes gecreërd waarvan de locatie wordt opgeslagen in een .json bestand.  
 - [Wall labeler notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/wall_labeler.ipynb)  
+
 Halverwege is echter gekozen om Photoshop te gebruiken gezien de magnet-lasso tool hier beter geschikt voor is.
 
 
@@ -129,17 +131,14 @@ Aanpassingen die uitgevoerd zijn, zijn:
 Bijbehorende masks worden in deze notebook ook automatisch met bijbehorend framenummer meegekopieerd/ aangepast.
 
 # Data Visualization
-link video?
-`picture processing notebook`
-`frame checker`
-`wall labeler`
+Om erachter to komen of wat we deden werkte, en of het nut had, hebben we zoveel mogelijk gevisualiseerd. Door de bijgevoegde notebooks te openen zul je ook zien dat elke aanpassing door een snelle plot gevisualizeerd is. Daarnaast zijn er ook videos gerenderd. Deze zijn te vinden in onze presentaties en gedeelde onedrive (Hugo Benne heeft toegang). 
 
 # Data collection
 De data die we nodig hadden bestaat uit videomateriaal van verscheidene camera's op de RPA3. Helaas was na analyse van deze beelden duidelijk dat alleen de beelden van camera 3 bruikbaar waren. De overige camera's, waaronder de stereoscopische camera's, waren door onder andere trillingen en de verkeerde instellingen van zeer slechte kwaliteit. Dit heeft ook grotendeels ons onderzoek naar afstandsherkening gehinderd en stopgezet.   
 
 Om de beelden te kunnen gebruiken voor herkenning, hebben we elk frame omgezet naar een aparte afbeelding. Zie onderstaand notebook:
 - [video_extraction](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/video_extraction.ipynb)
-Deze notebook bewerkt indien aangezet, ook de frames door de Fisheye lens te corrigeren. Dit gedeelte is door Job beschreven.
+Deze notebook bewerkt indien aangezet, ook de frames door de Fisheye lens te corrigeren. Dit gedeelte is door Job beschreven en uitgewerkt.
 
 
 Omdat de verkregen afbeeldingen slechts op één moment gefilmd zijn, bestaat de kans dat ons algoritme slechts getraind wordt op zeer specifieke omstandigheden. Om deze reden is het eerder beschreven [Picture Processing notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb) gebruikt om het algoritme te verbeteren aan de hand van aanpassing van de afbeeldingen.  
@@ -147,6 +146,8 @@ Wat dit inhoud en doet is te lezen in [Data preperation](https://github.com/KB-7
 
 # Evaluation
 
+De Frane
+- [Frame checker notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb) 
 
 `frame checker`
 `dat ding dat trainde en bekeek wat t beste is`
