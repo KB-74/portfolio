@@ -7,8 +7,8 @@
 | Datum:        | 14-11-2018        |
 
 ## Inleiding
-Dit portfolio is tijdens de minor Data science idendivudeel opgesteld. en toond de bijdragen voor het project, de capaciteiten en
-datgeen dat tijdens de minor geleerd is. 
+Dit portfolio is tijdens de minor Data science individueel ongesteld en geeft weer wat de bijdragen voor het project was, 
+de capaciteiten en datgene dat tijdens de minor geleerd is. 
 
 ## Inhoudsopgave
 In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
@@ -26,18 +26,19 @@ In de tabel hieronder staat waarop het portfolio beoordeelt wordt:
 |Communication (presentations, summaries, paper, ...)
 > Hoofdstuk en Beordelings indeling portfolio
 
-
+___
 ## Introductie
 
-#### Opdracht omschrijving
+### Opdracht omschrijving
 
  `Beschrijving van de opdracht toevoegen`
+ 
  
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/bootje.gif" width="480" height="270" /> </p>
 
 > RPA 3, Smart Ship van Port Of Rotterdam. 
 
-#### Projectkeuze: SHIPPING
+### Projectkeuze: SHIPPING
 Aan het begin van week 1 werden we genoodzaakt een keuze te maken uit een zes tal verschillende projecten. Het project
 Waar mijn voorkeur naar uit gaat was het project autonomous shipping. Dit leek mij erg uitdagend om de volgende redenen:
 - Meest passend bij mijn studie (werktuigbouwkunde).
@@ -45,11 +46,14 @@ Waar mijn voorkeur naar uit gaat was het project autonomous shipping. Dit leek m
 - Opdracht waarbij er veel contact is met de project owner [Port of Rotterdam](https://www.portofrotterdam.com/nl)
 - Samenwerking met consultant [CGI](https://www.cginederland.nl/)
 
-## Domein kennis
-Voorafgaand aan het de minor had ik geen ervaring met programmeren in python. Om de kennis op te doen die nodig was voor 
-het project heb ik een aantal  coursers gevolgd. Deze coursers werden door de Haagse hogeschool aangeboden 
-   
+> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+___
 
+## Domein kennis
+Voorafgaand aan het de minor had ik geen ervaring met programmeren. Om mee te kunnen met het programmeerniveau van de 
+minor was het noodzakelijk om hiermee aan de slag te gaan. Naast de colleges heb ik verschillende courses gevolgd op 
+Coursera en Datacamp, dit is hieronder verder uitgewerkt. 
+  
 ### DataCamp
 met behulp van datacamp heb ik mijn domein kennis op het gebied van programmeren met python vergroot. 
 In figuur 1 staat een screenshot van alle courses die ik in de eerste weken van de minor heb gevolgd. 
@@ -60,81 +64,97 @@ In figuur 1 staat een screenshot van alle courses die ik in de eerste weken van 
 
 > Screenshot afgeronden courses Datacamp (08-11-2018)
 
-#### Coursera
+### Coursera
 Om kennis op te doen voor het maken van machine learning ben ik de online courses gevolgd die op coursera beschikbaar 
-zijn. Tijdens deze courses heb ik een breeede introductie gekregen in machine learning en de hierbij behorende statestieken.
+zijn. Tijdens deze courses bode een introductie in machine learning en de hierbij de behorende statestieken.
 Er is ingegaan op Linear en Logistic Regression en regularization. Naast de theorie waren er ook opdrachten waarbij je 
 bewust werd gemaakt hoe je dit toepasbaar kan maken in de praktijk. Deze oefeningen werden uitgevoerd in mathlab
 en Octave. In de [github](https://github.com/JelteMolenaar/machine_learning_standford_university) staan de uitgewerkte 
 oefeningen.
 
-Naast de verplichten coursers heb ik zelf wat extra courses gevolgd omtrend Neural networks. Dit omdat we dit verderop in het
-project nodig hebben.    
+Naast de verplichten coursers heb ik zelf wat extra courses gevolgd waarbij ingegaan werd op Neural networks. De 
+bijgehorende opdrachten heb ik overgeslagen en alleen gefocused op de informatie die gegeven werd. Dit omdat we dit 
+verderop in het project nodig hebben.    
 
 <p align="left"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/coursera_courses.JPG" 
  width="480" height="270"</p>
 
 > Screenshot afgeronden courses Coursera (10-11-2018)
 
+### colleges
 
-Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+
+> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
 ## Predictive Models
+Voor het begrijpen van de 
 voor onderzoek NN + bouwen van NN
-artiekelen die ik heb gelezen:
 
-http://cs231n.github.io/convolutional-networks/
-https://www.degruyter.com/downloadpdf/j/itms.2017.20.issue-1/itms-2017-0002/itms-2017-0002.pdf
-https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
-http://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf
+### Neuraal Netwerk
+Voor het begrijpen en helpen bij het opstellen van het Neuraal netwerk heb ik een aantal papers gelezen, deze papers staan
+in de bijlage. Helaas was mijn programmeer ervaring en vaardigheid nog niet op het niveau om daadwerkelijk een Neural
+Netwerk te kunnen trainen. 
+
+### Algoritme
+
+
+
 
 pixel_walker_v2
 
-Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
 
 ## Data preparation
-
+Het onderdeel data preparation h
 
 picture_processing
 Onderzoek HSV RGB.
 
-Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
-
+> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
 ## Data Visualization
 grafiek plotten
 picture_processing visualization pictures
 
-Tijdens het maken van het picture processing script was het moeilijk om te zien of de afbeelding en de frame 
-[picture_processing](https://github.com/KB-74/portfolio/blob/master/Jelte/notebooks/picture_processing_3.ipynb)
-wat heb ik hiervan geleerd: debug 
+Tijdens het maken van het picture processing was het moeilijk om te zien of het bewerkte frame en overlay daadwerkelijk
+bij elkaar paste. Daarom is er een deel visualisatie toegevoegd dat zorgt voor het inzichtelijk maken van de frame en overlay.
+[picture_processing](https://github.com/KB-74/portfolio/blob/master/Jelte/notebooks/picture_processing_4.ipynb) 
+
+Wat heb ik hiervan geleerd: debug 
 
 
-Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
-
+> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
 
 
 ___
 ## Data collection
-Voor trainen van een neural network zijn afbeeldingen van het het noodzakelijk om
-Labelen in photoshop handmatig
+Voor trainen van een neural network is gelabelde data noodzakelijk om het te kunnen trainen. Om deze afbeeldingen te maken
+hebben we het geselcteerde data bestand verdeeld in verschillende frames. Vervolgens hebben daarvan 250 random frames
+geselecteerd en door het algorithme gehaald. Toen de tijd was het algorithme minder accuraat en had het algorithme een 
+lage precision per foto. Voor het neural netwerk mocht er weinig afweiking in de overlay en het orginele frame zitten. 
+Dit is opgelost door handmatig de afbeeldingen te labelen in in photoshop. Hier heb ik me op gefocused tijdens twee sprints.
+Ik had nog geen ervaring met fotoshop maar tijdens het label van de afbeeldingen heb ik hier veel kennis van opgedaan.  
 
-Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+<p align="left"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/labelen_photoshop.png" width="480" height="270"</p>
 
+> labelen in photoshop. Hierbij is wit het water en is boven het gedeelte te zien waar geen water is. 
+
+
+> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
+
 ## Evaluation and Diagnostics
 
-Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 
+> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
-___
 ## Communication (presentations, summaries, papers, ...)
 
 gebruik gemaakt van samenvatting. Deze samenvattingen zijn gemaakt op basis van de informatie die gegeven werd tijdens 
@@ -143,7 +163,7 @@ de coursera courses, en aangevuld met lessstof uit de colleges.
 
 Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 
-###Scrum
+### Scrum
 Met de project aanpak methode van scrum focussen we ons op een daadwerkelijk werkend product en minder op documentatie.
 Het bijhouden en schrijven van documentatie kost vaak veel tijd in projecten en gaat ten kosten van de kwaliteit en kwantiteit
 van het eindproduct. De Scrum aanpak komt oorspronkelijk uit de ICT-sector, en past goed bij het project wat we op dit 
@@ -153,10 +173,12 @@ moment uitvoeren. Bij het scrum proces staan 4 regels centraal:
 3. Samenwerken met klanten over onderhandelingscontracten.
 4. Verandering van een voorafgesteld plan.
 
-De Expo dag was de eerste grote deadline voor het project Smart Shipping. Bij dit event waren veel bedrijven aanwezig 
-uit verschillende sectoren. Als groep moesten we laten zien wat we tot nu toe bereikt hebben en waar we in de toekomst
-naar toe willen. [Port of Rotterdam](https://www.portofrotterdam.com/nl/nieuws-en-persberichten/havenbedrijf-rotterdam-beproeft-autonoom-varen-met-drijvend-laboratorium)
+
+### paper
+
+> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
+
 ### Bijlage
 [1](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 > Bijlage 1
@@ -167,17 +189,18 @@ ___
 
 [4](http://cs231n.github.io/convolutional-networks/)
 
+> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+___
 
 #### Contact
 
 - [Student email](15084302student.hhs.nl)
-- [LinkedIn](https://www.linkedin.com/in/jeltemolenaar/) 
 
 
 'toevoegen afbeelding in MD'
 
 <p align="left"> <img src="link-adress" width="480" height="270"</p>
 
-> Screenshot toevoegen
-
+> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+___
 
