@@ -1,11 +1,47 @@
+Persoonlijke portfolio voor de minor Applied Data Science op de Haagse Hogeschool.  
+
+|Student:  |Job Vink|
+| ---: | :--- |
+|Studentnummer:| <b>17170974</b>|
+|Groep:| <b>KB-74 Shipping</b>|
+|Opdrachtgever:| <b>Port of Rotterdam</b>|
+
+
 # Domain Knowledge
+Aan het begin van de minor zijn we samen met Port of Rotterdam en CGI naar het SMASH event gegaan dat gericht is op smart shipping.
+Hier kregen we interressante onderwerpen gepitched en hebben we met andere organisaties nagedacht over het toekomst beeld 
+van smartshipping en autonoom varen gehad.
+Een van de pitches die mij het meest aansprak was van Novimar die booten in een vessel train wilde laten varen. 
+Bij dit concept is er een hoofdship die voorop vaart in een reeks van boten. Dit ship is verantwoordelijk voor 
+de navigatie en de schepen in de reeks varen autonoom achter dit ship aan tot ze de vessel train verlaten.
+
 # Predictive Models
 # Data collection
+De aangeleverde data van Port of Rotterdam kwam als mp4 formaat. Omdat dit formaat soms lastig is om mee te werken als je aan het ontwikkelen bent.
+Hebben we er voor gekozen om een aantal frames out het filmpje te halen en deze op te slaan als png. 
+Hiervoor heb ik een frame extraction script geschreven die ik opgenomen heb in het volgende notebook. Het script gaat door 
+de hele video, kan de bolling van de vishoek er uit halen en slaat elke duizenste frame op als png.   
+
 # Diagnostics of the learning process
+
 # Communication (presentations, summaries, paper, ...)
 
-# Courses
 
+## presentaties
+
+* [Week 13](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_13.pptx), Gepresenteerd door Job en Michiel.
+* [Week 14](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_14.pptx), Gepresenteerd door Job en Michiel.
+* [Week 15](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_15.pptx), Gepresenteerd door Job en Michiel.
+
+# Courses
+Aan het begin van de minor had ik al eenige python kennis. Om deze kennis weer even bij te werken en op te frissen ben ik 
+net als de andere uit mijn groepje begonnen met de cources van datacamp en coursera. 
+
+### datacamp
+<img src="resources/cources/Datacamp.png" alt="Datacamp cources">
+
+### coursera
+<img src="resources/cources/Coursera.png" alt="Coursera weekst">
 
 # Kade herkenning
 Een van de doelen van dit project is om op camera beelden te herkennen waar gevaren kan worden en waar zich de kade bevind.
