@@ -46,7 +46,7 @@ Waar mijn voorkeur naar uit gaat was het project autonomous shipping. Dit leek m
 - Opdracht waarbij er veel contact is met de project owner [Port of Rotterdam](https://www.portofrotterdam.com/nl)
 - Samenwerking met consultant [CGI](https://www.cginederland.nl/)
 
-> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
 ## Domein kennis
