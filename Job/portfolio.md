@@ -12,11 +12,11 @@ Persoonlijke portfolio voor de minor Applied Data Science op de Haagse Hogeschoo
 |[Introduction](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Introduction)             | - |
 |[Courses](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Courses)                       | - |
 |[Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Domain-Knowledge)     | - |
-|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Predictive-Models)   | - |
-|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Data-Preparation)     | [fisheye_configuration]() & [fish_eye_undistord]() |
+|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Predictive-Models)   | [pixel_walker](notebooks/pixel_walker.ipynb) |
+|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Data-Preparation)     | [fisheye_configuration](notebooks/fisheye_configuration.ipynb) & [fish_eye_undistord](notebooks/fish_eye_undistord.ipynb) |
 |[Data Visualization](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Data-Visualization) | - |
-|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Data-Collection)       | [video_extractor]() |
-|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Evaluation)                 | [algoritme_evaluation]() |
+|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Data-Collection)       | [video_extractor](notebooks/video_extractor.ipynb) |
+|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Evaluation)                 | [algoritme_evaluation](notebooks/algoritme_evaluation.ipynb) |
 |[Diagnostics](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Diagnostics)               | - |
 |[Communication](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Communication)           | - |
 |[Conclusie](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Conclusie)                   | - |
