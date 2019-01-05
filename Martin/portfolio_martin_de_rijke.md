@@ -12,12 +12,17 @@ Het persoonlijk portfolio voor de minor Data Science 2018/2019 op de Haagse hoge
 
 # Reading Guide
 In dit portfolio zijn de resultaten beschreven die behaald zijn door mijzelf binnen het SHIP project. 
-Het doel is om een duidelijke weergave te geven van hetgene dat ik geleerd heb binnen Data Science. 
+Het doel is om een duidelijke weergave te geven van hetgeen dat ik geleerd heb van het onderwerp Data Science. 
 Dankzij die reden is dit portfolio ook opgedeeld in een structuur die de verschillende belangrijke aspecten van Data Science weergeeft. 
-Onder elk kopje is een stuk tekst uitgewerkt met daarin de resultaten die ik heb behaald kort beschreven. 
+Onder elk kopje is een stuk tekst uitgewerkt met daarin de resultaten die ik heb behaald heb kort beschreven. 
 Vervolgens is er een link of afbeelding toegevoegd met het bewijs van het behalen van dat resultaat. 
 Binnen het project SHIP zijn niet alle onderdelen van Data Science heel goed boven gekomen of heb ik niet deelgenomen aan het werken aan dat specifieke onderdeel. 
-Wanneer dat het geval was heb ik iets anders gedaan om te laten zien dat ik ook dat onderdeel onder de knie heb. 
+Daar heb ik wel over geleerd in de lessen in in de online courses. Verder heb ik zelf ook alle stappen doorlopen op een dataset, maar dat levert geen toegevoegde waarde
+voor dit portfolio, aangezien ik niet het bewijs kan leveren, dat ik het zelf gemaakt heb. 
+In dit portfolio heb ik zo min mogelijk zaken gezet die ook in de paper naar voren komen, zoals uitleg over het project, of in algemene zin het product
+dat we ontwikkeld hebben. Dit naar aanleiding van de feedback les op het portfolio. Dit gaat puur om persoonlijk resultaat en laten zien dat ik op een bepaald level ben als 'data scientist'.
+Gedurende de feedbackles van het portfolio is er vermeld dat de 5 meest ingewikkelde stukken code meegenomen moesten worden in het portfolio.
+Dat heb ik ook gedaan. Tijdens het project heb ik nog een stuk meer code geschreven, maar ik denk dat de 5 stukken in dit portfolio mijn niveau goed weergeven.
 
 # Inhoudsopgave
 
@@ -82,7 +87,7 @@ Dit is vooral theoretische kennis. In het project zelf heb ik de praktische kenn
 Ons algoritme zoals beschreven in de paper. (Land/water algoritme) is op conceptueel niveau door mij bedacht. Daarna is hij als groep uitgewerkt. Zelf heb ik ook aan delen meegewerkt.
 De eerste versies van het algoritme heb ik samen met Job geschreven. In de onderstaande notebook (pixel_walker_v5 notebook) is de output van het algoritme te zien met de bijbehorende code.
 Het algoritme neemt de gemiddelde waarde van de rode lijn en schiet vervolgens pixel walkers die over de afbeelding gaan. Zodra de gemiddelde pixel waarde buiten een bepaalde treshold valt
-die gebaseerd is op de Euclidian Distance wordt er een gekleurd puntje gezet. Dit is meestal de scheiding tussen het water en het land.
+die gebaseerd is op de Euclidian Distance wordt er een gekleurd puntje gezet. Dit is de scheiding tussen het water en het land.
 
 [pixel_walker_v5 notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/pixel_walker_v5.ipynb) 
 
@@ -103,7 +108,7 @@ Als de Euclidian Distance wordt gebruikt, is er wel een significant verschil tus
 
 # Data Visualization
 Tijdens het project heb ik veel data gevisualiseerd. Vooral tijdens de DataCamp courses kwam dit veel voor.
-De moeilijkheidsgraad daarvan is echter laag. Ik heb wel een Python programma geschreven die twee afbeeldingen over elkaar heen plot.
+De moeilijkheidsgraad daarvan is echter laag. Michiel van Soest en ik hebben wel een Python programma geschreven die twee afbeeldingen over elkaar heen plot.
 Dit werd gebruikt om te checken of de data wel of niet correct is gelabeled door het algoritme.
 Hetgeen het algoritme had aangegeven als water werd dus geplot als wit en de rest als zwart. Met een 'alpha' van 0.2, zodat het zichtbaar was.
 Vervolgens kan een persoon dan bepalen of de gelabelde data wel of niet correct is.
@@ -125,7 +130,7 @@ bespaard door het laten labelen van data door het algoritme.
 Met deze tool kunnen er rode puntjes gezet worden bij de scheiding tussen water en land. Dat is ook geillustreerd in de onderstaande afbeelding. De coordinaten van die rode puntjes worden opgeslagen en kunnen vervolgens worden gebruikt om
 definitief te bepalen waar water is en waar land, op dezelfde manier als het algoritme dat op dit moment doet.
 De notebook (wall_labeler_notebook) werkt niet in Jupyter en wel in PyCharm, ook omdat er gebruik gemaakt wordt van classes. Ik heb een afbeelding (4) toegevoegd waarin de rode puntjes geplaatst zijn door mijzelf met de muis dankzij het programma. Vervolgens ook een screenshot (afbeelding 5) van de code in Pycharm met de 
-coördinaten die ik aangevinkt heb als output en ten slotte het notebook in Jupyter, zodat u de code kunt inzien.
+coördinaten die ik aangevinkt heb als output en ten slotte het notebook (wall_labeler_notebook) in Jupyter, zodat u de code kunt inzien.
 
 [wall_labeler_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/wall_labeler.ipynb)
 
@@ -137,12 +142,12 @@ afbeelding 5: (wall_labeler: Bewijs dat de code werkt, dankzij de output)
 
 # Evaluation
 Samen met Michiel heb ik een tool ontwikkeld waarmee de gelabelde data die uit het land/water herkennings algoritme komt geverifieerd kan worden. De gelabelde frames worden 1 voor 1 ingeladen en als een frame goed is kan de gebruiker op Y klikken en als hij niet goed is op N. Zo wordt de correct gelabelde data gefilterd voor het neurale netwerk en kan de niet correct gelabelde data handmatig correct gelabeld worden. Zo kan er gelijk onderzocht worden welk % van het totaal aantal frames correct gelabeld zijn door het algoritme. 
-Dit is een programma dat een frame opent in een nieuw venster, vervolgens kan de gebruiker klikken op 'y' om het frame als goed te bestempelen of op 'n' om hem als niet goed te bestempelen.
+Dit (frame_checker_notebook) is een programma dat een frame opent in een nieuw venster, vervolgens kan de gebruiker klikken op 'y' om het frame als goed te bestempelen of op 'n' om hem als niet goed te bestempelen.
 De frames worden dan in aparte mappen opgeslagen. De goed gelabelde data kan direct gebruikt worden voor het neurale netwerk en de niet goed gelabelde data kan opnieuw handmatig gelabeled worden.
 De notebook (frame_checker_notebook) werkt niet in Jupyter, aangezien er gewerkt is met Classes in PyCharm. De code is wel toegevoegd.
 Daaronder twee afbeeldingen, in de eerste afbeelding (6) is het programma nog niet gerund en staan er dus geen afbeeldingen opgeslagen in de twee mappen: 'frames_goed' en 'frames_fout'.
 Op de tweede afbeelding (7) is het programma wel gerund, direct erna (te zien aan de tijd, dag en de output) waarin ik een aantal keer op 'y' heb geklikt en een aantal keer op 'n', waardoor de afbeeldingen in de verschillende mappen zijn opgeslagen.
-Op deze manier konden we heel makkelijk data beoordelen op wel of niet goed gelabeld door het algoritme.
+Met deze tool konden we heel makkelijk data beoordelen op wel of niet goed gelabeld door het algoritme.
 
 [frame_checker_notebook](https://github.com/KB-74/portfolio/blob/master/Martin/resources/frame_checker.ipynb)
 
@@ -176,13 +181,13 @@ Lukas de Bruijn en Ton van der Weele zijn beide aanwezig geweest.
 |  | | |
 | ---: | :--- | :--- | 
 |<b>Week</b>| <b>Link</b>|<b>Medestudent</b>|
-|1| [Presentatie Sprint 1](https://github.com/KB-74/portfolio/blob/master/Martin/resources/Presentation_Sprint_1.pptx)| Jasper Vlaar |
-|2| [Presentatie Sprint 2](https://github.com/KB-74/portfolio/blob/master/Martin/resources/Presentation_Sprint_2.pptx)| - |
-|6| [Presentatie Sprint 6](https://github.com/KB-74/portfolio/blob/master/Martin/resources/Presentation_Sprint_6.pptx)| Michiel van Soest |
+|1| [Presentatie Sprint 1](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_1.pptx)| Jasper Vlaar |
+|2| [Presentatie Sprint 2](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_2.pptx)| - |
+|6| [Presentatie Sprint 6](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_6.pptx)| Michiel van Soest |
 
 ### Wekelijkse Vergaderingen
 Elke Donderdag was er een vergadering met de opdrachtgever. Wij als groep bespraken de voortgang en kregen nieuwe input om door te bouwen aan het algoritme en de andere stukken code.
-Ikheb de vergaderingen soms geleidt en leerde om effectief te communiceren en verantwoording af te leggen.
+Ik heb de vergaderingen soms geleidt en leerde om effectief te communiceren en verantwoording af te leggen.
 Dit dwong ons ook om wekelijks vooruitgang te boeken en nieuwe resultaten te laten zien en dat deden we ook.
 
 ### BNR Interview
@@ -191,7 +196,7 @@ Hier ben ik geinterviewed door BNR radio en het is vervolgens de week erna uitge
 Port of Rotterdam heeft hier zeer positief op gereageerd, aangezien positieve media aandacht goed is voor hun als bedrijf.
 Verder was het een unieke en leerzame ervaring. Afbeelding 8 is een foto van het interview.
 
-[BNR Radio Interview](https://www.bnr.nl/programmas/wetenschap-vandaag/10356983/elektrisch-vliegen-en-autonoom-varen) (Vanaf minuut 8)
+De link naar het interview: [BNR Radio Interview](https://www.bnr.nl/programmas/wetenschap-vandaag/10356983/elektrisch-vliegen-en-autonoom-varen) (Vanaf minuut 8)
 
 <img src="resources/interview_bnr.jpg" alt="Interview BNR Radio" width="700">
 afbeelding 8: (Interview BNR Radio)
