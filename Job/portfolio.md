@@ -42,7 +42,7 @@ startpunt. Als deze te veel afwijkt, definieert het algoritme dat punt als een
 scheiding tussen land en water. De pixel walkers wordt vanuit het startpunt
 verschillende richtingen opgestuurd. Doordat de pixel walker verschillende
 richtingen opgaat kan het kleine objecten op het water ontwijken en de werkelijke
-scheiding tussen water en land vinden. Het deel van dit algoritme dat deze taak uitvoert heb ik in dit notebook opgenomen.
+scheiding tussen water en land vinden. Het deel van dit algoritme dat deze taak uitvoert heb ik in dit [notebook](Job/notebooks/pixel_walker.ipynb) opgenomen.
 
 # Data collection
 De aangeleverde data van Port of Rotterdam kwam als mp4 formaat. Omdat dit formaat soms lastig is om mee te werken als je aan het ontwikkelen bent.
