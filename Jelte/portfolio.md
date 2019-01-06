@@ -1,10 +1,11 @@
 # Portfolio Data Science
 
-|               |                   |
-| ---:          | :---              |
-| Naam:         | Jelte Molenaar    |
-| Groep:        | KB-74 Shipping    |
-| Datum:        | 14-11-2018        |
+|                   |                   |
+| ---:              | :---              |
+| Naam:             | Jelte Molenaar    |
+| Studentnummer:    | 15084302          |
+| Groep:            | KB-74 Shipping    |
+| Datum:            | 14-11-2018        |
 
 ## Inleiding
 Dit portfolio is tijdens de minor Data science individueel ongesteld en geeft weer wat de bijdragen voor het project was, 
@@ -34,7 +35,7 @@ ___
  `Beschrijving van de opdracht toevoegen`
  
  
-<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/bootje.gif" width="480" height="270" /> </p>
+<p align="left"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/bootje.gif" width="480" height="270" /> </p>
 
 > RPA 3, Smart Ship van Port Of Rotterdam. 
 
@@ -74,7 +75,7 @@ oefeningen.
 
 Naast de verplichten coursers heb ik zelf wat extra courses gevolgd waarbij ingegaan werd op Neural networks. De 
 bijgehorende opdrachten heb ik overgeslagen en alleen gefocused op de informatie die gegeven werd. Dit omdat we dit 
-verderop in het project nodig hebben.    
+verderop in het project nodig hebben. [samenvatting](https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/aantekeningen_nn_colleges.pdf)   
 
 <p align="left"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/coursera_courses.JPG" 
  width="480" height="270"</p>
@@ -84,36 +85,43 @@ verderop in het project nodig hebben.
 ### colleges
 
 
-> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
-
 ## Predictive Models
-Voor het begrijpen van de 
-voor onderzoek NN + bouwen van NN
 
 ### Neuraal Netwerk
 Voor het begrijpen en helpen bij het opstellen van het Neuraal netwerk heb ik een aantal papers gelezen, deze papers staan
-in de bijlage. Helaas was mijn programmeer ervaring en vaardigheid nog niet op het niveau om daadwerkelijk een Neural
-Netwerk te kunnen trainen. 
+in de bijlage. Helaas was mijn programmeerervaring en vaardigheid nog niet op het niveau om daadwerkelijk een Neural
+Netwerk te kunnen trainen. [Samenvatting](https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/aantekeningen_nn_colleges.pdf)   
+
 
 ### Algoritme
+Voor het maken van een algorithme dat een scheiding kan herkennen tussen water en land is het noodzakelijk om mogelijke 
+oplossingen eerst te testen. Een van de oplossingen was het kijken naar het verschil in kleur. De aannamen hierbij was: 
+is het mogelijk om een kade te herkennen door te kijken naar het kleurverschil tussen het water en de kade. Hieraan heb 
+ik samen met Michiel en Job gewerkt. [pixel_walker_v1](https://github.com/KB-74/portfolio/blob/master/Jelte/notebooks/pixel_walker_V1.ipynb)  
 
 
+Na de basis te hebben gelegt met programmeren in datacamp was het programmeren met andere de tweede stap. Dit was ook het
+geen dat ik het meest heb geleerd aan het samen schrijven van dit stuk code 
 
-
-pixel_walker_v2
-
-> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
 
 ## Data preparation
-Het onderdeel data preparation h
+De data die we van POR gekregen hadden bestond uit een video gefilmd met de camera's op de RPA. Nadat deze beelden geknipt 
+en geundistored waren waren ze nog steeds niet geschikt voor het neuraal network. Hiervoor moest de data eerst gelabeld worden. 
+Lees hierover meer in hoofdstuk [Data Collection](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#data-collection).
 
-picture_processing
-Onderzoek HSV RGB.
+Voor het maken van een neuraal netwerk was er onvoldoende data. Hiervoor heb ik samen met Michiel het picture_processing 
+script geschreven. Met dit script was het mogelijk om de afbeeldingen te bewerken met betrekking op helderheid, scherpte
+, kleur, contrast en spiegelen. Dit om de verschillende senarios met bijvoorbeeld meer en minder licht na te botsen. 
+Het script is te vinden onder [picture_processing](https://github.com/KB-74/portfolio/blob/master/Jelte/notebooks/picture_processing_4.ipynb)
 
-> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+
+
+###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
 ## Data Visualization
@@ -126,8 +134,7 @@ bij elkaar paste. Daarom is er een deel visualisatie toegevoegd dat zorgt voor h
 
 Wat heb ik hiervan geleerd: debug 
 
-
-> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
 
@@ -141,27 +148,32 @@ lage precision per foto. Voor het neural netwerk mocht er weinig afweiking in de
 Dit is opgelost door handmatig de afbeeldingen te labelen in in photoshop. Hier heb ik me op gefocused tijdens twee sprints.
 Ik had nog geen ervaring met fotoshop maar tijdens het label van de afbeeldingen heb ik hier veel kennis van opgedaan.  
 
-<p align="left"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/labelen_photoshop.png" width="480" height="270"</p>
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/labelen_photoshop.png" width="480" height="270"</p>
 
 > labelen in photoshop. Hierbij is wit het water en is boven het gedeelte te zien waar geen water is. 
 
 
-> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
 ## Evaluation and Diagnostics
+In het algoritme wordt gekenen naar de kleur van elke pixel. Deze kleur wordt in een RGB waarde opgeslagen. Naar 
+aanleiding van de feedback van de demo hebben we gekenen naar een andere manier van het opslaan van de waarde van de 
+kleur van een pixel. Hieruit bleek dat het handig is om HSV kleuren te gebruiken omdat hierbij minder variabelen
+zijn die van invloed zijn voor het weergeven van een kleur. Uiteindelijk is het me nog niet gelukt om dit 
+in te voegen in de code. In de pdf in de link is globaal opgeschreven op welke manier kleuren opgeslagen kunnen worden
+[Detectiemethode kleuren](bijlage/Detectiemethode%20kleuren.pdf).
 
-
-> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
 ## Communication (presentations, summaries, papers, ...)
 
-gebruik gemaakt van samenvatting. Deze samenvattingen zijn gemaakt op basis van de informatie die gegeven werd tijdens 
-de coursera courses, en aangevuld met lessstof uit de colleges.  
-[samenvatting tentamen](https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/samenvatting_tentamen.pdf){:targer="_blank"}
-
-Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+### Samenvattingen
+Voor het studeren van het tentamen heb ik gebruik gemaakt van samenvatting. Deze samenvattingen zijn gemaakt op basis 
+de informatie die gegeven werd tijdens de coursera courses, en aangevuld met lessstof uit de colleges.  
+[samenvatting colleges](https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/samenvatting_tentamen.pdf){:targer="_blank"}
+[samenvatting presentaties](https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/samenvatting_presentaties.pdf)
 
 ### Scrum
 Met de project aanpak methode van scrum focussen we ons op een daadwerkelijk werkend product en minder op documentatie.
@@ -174,22 +186,24 @@ moment uitvoeren. Bij het scrum proces staan 4 regels centraal:
 4. Verandering van een voorafgesteld plan.
 
 
-### paper
+### Presentaties
+Elke week moesten we presentaties geven. 
+De presenaties zijn [hier](https://github.com/KB-74/portfolio/blob/master/Presentaties) te vinden.
 
-> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+Naast de presentaties die we op school gegeven hebben, hebben we ook een aantal presentaties extern gegeven. 
+Een van de leukste dingen was de [Innovation Expo 2018](https://www.portofrotterdam.com/nl/nieuws-en-persberichten/havenbedrijf-rotterdam-beproeft-autonoom-varen-met-drijvend-laboratorium) 
+hier stonden we met een stand van POR, en mochten we andere vertellen over ons project.
+
+###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
 ### Bijlage
 [1](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
-> Bijlage 1
-
 [2](http://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf)
-
 [3](https://www.degruyter.com/downloadpdf/j/itms.2017.20.issue-1/itms-2017-0002/itms-2017-0002.pdf)
-
 [4](http://cs231n.github.io/convolutional-networks/)
 
-> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
 #### Contact
@@ -201,6 +215,6 @@ ___
 
 <p align="left"> <img src="link-adress" width="480" height="270"</p>
 
-> Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
+###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
