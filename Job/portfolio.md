@@ -20,7 +20,7 @@ Persoonlijke portfolio voor de minor Applied Data Science op de Haagse Hogeschoo
 |[Diagnostics](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Diagnostics)               | - |
 |[Communication](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Communication)           | - |
 
-#Introductie
+# Introductie
 
 FLOAT YOUR IDEA. Betekent letterlijk: het uittesten van een idee. Maar met het Floating Lab Rotterdam laten we ideeën en innovaties ook nog daadwerkelijk drijven. Samen met marktpartijen, overheden, onderwijsinstellingen én onderzoeksinstituten bouwen we aan een kennisnetwerk rond Smart Shipping en bieden we de mogelijkheid ideeën eenvoudig en veilig te testen.
 
@@ -32,7 +32,7 @@ Ik heb uiteindelijk voor de shipping groep gekozen om de volgende redenen:
 - De shipment groep had nog niemand die op het moment een ict studie deed. 	
 - Bij dit project werken we samen met meerdere stakeholders (Poort of Rotterdam, CGI en Captain AI). Ik wilde graag leren hoe je hier het beste mee om kan gaan.
 
-#Domain Knowledge
+# Domain Knowledge
 Aan het begin van de minor zijn we samen met Port of Rotterdam en CGI naar het SMASH event gegaan dat gericht is op smart shipping.
 Hier kregen we interressante onderwerpen gepitched en hebben we met andere organisaties nagedacht over het toekomst beeld 
 van smartshipping en autonoom varen gehad.
@@ -129,6 +129,8 @@ De notebook output een confucion matrix van een bepaalde frame. Om ons algoritme
 gedraait over allen 250 frames
 
 # Communication (presentations, summaries, paper, ...)
+Zelf ben ik voornamelijk bezig geweest met het technische gedeelte van het project. Dat stelde mij wel in staat om goed uit mijn
+woorden te komen tijdens de presentaties en me te kunnen verantwoorden bij de vragen achteraf.
 
 ## presentaties
 
