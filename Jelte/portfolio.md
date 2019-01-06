@@ -15,13 +15,13 @@ bijdragen aan het project was, de capaciteiten en datgene dat tijdens de minor g
 |Beoordeling                |Hoofdstuk           | Afgerond | 
 |------                     |:------| ---- |
 |Introductie                | [1](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#1-introductie)                | ✓ | 
-|Domein knowledge           | [2](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#domein-kennis)                | ✓ |
-|Predictive Models          | [2](https://github.com/KB-74/portfolio/blob/master/Jelte/protfolio.md#predictive-models)            | ✓ |
-|Data Preparation           | [4](https://github.com/KB-74/portfolio/blob/master/Jelte/protfolio.md#data-preparation)             | ✓ | 
-|Data Visualization         | [5](https://github.com/KB-74/portfolio/blob/master/Jelte/protfolio.md#Data-Visualization)           | ✓ | 
-|Data collection            | [6](https://github.com/KB-74/portfolio/blob/master/Jelte/protfolio.md#data-collection)              | ✓ |
-|Evaluation and Diagnostics | [7](https://github.com/KB-74/portfolio/blob/master/Jelte/protfolio.md#evaluation-and-diagnostics)   | ✓ |
-|Communication              | [8](https://github.com/KB-74/portfolio/blob/master/Jelte/protfolio.md#communication)                | ✓ |
+|Domein knowledge           | [2](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#2-domain-knowledge)                | ✓ |
+|Predictive Models          | [2](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#3-predictive-models)            | ✓ |
+|Data Preparation           | [4](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#4-data-preparation)             | ✓ | 
+|Data Visualization         | [5](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#5-data-visualization)           | ✓ | 
+|Data collection            | [6](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#6-data-collection)              | ✓ |
+|Evaluation and Diagnostics | [7](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#7-evaluation-and-diagnostics)   | ✓ |
+|Communication              | [8](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#8-communication)                | ✓ |
 > Hoofdstuk en Beoordelings indeling portfolio
 
 ___
@@ -171,7 +171,7 @@ in te voegen in de code. In de pdf in de link is globaal opgeschreven op welke m
 ###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
-## Communication
+## 8. Communication
 
 ### Samenvattingen
 Voor het studeren van het tentamen heb ik gebruik gemaakt van samenvatting. Deze samenvattingen zijn gemaakt op basis 
