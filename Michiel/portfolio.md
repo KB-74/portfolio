@@ -26,8 +26,7 @@ De hoofdstukken zijn verdeeld over de verscheidene velden van Applied Data scien
 |[Data preperation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-preparation)| 
 |[Data visialization](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-visualization)| 
 |[Data collection](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-collection)| 
-|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#evaluation)| 
-|[Diagnostics of the learning process](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#diagnostics-of-the-learning-process)| 
+|[Evaluation and diagnostics](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#evaluation-and-diagnostics)|  
 |[Communication](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#communication-presentations-summaries-paper-)| 
 
 ### Notebooks
@@ -137,27 +136,26 @@ Om erachter to komen of wat we deden werkte, en of het nut had, hebben we zoveel
 De data die we nodig hadden bestaat uit videomateriaal van verscheidene camera's op de RPA3. Helaas was na analyse van deze beelden duidelijk dat alleen de beelden van camera 3 bruikbaar waren. De overige camera's, waaronder de stereoscopische camera's, waren door onder andere trillingen en de verkeerde instellingen van zeer slechte kwaliteit. Dit heeft ook grotendeels ons onderzoek naar afstandsherkening gehinderd en stopgezet.   
 
 Om de beelden te kunnen gebruiken voor herkenning, hebben we elk frame omgezet naar een aparte afbeelding. Zie onderstaand notebook:
-- [video_extraction](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/video_extraction.ipynb)
+- [video_extraction](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/video_extraction.ipynb)  
 
-Deze notebook bewerkt indien aangezet, ook de frames door de Fisheye lens te corrigeren. Dit gedeelte is door Job beschreven en uitgewerkt.
+Deze notebook bewerkt, indien aangezet, ook de frames door de Fisheye lens te corrigeren. Dit gedeelte is door Job beschreven en uitgewerkt.
 
 
 Omdat de verkregen afbeeldingen slechts op één moment gefilmd zijn, bestaat de kans dat ons algoritme slechts getraind wordt op zeer specifieke omstandigheden. Om deze reden is het eerder beschreven [Picture Processing notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/picture_processing.ipynb) gebruikt om het algoritme te verbeteren aan de hand van aanpassing van de afbeeldingen.  
 Wat dit inhoud en doet is te lezen in [Data preperation](https://github.com/KB-74/portfolio/blob/master/Michiel/portfolio.md#data-preparation), of in de notebook zelf.  
 
-# Evaluation
+# Evaluation and diagnostics
 
-De Frane
+Bij het prepareren van de gebruikte data, is de gelabelde data gecheckt d.m.v. de eerder genoemde frame checker tool.
+De zwart/wit afbeelding (mask) wordt hier over het originele plaatje gelegd om de evalueren of de mask klopt. Dit heb ik uiteraard gedaan vooraf aan het trainen.
+
 - [Frame checker notebook](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/frame_checker.ipynb) 
 
-`frame checker`
-`dat ding dat trainde en bekeek wat t beste is`
-`filmpjes`
-
-# Diagnostics of the learning process
-`verhaaltje?`
+Daarnaast is ons algoritme zelf ook geëvalueerd. Dit is gedaan door de zelfgemaakte label en de output van ons algoritme te vergelijken aan de hand van de <b>f1</b> score.  
+Aan de hand hiervan zijn de verschillende variabelen ook gehyperparametered. Hoe dit is gedaan is te lezen in het portfolio van Job, gezien hij de code hiervan heeft uitgewerkt. De uitkomsten zijn te vinden in ons paper.
 
 # Communication (presentations, summaries, paper, ...)
+We stonden voor dit project in contact met veel verschillende partijen. We hebben hierbij Martin als contactpersoon aangewezen. We hebben hiernaast elke week een presentatie opgevoerd op de locaties van Port of Rotterdam of CGI om onze voortgang duidelijk te maken en andere evenementen te plannen. Bij deze vergaderingen hebben we ook input ontvangen voor verdere voortgang.
 
 ##Scrum 
 Voor dit project is met de SCRUM methode gewerkt. Hierbij is besloten dit op een fysiek bord te doen. Met de project aanpak methode van scrum focussen we ons vooral op een werkend product en niet zozeer op documentatie. Bij het scrum proces staan 4 regels centraal:  
@@ -167,14 +165,17 @@ Voor dit project is met de SCRUM methode gewerkt. Hierbij is besloten dit op een
 - Verandering van een voorafgesteld plan.  
 
 Daarnaast hebben we naar een aantal tussentijdige deadlines toe gewerkt. Zo hebben we tijdens de expo dag van de innovatiebeurs in Rotterdam ons toenmalige product getoond.
+
 ## presentaties 
-`TODO: presentaties in algemene map als pdf bijvoegen`
-`uitzoeken welke presentaties ik heb gedaan, linkjes bijvoegen naar betreffende presentatie`  
+
+Helaas zijn een aantal van de powerpoints verloren doordat er overheen is opgeslagen.
+Hieronder echter zo goed als mogelijk elke presentatie die ik heb gepresenteerd.
+ 
 * [Week 3](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_3.pptx), Gepresenteerd door ... en Michiel.
 * [Week 4](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_4.pptx), Gepresenteerd door ... en Michiel.
 * [Week 5](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_5.pptx), Gepresenteerd door ... en Michiel.
-* [Week 6](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_6.pptx), Gepresenteerd door ... en Michiel.
-* [Week 12](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_12.pptx), Gepresenteerd door ... en Michiel.
+* [Week 6](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_6.pptx), Gepresenteerd door Martin en Michiel.
+* [Week 12](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_12.pptx), Gepresenteerd door Michiel.
 * [Week 13](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_13.pptx), Gepresenteerd door Job en Michiel.
 * [Week 14](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_14.pptx), Gepresenteerd door Job en Michiel.
 * [Week 15](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_15.pptx), Gepresenteerd door Job en Michiel.
