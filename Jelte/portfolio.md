@@ -25,6 +25,9 @@ bijdragen aan het project was, de capaciteiten en datgene dat tijdens de minor g
 > Hoofdstuk en Beoordelings indeling portfolio
 
 ___
+<br/>
+<br/>
+
 ## 1. Introductie
 
 ### Opdracht omschrijving
@@ -51,6 +54,9 @@ Waar mijn voorkeur naar uit gaat was het project autonomous shipping. Dit leek m
 
 ###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
+
+<br/>
+<br/>
 
 ## 2. Domain knowledge
 Voorafgaand aan het de minor had ik geen ervaring met programmeren. Om mee te kunnen lopen met programmeerniveau van de 
@@ -86,6 +92,10 @@ verderop in het project nodig hebben. [samenvatting](https://github.com/KB-74/po
 
 ###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
+
+<br/>
+<br/>
+
 ## 3. Predictive Models
 
 ### Neuraal Netwerk
@@ -108,6 +118,8 @@ het geen dat ik het meest heb geleerd aan het samen schrijven van de pixel_walke
 ###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
+<br/>
+<br/>
 
 ## 4. Data preparation
 De data die we van POR gekregen hadden bestond uit een video van de camera's op de RPA3. Nadat deze beelden geknipt 
@@ -129,6 +141,9 @@ project.
 ###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
+<br/>
+<br/>
+
 ## 5. Data visualization
 Tijdens het maken van het picture processing was het moeilijk om te zien of het bewerkte frame en overlay daadwerkelijk
 bij elkaar paste. Daarom is er een deel visualisatie toegevoegd dat zorgt voor het inzichtelijk maken van de frame en overlay.
@@ -143,6 +158,9 @@ data visualizatie te vinden. Dit is onderaan in het script waar de euclidean dis
 
 ###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
+
+<br/>
+<br/>
 
 ## 6. Data collection
 Voor trainen van een neural network is gelabelde data noodzakelijk om het te kunnen trainen. Om deze afbeeldingen te maken
@@ -160,6 +178,9 @@ Ik had nog geen ervaring met fotoshop maar tijdens het label van de afbeeldingen
 ###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
+<br/>
+<br/>
+
 ## 7. Evaluation and Diagnostics
 In het algoritme wordt gekenen naar de kleur van elke pixel. Deze kleur wordt in een RGB waarde opgeslagen. Naar 
 aanleiding van de feedback van de demo hebben we gekenen naar een andere manier van het opslaan van de waarde van de 
@@ -170,6 +191,9 @@ in te voegen in de code. In de pdf in de link is globaal opgeschreven op welke m
 
 ###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
+
+<br/>
+<br/>
 
 ## 8. Communication
 
