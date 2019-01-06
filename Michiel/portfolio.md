@@ -138,6 +138,7 @@ De data die we nodig hadden bestaat uit videomateriaal van verscheidene camera's
 
 Om de beelden te kunnen gebruiken voor herkenning, hebben we elk frame omgezet naar een aparte afbeelding. Zie onderstaand notebook:
 - [video_extraction](https://github.com/KB-74/portfolio/blob/master/Michiel/Notebooks/video_extraction.ipynb)
+
 Deze notebook bewerkt indien aangezet, ook de frames door de Fisheye lens te corrigeren. Dit gedeelte is door Job beschreven en uitgewerkt.
 
 
