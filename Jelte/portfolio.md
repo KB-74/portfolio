@@ -197,7 +197,7 @@ ___
 
 ## 8. Communication
 
-### Samenvattingen
+## Samenvattingen
 Voor het studeren van het tentamen heb ik gebruik gemaakt van samenvatting. Deze samenvattingen zijn gemaakt op basis 
 de informatie die gegeven werd tijdens de coursera courses, en aangevuld met lessstof uit de colleges.  
 
@@ -205,7 +205,7 @@ de informatie die gegeven werd tijdens de coursera courses, en aangevuld met les
 
 [Samenvatting presentaties](https://github.com/KB-74/portfolio/blob/master/Jelte/bijlage/samenvatting_presentaties.pdf)
 
-### Scrum
+## Scrum
 Tijdens het project gebruikte we de scrum methode aanpak. Hier had ik al veel ervaring in ten opzichte van mijn 
 groepsgenoten. Daarnaast paste de rol als scrummaster goed bij mijn persoonlijke doel. 
 
@@ -214,7 +214,7 @@ bereiken. Daarnaast hadden we elke vrijdag een retrospectief. Tijdens deze meeti
 liepen en wat we konden verbeteren. Al deze meetings facaliteerde ik.
 
 
-### Presentaties
+## Presentaties
 Elke week moesten we presentaties geven. 
 De presenaties zijn [hier](https://github.com/KB-74/portfolio/blob/master/Presentaties) te vinden.
 
@@ -225,7 +225,10 @@ hier stonden we met een stand van POR, en mochten we andere vertellen over ons p
 ###### Terug naar: [Inhoudsopgaven](https://github.com/KB-74/portfolio/blob/master/Jelte/portfolio.md#inhoudsopgave)
 ___
 
-## Bijlage
+<br/>
+<br/>
+
+# Bijlage
 [Krizhevsky, A., Sutskever, I., & E. Hinton, G. (z.d.-a). ImageNet Classification with Deep Convolutional Neural Networks. ](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 [Krizhevsky, A. (2009, 8 april). Learning Multiple Layers of Features from Tiny Images.](http://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf)
 [Standford. (z.d.). CS231n Convolutional Neural Networks for Visual Recognition. Geraadpleegd op 30 oktober 2018](http://cs231n.github.io/convolutional-networks/)
