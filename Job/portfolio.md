@@ -6,6 +6,21 @@ Persoonlijke portfolio voor de minor Applied Data Science op de Haagse Hogeschoo
 |Groep:| <b>KB-74 Shipping</b>|
 |Opdrachtgever:| <b>Port of Rotterdam</b>|
 
+# Inhoudsopgave
+|Hoofdstuk        |Notebook           | 
+|------             |:------|
+|[Introduction](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Introduction)             | - |
+|[Courses](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Courses)                       | - |
+|[Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Domain-Knowledge)     | - |
+|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Predictive-Models)   | [pixel_walker](notebooks/pixel_walker.ipynb) |
+|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Data-Preparation)     | [fisheye_configuration](notebooks/fisheye_configuration.ipynb) & [fish_eye_undistord](notebooks/fish_eye_undistord.ipynb) |
+|[Data Visualization](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Data-Visualization) | - |
+|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Data-Collection)       | [video_extractor](notebooks/video_extractor.ipynb) |
+|[Evaluation](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Evaluation)                 | [algoritme_evaluation](notebooks/algoritme_evaluation.ipynb) |
+|[Diagnostics](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Diagnostics)               | - |
+|[Communication](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Communication)           | - |
+|[Conclusie](https://github.com/KB-74/portfolio/blob/master/Job/portfolio.md#Conclusie)                   | - |
+
 
 # Domain Knowledge
 Aan het begin van de minor zijn we samen met Port of Rotterdam en CGI naar het SMASH event gegaan dat gericht is op smart shipping.
@@ -16,6 +31,19 @@ Bij dit concept is er een hoofdship die voorop vaart in een reeks van boten. Dit
 de navigatie en de schepen in de reeks varen autonoom achter dit ship aan tot ze de vessel train verlaten.
 
 # Predictive Models
+Omde kade te kunnen herkennen met een algoritme wordt er gebruik gemaakt
+van een zogenaamde ’pixel walker’. Dit is een algoritme dat vanaf een voorgedefinieerd
+startpunt over de betreffende frame heen scant in een voorgedefinieerde
+richting. In dit proces wordt de waarde van de kleur gemeten van
+een pixel en vergeleken met elke vorige stap die genomen wordt. Het verschil
+wordt gemeten aan de hand van de Euclidian distance. De volgende stap
+die het algoritme neemt, is het vergelijken van de Euclidian distance met het
+startpunt. Als deze te veel afwijkt, definieert het algoritme dat punt als een
+scheiding tussen land en water. De pixel walkers wordt vanuit het startpunt
+verschillende richtingen opgestuurd. Doordat de pixel walker verschillende
+richtingen opgaat kan het kleine objecten op het water ontwijken en de werkelijke
+scheiding tussen water en land vinden. Het deel van dit algoritme dat deze taak uitvoert heb ik in dit [notebook](notebooks/pixel_walker.ipynb) opgenomen.
+
 # Data collection
 De aangeleverde data van Port of Rotterdam kwam als mp4 formaat. Omdat dit formaat soms lastig is om mee te werken als je aan het ontwikkelen bent.
 Hebben we er voor gekozen om een aantal frames out het filmpje te halen en deze op te slaan als png. 
@@ -42,22 +70,6 @@ net als de andere uit mijn groepje begonnen met de cources van datacamp en cours
 
 ### coursera
 <img src="resources/cources/Coursera.png" alt="Coursera weekst">
-
-# Kade herkenning
-Een van de doelen van dit project is om op camera beelden te herkennen waar gevaren kan worden en waar zich de kade bevind.
-Het algoritme dat wij ontwikkeld hebben detecteerd het water op basis van een vaste set met regels. 
-
-## Model
-Het algoritme is in drie stappen opgeboud: edge detection, point filtering en kade plotting.
-
-### stap 1
-In de eerste stap proberen we te bepalen waar mogelijk de kade zich bevind. Dit doen we op basis van de euclidean distance tussen pixels.
-
-
-### stap 2
-
-
-### stap 3
 
 ## Data preparation
 De camerabeelden van de boot worden gefilmd met een fisheye camera, dit zorgt ervoor dat de beelden verstoord worden met een ronding.

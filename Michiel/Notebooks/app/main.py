@@ -56,7 +56,7 @@ def detect_image():
 
 
 def video():
-    INPUT_VIDEO = '/datc/shipping/job/wall_detection/undistorted_cameradata/camera_3.mp4'
+    INPUT_VIDEO = '/datc/shipping/Job/wall_detection/undistorted_cameradata/camera_3.mp4'
     OUTPUT_PATH = 'camera_3_wall.avi'
 
     cap = cv2.VideoCapture(INPUT_VIDEO)
