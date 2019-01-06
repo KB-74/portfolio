@@ -107,6 +107,9 @@ afbeelding 2: (vervormd beeld)
 afbeelding 3: (ontvormd beeld)
 
 # Data Visualization
+Omdat algoritmes soms als een blackbox aan kunnen voelen en om goed in te kunnen zien hoe het algoritme te werk gaat heb ik gaandeweg een aantal grafieken geplot.
+Hieronder zie je een van de grafieken die de euclidean distance tegenover een baseline plot.
+<p align="center"><img src="https://github.com/KB-74/portfolio/blob/master/Job/resources/images/Euclidean_distance_to_baseline.png"></p>
 
 ## Evaluation
 Het doel van het algoritme is om aan te geven waar water is en waar geen water is. We kunnen het model daarmee evalueren
