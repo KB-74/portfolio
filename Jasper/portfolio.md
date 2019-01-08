@@ -1,31 +1,4 @@
-The personal portfolio's are assessed individually. The contents of your personal portfolio should reflect your contribution to the project, your abilities and what you have learned. Your portfolio should consist of materials that you either realized individually, or in case of a group effort, a clear statement of what your contribution is in this group effort.
-
-It is important to write your (digital) portfolio in a very easily accessible way. The main document should be like a reader's guide that shortly introduces your contributions and links to pages where the contributions are described in detail. Every contribution should be accessible from the reader's guide in a single click. We are not going to browse the folder, so if you do not link to a document from the reader's guide, we will not include it in the assessment.
-
-For us, it is perfectly acceptable if you write down your portfolio in Github using Markdown, no need to do fancy markups.
-
-Include information of the following subjects:
-
-Courses (add screenshots of the online courses you have finished (DataCamp, Coursera, etc))
-Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
-Predictive Models
-Data preparation
-Data Visualization
-Data collection
-Evaluation
-Diagnostics of the learning process
-Communication (presentations, summaries, paper, ...)
-Link to the Python Notebooks you have finished (you can dump them to PDF)
-List the tickets from the Scrum backlog that you worked on, linked to deliverables, own experiments, etc.
-Add any other assignment you feel is evidence of your abilities
-Deadline
-
-Submit your portfolio by the end of week 17.
-
-Feedback moments
-We will organize a few feedback moments before the final assessment to make you aware of how your portfolio may be improved. We will announce these feedback moments. Meanwhile, we recommend to keep your portfolio up to date, to fully benefit form the opportunity to receive feedback.
-
-#Persoonlijk portfolio
+# Persoonlijk portfolio
 Persoonlijke portfolio voor de minor Applied Data Science aan de Haagse Hogeschool.  
 
 |                   |                   |
@@ -50,10 +23,12 @@ Persoonlijke portfolio voor de minor Applied Data Science aan de Haagse Hogescho
 |[Diagnostics]()               | - |
 |[Communication]()           | - |
 
-##Introductie
-Het Floating Lab van Port of Rotterdam biedt een interesant en divers project. Met gebruik van data kunnen veel innoverende projecten op dit Lab uitgevoerd worden. Juist vanwege de diversiteit en mogelijkheid tot innovatie heb ik dit project gekozen. 
+## Introductie
+Het Floating Lab van Port of Rotterdam biedt een interesant en divers project. Met gebruik van data kunnen veel innoverende projecten op dit Lab uitgevoerd worden. Juist vanwege de diversiteit en mogelijkheid tot innovatie heb ik dit project gekozen. Het heeft ons de mogelijkheid geboden om vaardigheden in zowel programmeren en data science als communicatie en presenteren op te doen. 
 
-##Courses
+Wij hebben gekozen om binnen het kader autonoom varen te werken aan kadeherkenning in een maritieme omgeving met gebruik van camera's.
+
+## Courses
 Voor deze minor heb ik al een stuk data-analyse uitgevoerd bij mijn bachelor technische natuurkunde. Deze kennis heb ik mede dankzij datacamp ruim uitgebreid. Ik heb de volgende courses in datacamp voltooid:
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Completed_Courses_datacamp.png"></p>
@@ -62,17 +37,16 @@ Alle voorgeschreven datacamp courses en chapters zijn uitgevoerd. Dit geldt ook 
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Completed_Courses_coursera.png"></p>
 
+## Domain Knowledge
+Op het gebied van smart shipping zijn velen partijen bezig. Ook volledig autonoom varen worden actief stappen in gezet. Echter leveren wij nieuwe openbare kennis op het gebied van kadeherkenning. Soortgelijke datasets zijn makkelijk te vinden op YouTube en andere deelplatformen, de toepassing is echter uniek. Domeinkennis is opgedaan dankzij de samenwerking met Port of Rotterdam en CGI. Daarnaast kan voor een referentie voor domeinkennis van machine learning gekeken worden naar het behaalde cijfer voor het tentamen (7,6).
 
-##Domain Knowledge
+## Predictive models
 
 
-##Courses
 
-##Predictive models
-
-##Data collection
-##Data preparation
-##Data Visualization
-##Evualutioin
-##Diagnostics
-##Communication
+## Data collection
+## Data preparation
+## Data Visualization
+## Evualutioin
+## Diagnostics
+## Communication
