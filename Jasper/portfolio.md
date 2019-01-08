@@ -39,9 +39,9 @@ Persoonlijke portfolio voor de minor Applied Data Science aan de Haagse Hogescho
 |                 |                   |
 |------           |:------            |
 |<b>Hoofdstuk</b>|<b>Notebook</b>| 
-|[Introduction]()             | - |
-|[Domain Knowledge]()     | - |
+|[Introductie]()             | - |
 |[Courses]()                       | - |
+|[Domain Knowledge]()     | - |
 |[Predictive Models]()   |  |
 |[Data Collection]()       |  |
 |[Data Preparation]()     |  |
@@ -51,9 +51,28 @@ Persoonlijke portfolio voor de minor Applied Data Science aan de Haagse Hogescho
 |[Communication]()           | - |
 
 ##Introductie
-
+Het Floating Lab van Port of Rotterdam biedt een interesant en divers project. Met gebruik van data kunnen veel innoverende projecten op dit Lab uitgevoerd worden. Juist vanwege de diversiteit en mogelijkheid tot innovatie heb ik dit project gekozen. 
 
 ##Courses
 Voor deze minor heb ik al een stuk data-analyse uitgevoerd bij mijn bachelor technische natuurkunde. Deze kennis heb ik mede dankzij datacamp ruim uitgebreid. Ik heb de volgende courses in datacamp voltooid:
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Completed_Courses_datacamp.png"></p>
+
+Alle voorgeschreven datacamp courses en chapters zijn uitgevoerd. Dit geldt ook voor Coursera zoals te zien is in de volgende figuur:
+
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Completed_Courses_coursera.png"></p>
+
+
+##Domain Knowledge
+
+
+##Courses
+
+##Predictive models
+
+##Data collection
+##Data preparation
+##Data Visualization
+##Evualutioin
+##Diagnostics
+##Communication
