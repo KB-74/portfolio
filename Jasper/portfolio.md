@@ -56,4 +56,4 @@ Persoonlijke portfolio voor de minor Applied Data Science aan de Haagse Hogescho
 ##Courses
 Voor deze minor heb ik al een stuk data-analyse uitgevoerd bij mijn bachelor technische natuurkunde. Deze kennis heb ik mede dankzij datacamp ruim uitgebreid. Ik heb de volgende courses in datacamp voltooid:
 
-<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Completed_Courses_datacamp.jpg"></p>
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Completed_Courses_datacamp.png"></p>
