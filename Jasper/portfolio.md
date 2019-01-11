@@ -12,16 +12,15 @@ Persoonlijke portfolio voor de minor Applied Data Science aan de Haagse Hogescho
 |                 |                   |
 |------           |:------            |
 |<b>Hoofdstuk</b>|<b>Notebook</b>| 
-|[Introductie]()             | - |
-|[Courses]()                       | - |
-|[Domain Knowledge]()     | - |
-|[Predictive Models]()   |  |
-|[Data Collection]()       |  |
-|[Data Preparation]()     |  |
-|[Data Visualization]() | - |
-|[Evaluation]()                 |  |
-|[Diagnostics]()               | - |
-|[Communication]()           | - |
+|[Introductie](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Introductie)             | - |
+|[Courses](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Courses)                       | - |
+|[Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Domain-Knowledge)     | - |
+|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Predictive-models)   |  |
+|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Data-collection)       |  |
+|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Data-preparation)     |  |
+|[Data Visualization](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Data-Visualization) | - |
+|[Evaluation and Diagnostics](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Evaluation-and-diagnostics)                 |  |
+|[Communication](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Communication)           | - |
 
 ## Introductie
 Het Floating Lab van Port of Rotterdam biedt een interesant en divers project. Met gebruik van data kunnen veel innoverende projecten op dit Lab uitgevoerd worden. Juist vanwege de diversiteit en mogelijkheid tot innovatie heb ik dit project gekozen. Het heeft ons de mogelijkheid geboden om vaardigheden in zowel programmeren en data science als communicatie en presenteren op te doen. 
