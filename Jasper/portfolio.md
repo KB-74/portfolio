@@ -11,15 +11,17 @@ Persoonlijke portfolio voor de minor Applied Data Science aan de Haagse Hogescho
 ## Inhoudsopgave
 |                 |                   |
 |------           |:------            |
-|<b>Hoofdstuk</b>|<b>Notebook</b>| 
+|<b>Hoofdstuk</b>|<b>Code</b>| 
 |[Introductie](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Introductie)             | - |
 |[Courses](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Courses)                       | - |
 |[Domain Knowledge](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Domain-Knowledge)     | - |
-|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Predictive-models)   |  |
-|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Data-collection)       |  |
-|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Data-preparation)     |  |
+|[Predictive Models](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Predictive-models)   | [pixel_walker_v5](https://github.com/KB-74/portfolio/blob/master/Jasper/pixel_walker_v5.py)
+ |
+|[Data Collection](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Data-collection)       | -  |
+|[Data Preparation](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Data-preparation)     | [pixel_walker_v6](https://github.com/KB-74/portfolio/Jasper/pixel_walker_v6.py), [pixel_walker_v8](https://github.com/KB-74/portfolio/Jasper/pixel_walker_v8.py)  |
 |[Data Visualization](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Data-Visualization) | - |
-|[Evaluation and Diagnostics](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Evaluation-and-diagnostics)                 |  |
+|[Evaluation and Diagnostics](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Evaluation-and-diagnostics)                 | [hyperparameter_ivan](https://github.com/KB-74/portfolio/Jasper/hyperparameter_ivan.py)
+ |
 |[Communication](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Communication)           | - |
 
 ## Introductie
@@ -45,16 +47,16 @@ Op het gebied van smart shipping zijn velen partijen bezig. Ook volledig autonoo
 
 Conceptueel heb ik meegedacht met de eerste versies van de 'pixel walker'. Dit script schiet lijnen uit die RGB waardes vergelijkt met betrekking van de Euclidian Distance. Daarnaast heb ik ook bijgedragen aan wiskunde concepten die nodig zijn om het script te schrijven zoals cirkelgeometrie.
 
-[pixel_walker_v5]()
+[pixel_walker_v5](https://github.com/KB-74/portfolio/blob/master/Jasper/pixel_walker_v5.py)
 
 
 ## Data collection
 Alle kale data is aangeleverd door Port of Rotterdam. Er is ook geen extra data collection uitgevoerd.
 
 ## Data preparation
-In [pixel_walker_v6]() heb ik meerdere functies geschreven om de gevonden punten zoals bedoeld in versie 5 van de pixel walker te filteren om de accuracy te verhogen. Ook is dit de eerste versie van het algoritme waar een lijnfit gemaakt wordt om de kade te benaderen. De functie 'kadefit' past lineaire regressie toe middels Scipy om deze lijn te creëeren. De functie distance_line2point creëert een array aan afstanden tot de gefitte lijn om te gebruiken in de functie 'clean_outliers'. Clean_outliers verwijderd alle gevonden punten die niet binnen een afstand van een X aantal keer de standaardafwijking in de afstanden tot de lijn vallen. Dit zorgt ervoor dat punten die niet de algemene trend volgen verwijderd worden. Het script houdt dan een array met gefilterde punten over waar vervolgens opnieuw een lineaire fit aan gegeven wordt. 
+In [pixel_walker_v6](https://github.com/KB-74/portfolio/Jasper/pixel_walker_v6.py) heb ik meerdere functies geschreven om de gevonden punten zoals bedoeld in versie 5 van de pixel walker te filteren om de accuracy te verhogen. Ook is dit de eerste versie van het algoritme waar een lijnfit gemaakt wordt om de kade te benaderen. De functie 'kadefit' past lineaire regressie toe middels Scipy om deze lijn te creëeren. De functie distance_line2point creëert een array aan afstanden tot de gefitte lijn om te gebruiken in de functie 'clean_outliers'. Clean_outliers verwijderd alle gevonden punten die niet binnen een afstand van een X aantal keer de standaardafwijking in de afstanden tot de lijn vallen. Dit zorgt ervoor dat punten die niet de algemene trend volgen verwijderd worden. Het script houdt dan een array met gefilterde punten over waar vervolgens opnieuw een lineaire fit aan gegeven wordt. 
 
-[pixel_walker_v8]() past en extra filterfunctie toe genaamd 'clean_loaners' die een parameter stelt voor de maximale afstand tussen opeenvolgende punten. Als punten verder uit elkaar liggen dan deze parameter worden deze verwijderd.
+[pixel_walker_v8](https://github.com/KB-74/portfolio/Jasper/pixel_walker_v8.py) past en extra filterfunctie toe genaamd 'clean_loaners' die een parameter stelt voor de maximale afstand tussen opeenvolgende punten. Als punten verder uit elkaar liggen dan deze parameter worden deze verwijderd.
 
 Het is belangrijk om op te merken dat deze manier van filtering en lijnfitten later uitgebreid is door Job en dat dit dus op een andere manier terug te vinden is in de nieuwste versie van het algoritme.
 
@@ -69,7 +71,7 @@ De kale data is uiteraard al visueel. Om echter de gevonden punten te laten zien
 
 Voor het hyperparameteren heb ik een script geschreven dat uit alle losse confusion matrices f1 scores berekent zodat hiermee de beste hyperparameters gevonden kunnen worden. Deze confusion matrices worden bepaald op basis van de door ons gelabelde data te vergelijken met wat het algoritme als uitkomst geeft. Elke pixel wordt los vergeleken.
 
-[hyperparameter_ivan]()
+[hyperparameter_ivan](https://github.com/KB-74/portfolio/Jasper/hyperparameter_ivan.py)
 
 
 ## Communication
