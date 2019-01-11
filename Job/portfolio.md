@@ -134,9 +134,3 @@ gedraait over allen 250 frames
 # Communication (presentations, summaries, paper, ...)
 Zelf ben ik voornamelijk bezig geweest met het technische gedeelte van het project. Dit heeft me in staat gesteld om tijdens
 de presentaties alles zo goed mogelijk uit een te zetten en de gestelde vragen naar behoren te kunnen beantwoorden.
-
-## presentaties
-
-* [Week 13](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_13.pptx), Gepresenteerd door Job en Michiel.
-* [Week 14](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_14.pptx), Gepresenteerd door Job en Michiel.
-* [Week 15](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_15.pptx), Gepresenteerd door Job en Michiel.
