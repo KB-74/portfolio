@@ -16,8 +16,8 @@ Persoonlijke portfolio voor de minor Applied Data Science op de Haagse Hogeschoo
 |[Data Collection](#data-collection)        | [video_extractor](notebooks/video_extractor.ipynb) |
 |[Data Preparation](#data-preparation)      | [fisheye_configuration](notebooks/fisheye_configuration.ipynb) & [fish_eye_undistord](notebooks/fish_eye_undistord.ipynb) |
 |[Data Visualization](#data-visualization)  | - |
-|[Diagnostics en Evaluation](#evaluation)                  | [algoritme_evaluation](notebooks/algoritme_evaluation.ipynb) |
-|[Communication](#communication)            | - |
+|[Diagnostics en Evaluation](#evaluation)   | [algoritme_evaluation](notebooks/algoritme_evaluation.ipynb) |
+|[Communication](#communication-presentations-summaries-paper-)            | - |
 
 # Introductie
 
