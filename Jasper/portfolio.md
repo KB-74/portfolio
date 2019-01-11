@@ -40,7 +40,7 @@ Alle voorgeschreven datacamp courses en chapters zijn uitgevoerd. Dit geldt ook 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Completed_Courses_coursera.png"></p>
 
 ## Domain Knowledge
-Op het gebied van smart shipping zijn velen partijen bezig. Ook volledig autonoom varen worden actief stappen in gezet. Echter leveren wij nieuwe openbare kennis op het gebied van kadeherkenning. Soortgelijke datasets zijn makkelijk te vinden op YouTube en andere deelplatformen, de toepassing is echter uniek. Domeinkennis is opgedaan dankzij de samenwerking met Port of Rotterdam en CGI. Daarnaast kan voor een referentie voor domeinkennis van machine learning gekeken worden naar het behaalde cijfer voor het tentamen (7,6).
+Op het gebied van smart shipping zijn velen partijen bezig. Ook volledig autonoom varen worden actief stappen in gezet. Echter leveren wij nieuwe openbare kennis op het gebied van kadeherkenning. Soortgelijke datasets zijn makkelijk te vinden op YouTube en andere deelplatformen, de toepassing is echter uniek. Domeinkennis is opgedaan dankzij de samenwerking met Port of Rotterdam en CGI. Daarnaast kan voor een referentie voor domeinkennis van machine learning gekeken worden naar het behaalde cijfer voor het tentamen (7,6). 
 
 ## Predictive models
 
@@ -48,6 +48,11 @@ Conceptueel heb ik meegedacht met de eerste versies van de 'pixel walker'. Dit s
 
 [pixel_walker_v5]()
 
+
+## Data collection
+Alle kale data is aangeleverd door Port of Rotterdam. Er is ook geen extra data collection uitgevoerd.
+
+## Data preparation
 In [pixel_walker_v6]() heb ik meerdere functies geschreven om de gevonden punten zoals bedoeld in versie 5 van de pixel walker te filteren om de accuracy te verhogen. Ook is dit de eerste versie van het algoritme waar een lijnfit gemaakt wordt om de kade te benaderen. De functie 'kadefit' past lineaire regressie toe middels Scipy om deze lijn te creëeren. De functie distance_line2point creëert een array aan afstanden tot de gefitte lijn om te gebruiken in de functie 'clean_outliers'. Clean_outliers verwijderd alle gevonden punten die niet binnen een afstand van een X aantal keer de standaardafwijking in de afstanden tot de lijn vallen. Dit zorgt ervoor dat punten die niet de algemene trend volgen verwijderd worden. Het script houdt dan een array met gefilterde punten over waar vervolgens opnieuw een lineaire fit aan gegeven wordt. 
 
 [pixel_walker_v8]() past en extra filterfunctie toe genaamd 'clean_loaners' die een parameter stelt voor de maximale afstand tussen opeenvolgende punten. Als punten verder uit elkaar liggen dan deze parameter worden deze verwijderd.
@@ -55,10 +60,23 @@ In [pixel_walker_v6]() heb ik meerdere functies geschreven om de gevonden punten
 Het is belangrijk om op te merken dat deze manier van filtering en lijnfitten later uitgebreid is door Job en dat dit dus op een andere manier terug te vinden is in de nieuwste versie van het algoritme.
 
 
-
-## Data collection
-## Data preparation
 ## Data Visualization
-## Evaluation
-## Diagnostics
+De kale data is uiteraard al visueel. Om echter de gevonden punten te laten zien worden deze geplot over de frame. Zoals in het vorige hoofdstuk toegelicht wordt hier ook een lijn over de kade gefit om dit te visualiseren.
+
+
+
+
+## Evaluation and diagnostics
+
+Voor het hyperparameteren heb ik een script geschreven dat uit alle losse confusion matrices f1 scores berekent zodat hiermee de beste hyperparameters gevonden kunnen worden. Deze confusion matrices worden bepaald op basis van de door ons gelabelde data te vergelijken met wat het algoritme als uitkomst geeft. Elke pixel wordt los vergeleken.
+
+[hyperparameter_ivan]()
+
+
 ## Communication
+Ik heb de leiding genomen over het schrijven van de paper. Hierbij heb ik mijn projectgenoten uitgelegd hoe een paper er precies uit moet zien en hoe je dit schrijft. Naast het schrijven van de paper heb ik ook veel aangestuurd in het voorafgaande literatuuronderzoek. Daarnaast heb ik zowel als mijn projectgenoten een aantal presentaties gegeven tijdens de retrospectives:
+
+[Week 1](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_1.pptx)
+[Week 7](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_7.pptx)
+[Week 8](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_8.pptx)
+[Week 16](https://github.com/KB-74/portfolio/blob/master/Presentaties/Presentation_Sprint_16.pptx)
