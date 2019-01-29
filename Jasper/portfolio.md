@@ -19,7 +19,7 @@ Persoonlijke portfolio voor de minor Applied Data Science aan de Haagse Hogescho
 |[Data Collection](#Data-collection)       | -  |
 |[Data Preparation](#Data-preparation)     | [pixel_walker_v6](pixel_walker_v6.py), [pixel_walker_v8](pixel_walker_v8.py)  |
 |[Data Visualization](#Data-Visualization) | - |
-|[Evaluation and Diagnostics](#Evaluation-and-diagnostics)                 | [hyperparameter_ivan](hyperparameter_ivan.py) |
+|[Evaluation and Diagnostics](#Evaluation-and-diagnostics)                 | [hyperparameter_evaluation](hyperparameter_evaluation.py) |
 |[Communication](#Communication)           | - |
 
 ## Introductie
@@ -75,7 +75,7 @@ Voor het hyperparameteren heb ik een script geschreven dat uit alle losse confus
 ## Communication
 Ik heb de leiding genomen over het schrijven van de paper. Hierbij heb ik mijn projectgenoten uitgelegd hoe een paper er precies uit moet zien en hoe je dit schrijft. Naast het schrijven van de paper heb ik ook veel aangestuurd in het voorafgaande literatuuronderzoek. Daarnaast heb ik zowel als mijn projectgenoten een aantal presentaties gegeven tijdens de retrospectives:
 
-[Week 1](Presentation_Sprint_1.pptx)
-[Week 7](Presentation_Sprint_7.pptx)
-[Week 8](Presentation_Sprint_8.pptx)
+[Week 1](Presentation_week_1.pptx)
+[Week 7](Presentation_week_7.pptx)
+[Week 8](Presentation_week_8.pptx)
 [Week 16](Presentation week 16.pptx)
