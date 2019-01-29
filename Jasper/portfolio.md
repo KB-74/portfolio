@@ -20,7 +20,7 @@ Persoonlijke portfolio voor de minor Applied Data Science aan de Haagse Hogescho
 |[Data Preparation](#Data-preparation)     | [pixel_walker_v6](https://github.com/KB-74/portfolio/Jasper/pixel_walker_v6.py), [pixel_walker_v8](https://github.com/KB-74/portfolio/Jasper/pixel_walker_v8.py)  |
 |[Data Visualization](#Data-Visualization) | - |
 |[Evaluation and Diagnostics](#Evaluation-and-diagnostics)                 | [hyperparameter_ivan](https://github.com/KB-74/portfolio/Jasper/hyperparameter_ivan.py) |
-|[Communication](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Communication)           | - |
+|[Communication](#Communication)           | - |
 
 ## Introductie
 Het Floating Lab van Port of Rotterdam biedt een interesant en divers project. Met gebruik van data kunnen veel innoverende projecten op dit Lab uitgevoerd worden. Juist vanwege de diversiteit en mogelijkheid tot innovatie heb ik dit project gekozen. Het heeft ons de mogelijkheid geboden om vaardigheden in zowel programmeren en data science als communicatie en presenteren op te doen. 
