@@ -12,16 +12,14 @@ Persoonlijke portfolio voor de minor Applied Data Science aan de Haagse Hogescho
 |                 |                   |
 |------           |:------            |
 |<b>Hoofdstuk</b>|<b>Code</b>| 
-|[Introductie](#Introductie)             | - |
+|[Introductie](#Introductie)               | - |
 |[Courses](#Courses)                       | - |
 |[Domain Knowledge](#Domain-Knowledge)     | - |
-|[Predictive Models](#Predictive-models)   | [pixel_walker_v5](https://github.com/KB-74/portfolio/blob/master/Jasper/pixel_walker_v5.py)
- |
+|[Predictive Models](#Predictive-models)   | [pixel_walker_v5](https://github.com/KB-74/portfolio/blob/master/Jasper/pixel_walker_v5.py)|
 |[Data Collection](#Data-collection)       | -  |
 |[Data Preparation](#Data-preparation)     | [pixel_walker_v6](https://github.com/KB-74/portfolio/Jasper/pixel_walker_v6.py), [pixel_walker_v8](https://github.com/KB-74/portfolio/Jasper/pixel_walker_v8.py)  |
 |[Data Visualization](#Data-Visualization) | - |
-|[Evaluation and Diagnostics](#Evaluation-and-diagnostics)                 | [hyperparameter_ivan](https://github.com/KB-74/portfolio/Jasper/hyperparameter_ivan.py)
- |
+|[Evaluation and Diagnostics](#Evaluation-and-diagnostics)                 | [hyperparameter_ivan](https://github.com/KB-74/portfolio/Jasper/hyperparameter_ivan.py) |
 |[Communication](https://github.com/KB-74/portfolio/blob/master/Jasper/portfolio.md#Communication)           | - |
 
 ## Introductie
