@@ -15,11 +15,11 @@ Persoonlijke portfolio voor de minor Applied Data Science aan de Haagse Hogescho
 |[Introductie](#Introductie)               | - |
 |[Courses](#Courses)                       | - |
 |[Domain Knowledge](#Domain-Knowledge)     | - |
-|[Predictive Models](#Predictive-models)   | [pixel_walker_v5](https://github.com/KB-74/portfolio/blob/master/Jasper/pixel_walker_v5.py)|
+|[Predictive Models](#Predictive-models)   | [pixel_walker_v5](pixel_walker_v5.py)|
 |[Data Collection](#Data-collection)       | -  |
-|[Data Preparation](#Data-preparation)     | [pixel_walker_v6](https://github.com/KB-74/portfolio/Jasper/pixel_walker_v6.py), [pixel_walker_v8](https://github.com/KB-74/portfolio/Jasper/pixel_walker_v8.py)  |
+|[Data Preparation](#Data-preparation)     | [pixel_walker_v6](pixel_walker_v6.py), [pixel_walker_v8](pixel_walker_v8.py)  |
 |[Data Visualization](#Data-Visualization) | - |
-|[Evaluation and Diagnostics](#Evaluation-and-diagnostics)                 | [hyperparameter_ivan](https://github.com/KB-74/portfolio/Jasper/hyperparameter_ivan.py) |
+|[Evaluation and Diagnostics](#Evaluation-and-diagnostics)                 | [hyperparameter_ivan](hyperparameter_ivan.py) |
 |[Communication](#Communication)           | - |
 
 ## Introductie
@@ -78,4 +78,4 @@ Ik heb de leiding genomen over het schrijven van de paper. Hierbij heb ik mijn p
 [Week 1](Presentation_Sprint_1.pptx)
 [Week 7](Presentation_Sprint_7.pptx)
 [Week 8](Presentation_Sprint_8.pptx)
-[Week 16](Presentation_Sprint_16.pptx)
+[Week 16](Presentation week 16.pptx)
