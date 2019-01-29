@@ -69,7 +69,7 @@ De kale data is uiteraard al visueel. Om echter de gevonden punten te laten zien
 
 Voor het hyperparameteren heb ik een script geschreven dat uit alle losse confusion matrices f1 scores berekent zodat hiermee de beste hyperparameters gevonden kunnen worden. Deze confusion matrices worden bepaald op basis van de door ons gelabelde data te vergelijken met wat het algoritme als uitkomst geeft. Elke pixel wordt los vergeleken.
 
-[hyperparameter_ivan](hyperparameter_evaluation.py)
+[hyperparameter_evaluation](hyperparameter_evaluation.py)
 
 
 ## Communication
