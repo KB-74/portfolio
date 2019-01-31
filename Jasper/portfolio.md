@@ -63,11 +63,9 @@ Figuur 4: De code die gebruikt wordt om startpunten om de boot te laten starten.
 
   
 ## Data collection  
-Alle kale data is aangeleverd door Port of Rotterdam. Er is ook geen extra data collection uitgevoerd.  
+Alle kale data is aangeleverd door Port of Rotterdam. 
   
 ## Data preparation  
-
-
 
 In [pixel_walker_v6](pixel_walker_v6.py) heb ik meerdere functies geschreven om de gevonden punten zoals bedoeld in versie 5 van de pixel walker te filteren om de accuracy te verhogen. Ook is dit de eerste versie van het algoritme waar een lijnfit gemaakt wordt om de kade te benaderen. De functie 'kadefit' past lineaire regressie toe middels Scipy om deze lijn te creëeren. De functie distance_line2point creëert een array aan afstanden tot de gefitte lijn om te gebruiken in de functie 'clean_outliers'. Clean_outliers verwijderd alle gevonden punten die niet binnen een afstand van een X aantal keer de standaardafwijking in de afstanden tot de lijn vallen. Dit zorgt ervoor dat punten die niet de algemene trend volgen verwijderd worden. Het script houdt dan een array met gefilterde punten over waar vervolgens opnieuw een lineaire fit aan gegeven wordt.    
 
@@ -112,16 +110,16 @@ Het is belangrijk om op te merken dat deze manier van filtering en lijnfitten la
   
   
 ## Data Visualization  
-De kale data is uiteraard al visueel. Om echter de gevonden punten te laten zien worden deze geplot over de frame. Zoals in het vorige hoofdstuk toegelicht wordt hier ook een lijn over de kade gefit om dit te visualiseren.  
-  
-  
-  
+De kale data is uiteraard al visueel. Om echter de gevonden punten te laten zien worden deze geplot over de frame. De output van het pixel walker algoritme is echter wel zelf gecreëerd. Zoals in versie 8 van de pixel walker in figuur 11 te zien is wordt zowel de startpunten, gevonden punten en gefilterde punten gevisualiseerd om zo een indruk te geven wat er gebeurt. Dit wordt gebruikt om te analyseren of de gecreëerde functies correct werken en zo deze te kunnen testen op verschillende frames en situaties. Om de outputs van het pixel walker algoritme te plotten en visualiseren wordt voornamelijk matplotlib gebruikt tot versie 8 van de pixel walker. 
+   
   
 ## Evaluation and diagnostics  
   
-Voor het hyperparameteren heb ik een script geschreven dat uit alle losse confusion matrices f1 scores berekent zodat hiermee de beste hyperparameters gevonden kunnen worden. Deze confusion matrices worden bepaald op basis van de door ons gelabelde data te vergelijken met wat het algoritme als uitkomst geeft. Elke pixel wordt los vergeleken.  
-  
+Voor het hyperparameteren heb ik een script geschreven dat uit alle losse confusion matrices f1 scores berekent zodat hiermee de beste hyperparameters gevonden kunnen worden. Deze confusion matrices worden bepaald op basis van de door ons gelabelde data te vergelijken met wat het algoritme als uitkomst geeft. Elke pixel wordt los vergeleken. Het script extract de data uit [hyperparameter.csv](hyperparameter.csv)  
+   
 [hyperparameter_evaluation](hyperparameter_evaluation.py)  
+  
+## Hier moet een hyperparameter script figuur met beschrijving  
   
   
 ## Communication  
