@@ -59,15 +59,15 @@ In [pixel_walker_v6](pixel_walker_v6.py) heb ik meerdere functies geschreven om 
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v6_clean_outliers_en_kadefit.png"></p>   
 
-  <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_clean_outliers.png"></p>   
-    <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_distance_line2point"></p>   
-  <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_kadefit.png"></p>   
-    <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v5_schuim_probleem.png"></p>   
+<img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_clean_outliers.png" width="700">   
+<img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_distance_line2point" width="700">  
+<img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_kadefit.png" width="700">  
+  <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v5_schuim_probleem.png">  </p>
     
 
 [pixel_walker_v8](pixel_walker_v8.py) past en extra filterfunctie toe genaamd 'clean_loaners' die een parameter stelt voor de maximale afstand tussen opeenvolgende punten. Als punten verder uit elkaar liggen dan deze parameter worden deze verwijderd.  
 
-  <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_clean_loaners.png"></p>   
+<img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_clean_loaners.png" width="700">  
     <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v8_clean_loaners.png"></p>   
     
 Het is belangrijk om op te merken dat deze manier van filtering en lijnfitten later uitgebreid is door Job en dat dit dus op een andere manier terug te vinden is in de nieuwste versie van het algoritme.  
