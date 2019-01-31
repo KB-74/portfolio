@@ -53,10 +53,11 @@ Alle kale data is aangeleverd door Port of Rotterdam. Er is ook geen extra data 
   
 ## Data preparation  
 
-  <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/complexe_vormen_startpunten.png"></p>   
+  <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/complexe_vorm_startpunten.png"></p>   
 
 In [pixel_walker_v6](pixel_walker_v6.py) heb ik meerdere functies geschreven om de gevonden punten zoals bedoeld in versie 5 van de pixel walker te filteren om de accuracy te verhogen. Ook is dit de eerste versie van het algoritme waar een lijnfit gemaakt wordt om de kade te benaderen. De functie 'kadefit' past lineaire regressie toe middels Scipy om deze lijn te creëeren. De functie distance_line2point creëert een array aan afstanden tot de gefitte lijn om te gebruiken in de functie 'clean_outliers'. Clean_outliers verwijderd alle gevonden punten die niet binnen een afstand van een X aantal keer de standaardafwijking in de afstanden tot de lijn vallen. Dit zorgt ervoor dat punten die niet de algemene trend volgen verwijderd worden. Het script houdt dan een array met gefilterde punten over waar vervolgens opnieuw een lineaire fit aan gegeven wordt.   
 
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v6_clean_outliers_en_kadefit.png"></p>   
 
   <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_clean_outliers.png"></p>   
     <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_distance_line2point"></p>   
