@@ -29,6 +29,7 @@ Wij hebben gekozen om binnen het kader autonoom varen te werken aan kadeherkenni
   
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/RPA3.jpg"></p>  
 <p align="center">Figuur 1: De RPA3, een reserve patrouillevaartuig van Port of Rotterdam bevestigd met 6 camera's en een stereoscopische setup. Het vaartuig wordt af en toe nog ingezet op normale patrouilles waarbij er data verzameld kan worden.</p>    
+
 ## Courses  
 Voor deze minor heb ik al een stuk data-analyse uitgevoerd bij mijn bachelor technische natuurkunde. Deze kennis heb ik mede dankzij datacamp ruim uitgebreid. Ik heb de volgende courses in datacamp voltooid:  
   
