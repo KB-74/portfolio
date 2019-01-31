@@ -133,7 +133,7 @@ Het script plot alle f1 scores bij de bijbehorende parameters. Zo kan de meest e
 <p align="center">Figuur 12: Linksboven: filter parameter om schuim uit het water te filteren. Rechtsboven: treshold parameter om randen te detecteren. Linksonder: onder coëfficiënt voor Canny edge detection. Rechtsonder: boven coëfficiënt voor Canny edge detection.</p>
 
 
-<img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/hyperparamter_evaluation.png" width="750" >
+<img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/hyperparameter_evaluation.png" width="750" >
 Figuur 13: Het script 'hyperparameter_evaluation.py'. In de code wordt 'hyperparamter.csv' geïmporteerd en een statistics function uitgevoerd op de data om er vervolgens de f1 score per iedere waarde voor te berekenen. Voor iedere parameter wordt zijn eigen plot gecreëerd. Voor de paper zijn sommige plots later nog gecombineerd.  
   
   
