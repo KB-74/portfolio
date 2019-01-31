@@ -51,7 +51,7 @@ Op het gebied van smart shipping zijn velen partijen bezig. Ook volledig autonoo
   
 Conceptueel heb ik meegedacht met de eerste versies van de 'pixel walker'. Dit script schiet lijnen uit die RGB waardes vergelijkt met betrekking van de Euclidian Distance. Daarnaast heb ik ook bijgedragen aan wiskunde concepten die nodig zijn om het script te schrijven zoals cirkelgeometrie. Zo is de startvorm tot versie 8 van de pixel walker een ellips gevormd naar de boot geweest. Hierbij wordt de volgende vergelijking gebruikt:
 
-<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/vergelijking_ellips.png"></p>   
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Vergelijking_ellips.png"> width="250" </p>   
 
 Waarbij a en b coëfficiënten zijn naar eigen keuze om de vorm van de ellips te bepalen. De ellips is te zien in figuur 5
 
@@ -81,7 +81,7 @@ In [pixel_walker_v6](pixel_walker_v6.py) heb ik meerdere functies geschreven om 
 
 De functie 'distance_line2point' berekent voor een array aan punten de korste afstand tot een lijn voor ieder punt volgens de volgende vergelijking:
 
-<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/vergelijking_line2point.png">  </p> 
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/vergelijking_line2point.png"> width="550" </p> 
 
 Waarin D de afstand tot de lijn is voor het desbetreffende punt, a, b en c lijncoëfficïenten zijn en x_0 en y_0 de waarden voor het punt zijn. [Bron](https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line)
 
