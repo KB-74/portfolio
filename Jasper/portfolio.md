@@ -81,7 +81,7 @@ In [pixel_walker_v6](pixel_walker_v6.py) heb ik meerdere functies geschreven om 
 
 De functie 'distance_line2point' berekent voor een array aan punten de korste afstand tot een lijn voor ieder punt volgens de volgende vergelijking:
 
-<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/vergelijking_line2point.png"> width="550" </p> 
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/vergelijking_line2point.png" width="550" > </p> 
 
 Waarin D de afstand tot de lijn is voor het desbetreffende punt, a, b en c lijncoëfficïenten zijn en x_0 en y_0 de waarden voor het punt zijn. [Bron](https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line)
 
