@@ -53,8 +53,8 @@ Conceptueel heb ik meegedacht met de eerste versies van de 'pixel walker'. Dit s
 
 
 
-Waarbij a en b coëfficiënten zijn naar eigen keuze om de vorm van de ellips te bepalen.
-  
+Waarbij a en b coëfficiënten zijn naar eigen keuze om de vorm van de ellips te bepalen.\
+
   
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Complexe_vorm_startpunten.png" width="700" >
 Figuur 4: De code die gebruikt wordt om startpunten om de boot te laten starten. Dit wordt gedaan door een ovale vorm toe te passen die geconfigureerd kan worden door 2 constanten: 'X_COEFF', 'Y_COEFF'. Startpunten worden op een constant aantal graden van elkaar verwijderd. Ook worden de richtingscoëfficienten berekend voor de uitschietende pixel walkers.      
@@ -133,7 +133,7 @@ Het script plot alle f1 scores bij de bijbehorende parameters. Zo kan de meest e
 <p align="center">Figuur 12: Linksboven: filter parameter om schuim uit het water te filteren. Rechtsboven: treshold parameter om randen te detecteren. Linksonder: onder coëfficiënt voor Canny edge detection. Rechtsonder: boven coëfficiënt voor Canny edge detection.</p>
 
 
-## Hier moet een hyperparameter script figuur met beschrijving  
+<img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/hyperparamter_evaluation.png" width="750" >
 Figuur 13: Het script 'hyperparameter_evaluation.py'. In de code wordt 'hyperparamter.csv' geïmporteerd en een statistics function uitgevoerd op de data om er vervolgens de f1 score per iedere waarde voor te berekenen. Voor iedere parameter wordt zijn eigen plot gecreëerd. Voor de paper zijn sommige plots later nog gecombineerd.  
   
   
