@@ -39,17 +39,25 @@ Voor deze minor heb ik al een stuk data-analyse uitgevoerd bij mijn bachelor tec
 Alle voorgeschreven datacamp courses en chapters zijn uitgevoerd. Dit geldt ook voor Coursera zoals te zien is in de volgende figuur:  
   
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Completed_Courses_coursera.png"></p>  
-<p align="center">Figuur 3: Voltooide weken van het de Stanford Univeristy machine learning course. Volgens curriculum zijn week 1 tm 3 en 6</p>      
+<p align="center">Figuur 3: Voltooide weken van het de Stanford Univeristy machine learning course. Volgens curriculum zijn week 1 tm 3 en 6 voltooid.</p>      
   
   
 ## Domain Knowledge  
-Op het gebied van smart shipping zijn velen partijen bezig. Ook volledig autonoom varen worden actief stappen in gezet. Echter leveren wij nieuwe openbare kennis op het gebied van kadeherkenning. Soortgelijke datasets zijn makkelijk te vinden op YouTube en andere deelplatformen, de toepassing is echter uniek. Domeinkennis is opgedaan dankzij de samenwerking met Port of Rotterdam en CGI. Daarnaast kan voor een referentie voor domeinkennis van machine learning gekeken worden naar het behaalde cijfer voor het tentamen (7,6).   
-  
+Op het gebied van smart shipping zijn velen partijen bezig. Ook volledig autonoom varen worden actief stappen in gezet. Echter denken wij dat wij nieuwe openbare kennis op het gebied van kadeherkenning leveren. Soortgelijke datasets zijn makkelijk te vinden op YouTube en andere deelplatformen, de toepassing denken wij echter uniek te zijn Domeinkennis is opgedaan dankzij de samenwerking met Port of Rotterdam en CGI. Zo hebben we een Smart Shipping Event bijgewoond van rijkswaterstaat en naast het zelf presenteren op de innovation expo daar ook veel kennis op kunnen doen. Daarnaast kan voor een referentie voor domeinkennis van machine learning gekeken worden naar het behaalde cijfer voor het tentamen (7,6).   
+
 
 
 ## Predictive models  
   
-Conceptueel heb ik meegedacht met de eerste versies van de 'pixel walker'. Dit script schiet lijnen uit die RGB waardes vergelijkt met betrekking van de Euclidian Distance. Daarnaast heb ik ook bijgedragen aan wiskunde concepten die nodig zijn om het script te schrijven zoals cirkelgeometrie.  
+Conceptueel heb ik meegedacht met de eerste versies van de 'pixel walker'. Dit script schiet lijnen uit die RGB waardes vergelijkt met betrekking van de Euclidian Distance. Daarnaast heb ik ook bijgedragen aan wiskunde concepten die nodig zijn om het script te schrijven zoals cirkelgeometrie. Zo is de startvorm tot versie 8 van de pixel walker een ellips gevormd naar de boot geweest. Hierbij wordt de volgende vergelijking gebruikt:
+
+
+
+Waarbij a en b coëfficiënten zijn naar eigen keuze om de vorm van de ellips te bepalen.
+  
+  
+<img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Complexe_vorm_startpunten.png" width="700" >
+Figuur 4: De code die gebruikt wordt om startpunten om de boot te laten starten. Dit wordt gedaan door een ovale vorm toe te passen die geconfigureerd kan worden door 2 constanten: 'X_COEFF', 'Y_COEFF'. Startpunten worden op een constant aantal graden van elkaar verwijderd. Ook worden de richtingscoëfficienten berekend voor de uitschietende pixel walkers.      
   
 [pixel_walker_v5](pixel_walker_v5.py)  
 
@@ -59,8 +67,6 @@ Alle kale data is aangeleverd door Port of Rotterdam. Er is ook geen extra data 
   
 ## Data preparation  
 
-<img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Complexe_vorm_startpunten.png" width="700" >
-Figuur 4: De code die gebruikt wordt om startpunten om de boot te laten starten. Dit wordt gedaan door een ovale vorm toe te passen die geconfigureerd kan worden door 2 constanten: 'X_COEFF', 'Y_COEFF'. Startpunten worden op een constant aantal graden van elkaar verwijderd. Ook worden de richtingscoëfficienten berekend voor de uitschietende pixel walkers.    
 
 
 In [pixel_walker_v6](pixel_walker_v6.py) heb ik meerdere functies geschreven om de gevonden punten zoals bedoeld in versie 5 van de pixel walker te filteren om de accuracy te verhogen. Ook is dit de eerste versie van het algoritme waar een lijnfit gemaakt wordt om de kade te benaderen. De functie 'kadefit' past lineaire regressie toe middels Scipy om deze lijn te creëeren. De functie distance_line2point creëert een array aan afstanden tot de gefitte lijn om te gebruiken in de functie 'clean_outliers'. Clean_outliers verwijderd alle gevonden punten die niet binnen een afstand van een X aantal keer de standaardafwijking in de afstanden tot de lijn vallen. Dit zorgt ervoor dat punten die niet de algemene trend volgen verwijderd worden. Het script houdt dan een array met gefilterde punten over waar vervolgens opnieuw een lineaire fit aan gegeven wordt.    
