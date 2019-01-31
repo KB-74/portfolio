@@ -89,7 +89,6 @@ Waarin x= ;......
 Figuur 6: De functie 'distance_line2point'. Deze functie maakt een array van de korste afstanden tussen een array van punten en een lijn.
 
 
-
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_clean_outliers.png" width="700">   
 Figuur 7: De functie 'clean_outliers'. Deze functie gebruikt de gevonden punten, de gecreërde lineaire fit bij deze punten en de intercept van deze fit. De functie gebruikt 'distance_line2point' om een array te creëeren met afstanden van elk punt tot de lijn. Vervolgens creëert de return variabele 'cleaned_points' door alle punten die verder dan CLEAN_STD_COEFF keer de standaardafwijking in de afstanden van lijn tot punten te verwijderen. 'CLEAN_STD_COEFF' is dus een voorgedifiniëerde variabele die bepaalt hoeveel keer de standaardafwijking wordt gebruikt als maximum afstand tot de lijn.  
 
@@ -98,20 +97,24 @@ Figuur 7: De functie 'clean_outliers'. Deze functie gebruikt de gevonden punten,
 Figuur 8: De functie 'kadefit'. Deze functie gebruikt de gevonden punten gebruikt de library 'scipy' om een lineaire fit te creëeren. Vervolgens plot deze functie de fit zelf. 
 
 
-
-
 [pixel_walker_v8](pixel_walker_v8.py) past en extra filterfunctie toe genaamd 'clean_loaners' die een parameter stelt voor de maximale afstand tussen opeenvolgende punten. Als punten verder uit elkaar liggen dan deze parameter worden deze verwijderd.  
 
-<img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_clean_loaners.png" width="580">  
-Figuur 10: De functie 'clean_loaners'. Deze functi creëert een array met de afstand tussen opeenvolgende punten in de array van gevonden punten. Opeenvolgende punten die verder uit elkaar liggen dan de voorgedefinieerde variabele 'MAX_DISTANCE_TO_NEIGHBOURS' worden verwijderd. 
-
-
+Het is belangrijk om op te merken dat deze manier van filtering en lijnfitten later uitgebreid is door Job en dat dit dus op een andere manier terug te vinden is in de nieuwste versie van het algoritme.  
+ 
+ 
+  
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v8_clean_loaners.png"></p>   
 <p align="center"> Figuur 11: De output van 'pixel_walker_v8'. Op een frame worden de startpunten, gevonden punten, en gefilterde punten geplot. Ook wordt de lineaire fit door de functie 'kadefit' geplot. Oranje punten: Startpunten van pixel walker. Roze punten: Gevonden punten gefilterd door de functie 'clean_outliers'. Rode punten: Gevonden punten gefilterd door de functie 'clean_loaners'. Blauwe punten: Overgebleven gevonden punten na filtering. Oranje lijn: Lineaire fit aan de kade door de functie 'kadefit'. </p>
     
    
-Het is belangrijk om op te merken dat deze manier van filtering en lijnfitten later uitgebreid is door Job en dat dit dus op een andere manier terug te vinden is in de nieuwste versie van het algoritme.  
-  
+
+
+<img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_clean_loaners.png" width="580">  
+Figuur 10: De functie 'clean_loaners'. Deze functie creëert een array met de afstand tussen opeenvolgende punten in de array van gevonden punten. Opeenvolgende punten die verder uit elkaar liggen dan de voorgedefinieerde variabele 'MAX_DISTANCE_TO_NEIGHBOURS' worden verwijderd. 
+
+
+
+
   
 ## Data Visualization  
 De kale data is uiteraard al visueel. Om echter de gevonden punten te laten zien worden deze geplot over de frame. De output van het pixel walker algoritme is echter wel zelf gecreëerd. Zoals in versie 8 van de pixel walker in figuur 11 te zien is wordt zowel de startpunten, gevonden punten en gefilterde punten gevisualiseerd om zo een indruk te geven wat er gebeurt. Dit wordt gebruikt om te analyseren of de gecreëerde functies correct werken en zo deze te kunnen testen op verschillende frames en situaties. Om de outputs van het pixel walker algoritme te plotten en visualiseren wordt voornamelijk matplotlib gebruikt tot versie 8 van de pixel walker. In het volgende hoofdstuk 'Evualation and diagnostics' beschrijf ik ook een zelfgeschreven script die het hyperparameteren visualiseert door de verschillende f1-scores per gekozen parameters te plotten.
