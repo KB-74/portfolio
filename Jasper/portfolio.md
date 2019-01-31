@@ -143,7 +143,7 @@ Ik heb de leiding genomen over het schrijven van de paper. Hierbij heb ik mijn p
   
 [Week 1](Presentation_week_1.pptx)  
 
-In week 1 heb ik gepresenteerd vanwege mijn onderzoek in afstandsherkenning met stereoscopische camera's. Het onderzoek heeft aangetoond dat met het verschil van pixel-afstand op een figuur en de eigenschappen van de lens de afstand berekend kan worden. Deze techniek is uiteindelijk niet gebruikt omdat de stereoscopische camera's op de boot stuk waren tijdens de minor.
+In week 1 heb ik gepresenteerd vanwege het onderzoek dat ik gedaan heb voor de toepassing van afstandsherkenning met stereoscopische camera's. Het onderzoek heeft aangetoond dat met het verschil van pixel-afstand op een figuur en de eigenschappen van de lens de afstand berekend kan worden. Deze techniek is uiteindelijk niet gebruikt omdat de stereoscopische camera's op de boot stuk waren tijdens de minor.
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Onderzoek_stereoscopische_camera's.png"></p>  
 <p align="center">Figuur 14: Slide uit de presentatie van week 1. De figuur aan de linkerzijde is een schematische weergave van de verschillende variabelen in gebruik en zichtvelden van de camera's. Rechtsboven is de ZED te zien, een stereoscopische camera die vergelijkbare proefen kan opleveren als de stereoscopische camera's die op de RPA3 bevestigd zijn. Vergelijking 1, 2 en 3 beschrijven de afstand tot een object met gebruik van de cameraeigenschappen en verschil in pixellocatie.</p> 
