@@ -110,7 +110,7 @@ Het is belangrijk om op te merken dat deze manier van filtering en lijnfitten la
   
   
 ## Data Visualization  
-De kale data is uiteraard al visueel. Om echter de gevonden punten te laten zien worden deze geplot over de frame. De output van het pixel walker algoritme is echter wel zelf gecreëerd. Zoals in versie 8 van de pixel walker in figuur 11 te zien is wordt zowel de startpunten, gevonden punten en gefilterde punten gevisualiseerd om zo een indruk te geven wat er gebeurt. Dit wordt gebruikt om te analyseren of de gecreëerde functies correct werken en zo deze te kunnen testen op verschillende frames en situaties. Om de outputs van het pixel walker algoritme te plotten en visualiseren wordt voornamelijk matplotlib gebruikt tot versie 8 van de pixel walker. 
+De kale data is uiteraard al visueel. Om echter de gevonden punten te laten zien worden deze geplot over de frame. De output van het pixel walker algoritme is echter wel zelf gecreëerd. Zoals in versie 8 van de pixel walker in figuur 11 te zien is wordt zowel de startpunten, gevonden punten en gefilterde punten gevisualiseerd om zo een indruk te geven wat er gebeurt. Dit wordt gebruikt om te analyseren of de gecreëerde functies correct werken en zo deze te kunnen testen op verschillende frames en situaties. Om de outputs van het pixel walker algoritme te plotten en visualiseren wordt voornamelijk matplotlib gebruikt tot versie 8 van de pixel walker. In het volgende hoofdstuk 'Evualation and diagnostics' beschrijf ik ook een zelfgeschreven script die het hyperparameteren visualiseert door de verschillende f1-scores per gekozen parameters te plotten.
    
   
 ## Evaluation and diagnostics  
@@ -118,8 +118,17 @@ De kale data is uiteraard al visueel. Om echter de gevonden punten te laten zien
 Voor het hyperparameteren heb ik een script geschreven dat uit alle losse confusion matrices f1 scores berekent zodat hiermee de beste hyperparameters gevonden kunnen worden. Deze confusion matrices worden bepaald op basis van de door ons gelabelde data te vergelijken met wat het algoritme als uitkomst geeft. Elke pixel wordt los vergeleken. Het script extract de data uit [hyperparameter.csv](hyperparameter.csv)  
    
 [hyperparameter_evaluation](hyperparameter_evaluation.py)  
-  
+
+Het script plot alle f1 scores bij de bijbehorende parameters. Zo kan de meest effectieve waarde gevonden worden. De volgende figuur is een voorbeeld uit de paper.
+
+
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/hyperparameter.png">   
+<p align="center">Figuur 12: Linksboven: filter parameter om schuim uit het water te filteren. Rechtsboven: treshold parameter om randen te detecteren. Linksonder: onder coëfficiënt voor Canny edge detection. Rechtsonder: boven coëfficiënt voor Canny edge detection.</p>
+
+
 ## Hier moet een hyperparameter script figuur met beschrijving  
+Figuur 13: Het script 'hyperparameter_evaluation.py'. In de code wordt 'hyperparamter.csv' geïmporteerd en een statistics function uitgevoerd op de data om er vervolgens de f1 score per iedere waarde voor te berekenen. Voor iedere parameter wordt zijn eigen plot gecreëerd. Voor de paper zijn sommige plots later nog gecombineerd.  
+  
   
   
 ## Communication  
