@@ -51,7 +51,7 @@ Op het gebied van smart shipping zijn velen partijen bezig. Ook volledig autonoo
   
 Conceptueel heb ik meegedacht met de eerste versies van de 'pixel walker'. Dit script schiet lijnen uit die RGB waardes vergelijkt met betrekking van de Euclidian Distance. Daarnaast heb ik ook bijgedragen aan wiskunde concepten die nodig zijn om het script te schrijven zoals cirkelgeometrie. Zo is de startvorm tot versie 8 van de pixel walker een ellips gevormd naar de boot geweest. Hierbij wordt de volgende vergelijking gebruikt:
 
-<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Vergelijking_ellips.png" width="250">  </p>   
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Vergelijking_ellips.png" width="200">  </p>   
 
 Waarbij a en b coëfficiënten zijn naar eigen keuze om de vorm van de ellips te bepalen. De ellips is te zien in figuur 5
 
@@ -65,7 +65,7 @@ Figuur 4: De code die gebruikt wordt om startpunten om de boot te laten starten.
 
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v5_schuim_probleem.png">  </p>
-<p align="center">Figuur 9: Links: Een weergave van een frame waar de kade gedetecteerd wordt door 'pixel_walker_v5' waar de meeste punten correct de kade identificeren. Het water in deze frame bevat weinig schuim. Rechts: Een weergave van een frame waar de kade gedetecteerd wordt door 'pixel_walker_v5' waar de meeste punten niet correct de kade identificeren. Het water in deze frame bevat veel schuim. De pixel walker identificeert het schuim als kade.</p>
+<p align="center">Figuur 5: Links: Een weergave van een frame waar de kade gedetecteerd wordt door 'pixel_walker_v5' waar de meeste punten correct de kade identificeren. Het water in deze frame bevat weinig schuim. Rechts: Een weergave van een frame waar de kade gedetecteerd wordt door 'pixel_walker_v5' waar de meeste punten niet correct de kade identificeren. Het water in deze frame bevat veel schuim. De pixel walker identificeert het schuim als kade.</p>
 
   
 ## Data collection  
@@ -76,7 +76,7 @@ Alle kale data is aangeleverd door Port of Rotterdam.
 In [pixel_walker_v6](pixel_walker_v6.py) heb ik meerdere functies geschreven om de gevonden punten zoals bedoeld in versie 5 van de pixel walker te filteren om de accuracy te verhogen. Ook is dit de eerste versie van het algoritme waar een lijnfit gemaakt wordt om de kade te benaderen. De functie 'kadefit' past lineaire regressie toe middels Scipy om deze lijn te creëeren. De functie distance_line2point creëert een array aan afstanden tot de gefitte lijn om te gebruiken in de functie 'clean_outliers'. Clean_outliers verwijderd alle gevonden punten die niet binnen een afstand van een X aantal keer de standaardafwijking in de afstanden tot de lijn vallen. Dit zorgt ervoor dat punten die niet de algemene trend volgen verwijderd worden. Het script houdt dan een array met gefilterde punten over waar vervolgens opnieuw een lineaire fit aan gegeven wordt.    
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v6_clean_outliers_en_kadefit.png"></p>   
-<p align="center">Figuur 5: Een weergave de output van 'pixel_walker_v6': Gevonden punten, gefilterde punten, startpunten en lijnfits. Oranje ovaal naast de boot zijn de startpunten waaruit de pixel walkers worden verstuurd. Blauw en rood zijn de gevonden punten zoals 'pixel_walker_v5' zou doen. Rood zijn de punten die de functie 'clean_outliers' verwijdert in 'pixel_walker_v6' waardoor blauw de overgeleven punten worden. Te zien is dat voornamelijk foute punten gefilter worden. Er blijven nog een aantal blauwe punten over die fout zijn op het schuim. De paarse lijn geeft aan welke lijn 'pixel_walker_v5'had aangegeven. De oranje lijn is de verbeterde lijnfit volgens 'pixel_walker_v6'. Door te kijken naar de paarse en oranje lijn kan een duidelijke verbetering gezien worden van de pixel walker.</p>    
+<p align="center">Figuur 6: Een weergave de output van 'pixel_walker_v6': Gevonden punten, gefilterde punten, startpunten en lijnfits. Oranje ovaal naast de boot zijn de startpunten waaruit de pixel walkers worden verstuurd. Blauw en rood zijn de gevonden punten zoals 'pixel_walker_v5' zou doen. Rood zijn de punten die de functie 'clean_outliers' verwijdert in 'pixel_walker_v6' waardoor blauw de overgeleven punten worden. Te zien is dat voornamelijk foute punten gefilter worden. Er blijven nog een aantal blauwe punten over die fout zijn op het schuim. De paarse lijn geeft aan welke lijn 'pixel_walker_v5'had aangegeven. De oranje lijn is de verbeterde lijnfit volgens 'pixel_walker_v6'. Door te kijken naar de paarse en oranje lijn kan een duidelijke verbetering gezien worden van de pixel walker.</p>    
 
 
 De functie 'distance_line2point' berekent voor een array aan punten de korste afstand tot een lijn voor ieder punt volgens de volgende vergelijking:
@@ -86,15 +86,15 @@ De functie 'distance_line2point' berekent voor een array aan punten de korste af
 Waarin D de afstand tot de lijn is voor het desbetreffende punt, a, b en c lijncoëfficïenten zijn en x_0 en y_0 de waarden voor het punt zijn. [Bron](https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line)
 
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_distance_line2point.png" width="700">  
-Figuur 6: De functie 'distance_line2point'. Deze functie maakt een array van de korste afstanden tussen een array van punten en een lijn.
+Figuur 7: De functie 'distance_line2point'. Deze functie maakt een array van de korste afstanden tussen een array van punten en een lijn.
 
 
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_clean_outliers.png" width="700">   
-Figuur 7: De functie 'clean_outliers'. Deze functie gebruikt de gevonden punten, de gecreërde lineaire fit bij deze punten en de intercept van deze fit. De functie gebruikt 'distance_line2point' om een array te creëeren met afstanden van elk punt tot de lijn. Vervolgens creëert de return variabele 'cleaned_points' door alle punten die verder dan CLEAN_STD_COEFF keer de standaardafwijking in de afstanden van lijn tot punten te verwijderen. 'CLEAN_STD_COEFF' is dus een voorgedifiniëerde variabele die bepaalt hoeveel keer de standaardafwijking wordt gebruikt als maximum afstand tot de lijn.  
+Figuur 8: De functie 'clean_outliers'. Deze functie gebruikt de gevonden punten, de gecreërde lineaire fit bij deze punten en de intercept van deze fit. De functie gebruikt 'distance_line2point' om een array te creëeren met afstanden van elk punt tot de lijn. Vervolgens creëert de return variabele 'cleaned_points' door alle punten die verder dan CLEAN_STD_COEFF keer de standaardafwijking in de afstanden van lijn tot punten te verwijderen. 'CLEAN_STD_COEFF' is dus een voorgedifiniëerde variabele die bepaalt hoeveel keer de standaardafwijking wordt gebruikt als maximum afstand tot de lijn.  
 
 
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_kadefit.png" width="700">  
-Figuur 8: De functie 'kadefit'. Deze functie gebruikt de gevonden punten gebruikt de library 'scipy' om een lineaire fit te creëeren. Vervolgens plot deze functie de fit zelf. 
+Figuur 9: De functie 'kadefit'. Deze functie gebruikt de gevonden punten gebruikt de library 'scipy' om een lineaire fit te creëeren. Vervolgens plot deze functie de fit zelf. 
 
 
 [pixel_walker_v8](pixel_walker_v8.py) past en extra filterfunctie toe genaamd 'clean_loaners' die een parameter stelt voor de maximale afstand tussen opeenvolgende punten. Als punten verder uit elkaar liggen dan deze parameter worden deze verwijderd.  
@@ -104,13 +104,13 @@ Het is belangrijk om op te merken dat deze manier van filtering en lijnfitten la
  
   
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v8_clean_loaners.png"></p>   
-<p align="center"> Figuur 11: De output van 'pixel_walker_v8'. Op een frame worden de startpunten, gevonden punten, en gefilterde punten geplot. Ook wordt de lineaire fit door de functie 'kadefit' geplot. Oranje punten: Startpunten van pixel walker. Roze punten: Gevonden punten gefilterd door de functie 'clean_outliers'. Rode punten: Gevonden punten gefilterd door de functie 'clean_loaners'. Blauwe punten: Overgebleven gevonden punten na filtering. Oranje lijn: Lineaire fit aan de kade door de functie 'kadefit'. </p>
+<p align="center"> Figuur 10: De output van 'pixel_walker_v8'. Op een frame worden de startpunten, gevonden punten, en gefilterde punten geplot. Ook wordt de lineaire fit door de functie 'kadefit' geplot. Oranje punten: Startpunten van pixel walker. Roze punten: Gevonden punten gefilterd door de functie 'clean_outliers'. Rode punten: Gevonden punten gefilterd door de functie 'clean_loaners'. Blauwe punten: Overgebleven gevonden punten na filtering. Oranje lijn: Lineaire fit aan de kade door de functie 'kadefit'. </p>
     
    
 
 
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_clean_loaners.png" width="580">  
-Figuur 10: De functie 'clean_loaners'. Deze functie creëert een array met de afstand tussen opeenvolgende punten in de array van gevonden punten. Opeenvolgende punten die verder uit elkaar liggen dan de voorgedefinieerde variabele 'MAX_DISTANCE_TO_NEIGHBOURS' worden verwijderd. 
+Figuur 11: De functie 'clean_loaners'. Deze functie creëert een array met de afstand tussen opeenvolgende punten in de array van gevonden punten. Opeenvolgende punten die verder uit elkaar liggen dan de voorgedefinieerde variabele 'MAX_DISTANCE_TO_NEIGHBOURS' worden verwijderd. 
 
 
 
@@ -146,7 +146,7 @@ Ik heb de leiding genomen over het schrijven van de paper. Hierbij heb ik mijn p
 In week 1 heb ik gepresenteerd vanwege mijn onderzoek in afstandsherkenning met stereoscopische camera's. Het onderzoek heeft aangetoond dat met het verschil van pixel-afstand op een figuur en de eigenschappen van de lens de afstand berekend kan worden. Deze techniek is uiteindelijk niet gebruikt omdat de stereoscopische camera's op de boot stuk waren tijdens de minor.
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Onderzoek_stereoscopische_camera's.png"></p>  
-<p align="center">Figuur 12: Slide uit de presentatie van week 1. De figuur aan de linkerzijde is een schematische weergave van de verschillende variabelen in gebruik en zichtvelden van de camera's. Rechtsboven is de ZED te zien, een stereoscopische camera die vergelijkbare proefen kan opleveren als de stereoscopische camera's die op de RPA3 bevestigd zijn. Vergelijking 1, 2 en 3 beschrijven de afstand tot een object met gebruik van de cameraeigenschappen en verschil in pixellocatie.</p> 
+<p align="center">Figuur 14: Slide uit de presentatie van week 1. De figuur aan de linkerzijde is een schematische weergave van de verschillende variabelen in gebruik en zichtvelden van de camera's. Rechtsboven is de ZED te zien, een stereoscopische camera die vergelijkbare proefen kan opleveren als de stereoscopische camera's die op de RPA3 bevestigd zijn. Vergelijking 1, 2 en 3 beschrijven de afstand tot een object met gebruik van de cameraeigenschappen en verschil in pixellocatie.</p> 
 
 
 [Week 7](Presentation_week_7.pptx)  
@@ -158,13 +158,13 @@ In week 7 heb ik gepresenteerd naar aanleiding van onder andere de nieuwe filter
 Week heb ik gepresenteerd naar aanleiding van het onderzoek in horizon detectie wat veel overeenkomsten heeft met kadeherkenning. 
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Onderzoek_horizon_detection.png"></p>  
-<p align="center">Figuur 13: Een slide uit de presentatie van week 8. De slide bevat 2 figuren waarop horizon detectie toegepast wordt. De titel van het bijpassende onderzoek en auteurs worden weergeven boven deze figuren.</p>
+<p align="center">Figuur 15: Een slide uit de presentatie van week 8. De slide bevat 2 figuren waarop horizon detectie toegepast wordt. De titel van het bijpassende onderzoek en auteurs worden weergeven boven deze figuren.</p>
 
 
 Daarnaast heb ik een nieuwe methode gepresenteerd om de lijnfit aan de kade ook niet volledig rechte kade's te kunnen fitten, bijvoorbeeld een kade met een pier. Deze methode heb ik bedacht en 'r_value splitting' genoemd. Deze methode is uiteindelijk niet geïmplenteerd omdat bij de tijd dat deze bijna af was er een betere methode gevonden was. De methode kijkt naar de R ^2, een waarde die beschrijft hoe goed een lineare fit past. Er wordt een treshold gezet voor de gemiddelde R ^2 waarde waar aan voldaan moet worden. Dit houdt in dat van alle gefitte lijnen een R ^2 waarde wordt gecreëerd waarvan het gemiddelde wordt genomen. Als de eerste lineaire fit niet voldoet aan de treshold wordt de lijn gesplitst en worden opnieuw deze stappen ondernomen. Dit gaat door in een loop totdat de treshold behaald is.
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/r_value_lijnfit.png"></p>  
-<p align="center">Figuur 14: Slide uit de presentatie van week 8. Een schematische flowchart wordt weergaven om een zelfbedacht concept 'r-value filtering' uit te leggen. Daarnaast wordt een frame weergaven waar een kadefit op wordt toegepast wat laat zien dat de lineaire fit inadequaat de kade kan representeren.</p>
+<p align="center">Figuur 16: Slide uit de presentatie van week 8. Een schematische flowchart wordt weergaven om een zelfbedacht concept 'r-value filtering' uit te leggen. Daarnaast wordt een frame weergaven waar een kadefit op wordt toegepast wat laat zien dat de lineaire fit inadequaat de kade kan representeren.</p>
 
 
 [Week 16](Presentation_week_16.pptx)
