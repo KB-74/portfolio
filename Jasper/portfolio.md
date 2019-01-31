@@ -59,8 +59,14 @@ Waarbij a en b coëfficiënten zijn naar eigen keuze om de vorm van de ellips te
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Complexe_vorm_startpunten.png" width="700" >
 Figuur 4: De code die gebruikt wordt om startpunten om de boot te laten starten. Dit wordt gedaan door een ovale vorm toe te passen die geconfigureerd kan worden door 2 constanten: 'X_COEFF', 'Y_COEFF'. Startpunten worden op een constant aantal graden van elkaar verwijderd. Ook worden de richtingscoëfficienten berekend voor de uitschietende pixel walkers.      
   
+  
+  
 [pixel_walker_v5](pixel_walker_v5.py)  
 
+
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v5_schuim_probleem.png">  </p>
+<p align="center">Figuur 9: Links: Een weergave van een frame waar de kade gedetecteerd wordt door 'pixel_walker_v5' waar de meeste punten correct de kade identificeren. Het water in deze frame bevat weinig schuim. Rechts: Een weergave van een frame waar de kade gedetecteerd wordt door 'pixel_walker_v5' waar de meeste punten niet correct de kade identificeren. Het water in deze frame bevat veel schuim. De pixel walker identificeert het schuim als kade.</p>
+    
   
 ## Data collection  
 Alle kale data is aangeleverd door Port of Rotterdam. 
@@ -92,9 +98,7 @@ Figuur 7: De functie 'clean_outliers'. Deze functie gebruikt de gevonden punten,
 Figuur 8: De functie 'kadefit'. Deze functie gebruikt de gevonden punten gebruikt de library 'scipy' om een lineaire fit te creëeren. Vervolgens plot deze functie de fit zelf. 
 
 
-<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v5_schuim_probleem.png">  </p>
-<p align="center">Figuur 9: Links: Een weergave van een frame waar de kade gedetecteerd wordt door 'pixel_walker_v5' waar de meeste punten correct de kade identificeren. Het water in deze frame bevat weinig schuim. Rechts: Een weergave van een frame waar de kade gedetecteerd wordt door 'pixel_walker_v5' waar de meeste punten niet correct de kade identificeren. Het water in deze frame bevat veel schuim. De pixel walker identificeert het schuim als kade.</p>
-    
+
 
 [pixel_walker_v8](pixel_walker_v8.py) past en extra filterfunctie toe genaamd 'clean_loaners' die een parameter stelt voor de maximale afstand tussen opeenvolgende punten. Als punten verder uit elkaar liggen dan deze parameter worden deze verwijderd.  
 
