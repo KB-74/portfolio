@@ -51,9 +51,9 @@ Op het gebied van smart shipping zijn velen partijen bezig. Ook volledig autonoo
   
 Conceptueel heb ik meegedacht met de eerste versies van de 'pixel walker'. Dit script schiet lijnen uit die RGB waardes vergelijkt met betrekking van de Euclidian Distance. Daarnaast heb ik ook bijgedragen aan wiskunde concepten die nodig zijn om het script te schrijven zoals cirkelgeometrie. Zo is de startvorm tot versie 8 van de pixel walker een ellips gevormd naar de boot geweest. Hierbij wordt de volgende vergelijking gebruikt:
 
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/vergelijking_ellips.png"></p>   
 
-
-Waarbij a en b coëfficiënten zijn naar eigen keuze om de vorm van de ellips te bepalen.\
+Waarbij a en b coëfficiënten zijn naar eigen keuze om de vorm van de ellips te bepalen. De ellips is te zien in figuur 5
 
   
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Complexe_vorm_startpunten.png" width="700" >
@@ -66,7 +66,7 @@ Figuur 4: De code die gebruikt wordt om startpunten om de boot te laten starten.
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v5_schuim_probleem.png">  </p>
 <p align="center">Figuur 9: Links: Een weergave van een frame waar de kade gedetecteerd wordt door 'pixel_walker_v5' waar de meeste punten correct de kade identificeren. Het water in deze frame bevat weinig schuim. Rechts: Een weergave van een frame waar de kade gedetecteerd wordt door 'pixel_walker_v5' waar de meeste punten niet correct de kade identificeren. Het water in deze frame bevat veel schuim. De pixel walker identificeert het schuim als kade.</p>
-    
+
   
 ## Data collection  
 Alle kale data is aangeleverd door Port of Rotterdam. 
@@ -81,9 +81,9 @@ In [pixel_walker_v6](pixel_walker_v6.py) heb ik meerdere functies geschreven om 
 
 De functie 'distance_line2point' berekent voor een array aan punten de korste afstand tot een lijn voor ieder punt volgens de volgende vergelijking:
 
-##Vergelijking figuur
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/vergelijking_line2point.png">  </p> 
 
-Waarin x= ;......
+Waarin D de afstand tot de lijn is voor het desbetreffende punt, a, b en c lijncoëfficïenten zijn en x_0 en y_0 de waarden voor het punt zijn. [Bron](https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line)
 
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_distance_line2point.png" width="700">  
 Figuur 6: De functie 'distance_line2point'. Deze functie maakt een array van de korste afstanden tussen een array van punten en een lijn.
