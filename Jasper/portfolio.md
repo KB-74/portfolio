@@ -28,17 +28,17 @@ Het Floating Lab van Port of Rotterdam biedt een interesant en divers project. M
 Wij hebben gekozen om binnen het kader autonoom varen te werken aan kadeherkenning in een maritieme omgeving met gebruik van camera's.  
   
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/RPA3.jpg"></p>  
-<p align="center">_Figuur 1: De RPA3, een reserve patrouillevaartuig van Port of Rotterdam bevestigd met 6 camera's en een stereoscopische setup. Het vaartuig wordt af en toe nog ingezet op normale patrouilles waarbij er data verzameld kan worden._</p>    
+<p align="center">Figuur 1: De RPA3, een reserve patrouillevaartuig van Port of Rotterdam bevestigd met 6 camera's en een stereoscopische setup. Het vaartuig wordt af en toe nog ingezet op normale patrouilles waarbij er data verzameld kan worden.</p>    
 ## Courses  
 Voor deze minor heb ik al een stuk data-analyse uitgevoerd bij mijn bachelor technische natuurkunde. Deze kennis heb ik mede dankzij datacamp ruim uitgebreid. Ik heb de volgende courses in datacamp voltooid:  
   
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Completed_Courses_datacamp.png"></p>  
-<p align="center">_Figuur 2: Voltooide datacamp courses. Naast deze courses zijn er nog losse chapters gevolgd volgens het curricilum_</p>      
+<p align="center">Figuur 2: Voltooide datacamp courses. Naast deze courses zijn er nog losse chapters gevolgd volgens het curricilum</p>      
 
 Alle voorgeschreven datacamp courses en chapters zijn uitgevoerd. Dit geldt ook voor Coursera zoals te zien is in de volgende figuur:  
   
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Completed_Courses_coursera.png"></p>  
-<p align="center">_Figuur 3L Voltooide weken van het de Stanford Univeristy machine learning course. Volgens curriculum zijn week 1 tm 3 en 6_</p>      
+<p align="center">Figuur 3: Voltooide weken van het de Stanford Univeristy machine learning course. Volgens curriculum zijn week 1 tm 3 en 6</p>      
   
   
 ## Domain Knowledge  
@@ -59,17 +59,17 @@ Alle kale data is aangeleverd door Port of Rotterdam. Er is ook geen extra data 
 ## Data preparation  
 
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/Complexe_vorm_startpunten.png" width="700" >
-_Figuur 4: De code die gebruikt wordt om startpunten om de boot te laten starten. Dit wordt gedaan door een ovale vorm toe te passen die geconfigureerd kan worden door 2 constanten: 'X_COEFF', 'Y_COEFF'. Startpunten worden op een constant aantal graden van elkaar verwijderd. Ook worden de richtingscoëfficienten berekend voor de uitschietende pixel walkers._    
+Figuur 4: De code die gebruikt wordt om startpunten om de boot te laten starten. Dit wordt gedaan door een ovale vorm toe te passen die geconfigureerd kan worden door 2 constanten: 'X_COEFF', 'Y_COEFF'. Startpunten worden op een constant aantal graden van elkaar verwijderd. Ook worden de richtingscoëfficienten berekend voor de uitschietende pixel walkers.    
 
 In [pixel_walker_v6](pixel_walker_v6.py) heb ik meerdere functies geschreven om de gevonden punten zoals bedoeld in versie 5 van de pixel walker te filteren om de accuracy te verhogen. Ook is dit de eerste versie van het algoritme waar een lijnfit gemaakt wordt om de kade te benaderen. De functie 'kadefit' past lineaire regressie toe middels Scipy om deze lijn te creëeren. De functie distance_line2point creëert een array aan afstanden tot de gefitte lijn om te gebruiken in de functie 'clean_outliers'. Clean_outliers verwijderd alle gevonden punten die niet binnen een afstand van een X aantal keer de standaardafwijking in de afstanden tot de lijn vallen. Dit zorgt ervoor dat punten die niet de algemene trend volgen verwijderd worden. Het script houdt dan een array met gefilterde punten over waar vervolgens opnieuw een lineaire fit aan gegeven wordt.    
 
 <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v6_clean_outliers_en_kadefit.png"></p>   
-<p align="center">_Figuur 5: Een weergave de output van 'pixel_walker_v6': Gevonden punten, gefilterde punten, startpunten en lijnfits. Oranje ovaal naast de boot zijn de startpunten waaruit de pixel walkers worden verstuurd. Blauw en rood zijn de gevonden punten zoals 'pixel_walker_v5' zou doen. Rood zijn de punten die de functie 'clean_outliers' verwijdert in 'pixel_walker_v6' waardoor blauw de overgeleven punten worden. Te zien is dat voornamelijk foute punten gefilter worden. Er blijven nog een aantal blauwe punten over die fout zijn op het schuim. De paarse lijn geeft aan welke lijn 'pixel_walker_v5'had aangegeven. De oranje lijn is de verbeterde lijnfit volgens 'pixel_walker_v6'._</p>    
+<p align="center">Figuur 5: Een weergave de output van 'pixel_walker_v6': Gevonden punten, gefilterde punten, startpunten en lijnfits. Oranje ovaal naast de boot zijn de startpunten waaruit de pixel walkers worden verstuurd. Blauw en rood zijn de gevonden punten zoals 'pixel_walker_v5' zou doen. Rood zijn de punten die de functie 'clean_outliers' verwijdert in 'pixel_walker_v6' waardoor blauw de overgeleven punten worden. Te zien is dat voornamelijk foute punten gefilter worden. Er blijven nog een aantal blauwe punten over die fout zijn op het schuim. De paarse lijn geeft aan welke lijn 'pixel_walker_v5'had aangegeven. De oranje lijn is de verbeterde lijnfit volgens 'pixel_walker_v6'. Door te kijken naar de paarse en oranje lijn kan een duidelijke verbetering gezien worden van de pixel walker.</p>    
 
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_clean_outliers.png" width="700">   
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_distance_line2point" width="700">  
 <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/functie_kadefit.png" width="700">  
-  <p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v5_schuim_probleem.png">  </p>
+<p align="center"> <img src="https://github.com/KB-74/portfolio/blob/master/Jasper/images/pixel_walker_v5_schuim_probleem.png">  </p>
     
 
 [pixel_walker_v8](pixel_walker_v8.py) past en extra filterfunctie toe genaamd 'clean_loaners' die een parameter stelt voor de maximale afstand tussen opeenvolgende punten. Als punten verder uit elkaar liggen dan deze parameter worden deze verwijderd.  
